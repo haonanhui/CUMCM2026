@@ -1,13 +1,14 @@
-﻿# CUMCM 2026 数学建模国赛三人协作工程
+﻿# 复杂工程系统数学建模与数值仿真优化三人协作工程
 
-本项目为全国大学生数学建模竞赛（CUMCM）三人团队协同脚手架，采用 **“GitHub 私有仓库承载共享源码和持续协作，Release 承载精简部署包”** 的轻量化协作体系。
+本项目为多成员协同的数学建模与科学计算工程脚手架，采用 **“GitHub 私有仓库承载共享源码和持续协作，Release 承载精简部署包”** 的轻量化研发协作体系。
 
 ## 快速指引
 
 - **新手与队员必读**：请直接阅读 [START_HERE.md](START_HERE.md) 完成 2 分钟一键部署与开工。
-- **AI 智能体指引**：服务于各队员的 Agent 请遵循 [AGENTS.md](AGENTS.md)。
+- **AI 智能体协作指引**：服务于各成员的 Agent 请遵循 [AGENTS.md](AGENTS.md)。
 - **三人协作机制**：参见 [team/README.md](team/README.md)（任务分配、不可变 Runs 目录、result.json 与数字冻结）。
-- **竞赛流水线指南**：参见 [code/pipeline/runbook.md](code/pipeline/runbook.md)。
+- **学术诚信与 AI 使用说明**：参见 [docs/AI_USAGE_STATEMENT.md](docs/AI_USAGE_STATEMENT.md)。
+- **核心流水线指南**：参见 [code/pipeline/runbook.md](code/pipeline/runbook.md)。
 
 ## 目录结构
 
@@ -21,10 +22,10 @@ cumcm-2026/
 ├── code/
 │   ├── pipeline/              # 数据清洗、门禁、数字冻结与验证核心工具
 │   └── vendor/                # 引用的第三方开源算法库与方法树（只读）
-├── data/                      # 赛题官方资料、中间数据与独立运行结果 (runs/)
-├── docs/                      # 协作规范、部署合同与方法论文档
-├── paper/                     # 论文源文件、LaTeX 模板与编译图件
-└── team/                      # 团队任务卡、结果交付模板与 AI 使用记录
+├── data/                      # 课题原始资料、中间数据与独立运行结果 (runs/)
+├── docs/                      # 协作规范、部署合同与学术说明
+├── paper/                     # 论文与研究报告源文件、LaTeX 模板与编译图件
+└── team/                      # 团队任务卡与结果交付模板
 ```
 
 ## 核心流水线自检

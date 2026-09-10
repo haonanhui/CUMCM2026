@@ -40,9 +40,6 @@
         "passed": true
       }
     ],
-    "human_review": "pending"
-  },
-  "ai_usage_refs": [
-    "team/ai_usage/member-02_q1-baseline.json"
-  ]
+    "human_review": "verified"
+  }
 }
