@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """CUMCM 2026 自动化部署与环境就绪检查脚本 (Bootstrap Script)
 
 支持 Linux / macOS / Windows。
@@ -157,7 +157,7 @@ def main() -> int:
     template_pid = project_root / "PROJECT_ID.example.json"
     if not local_pid.exists() and template_pid.exists():
         try:
-            pid_data = json.loads(template_pid.read_text(encoding="utf-8"))
+            pid_data = json.loads(template_pid.read_text(encoding="utf-8-sig"))
             pid_data["canonical_root"] = str(project_root)
             pid_data["canonical_path"] = str(project_root)
             pid_data["control_root"] = str(project_root)
