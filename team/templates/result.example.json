@@ -1,0 +1,48 @@
+﻿{
+  "schema_version": "1.0",
+  "task_id": "q1-baseline",
+  "member_id": "member-02",
+  "run_id": "example-run-001",
+  "status": "success",
+  "source": {
+    "commit": "HEAD",
+    "dirty": false,
+    "patch_sha256": null
+  },
+  "inputs": [
+    {
+      "path": "data/contest/huashu2026/A/00_ingest/manifest.json",
+      "sha256": "sample_input_sha256"
+    }
+  ],
+  "parameters": {
+    "seed": 42,
+    "iterations": 1000
+  },
+  "metrics": {
+    "q1_optimal_prob": 0.8421,
+    "q1_mean_error": 0.0012
+  },
+  "artifacts": [
+    "result.csv",
+    "figure_convergence.png"
+  ],
+  "reproduce_argv": [
+    "python",
+    "code/models/q1/solve.py",
+    "--seed",
+    "42"
+  ],
+  "validation": {
+    "checks": [
+      {
+        "name": "convergence_test",
+        "passed": true
+      }
+    ],
+    "human_review": "pending"
+  },
+  "ai_usage_refs": [
+    "team/ai_usage/member-02_q1-baseline.json"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "kind": "deployment_design_contract",
+  "status": "READY_FOR_PUBLICATION",
+  "execution_ready": true,
+  "spec": "docs/TEAM_COLLABORATION_SPEC.md",
+  "project": {
+    "project_id": "cumcm-2026",
+    "display_name": "CUMCM 2026 三人协作工作区",
+    "root_resolution": "recipient_clone_directory",
+    "required_central_governance": false,
+    "harness_policy": "use_recipient_existing_agent"
+  },
+  "release": {
+    "release_id": "v0.1.0",
+    "source_commit": null,
+    "tested_python_major_minor": "3.9",
+    "dependency_lock_path": "requirements-core.txt",
+    "tested_platforms": ["Windows-10-10.0.19045-SP0"],
+    "files": [],
+    "populate_from_actual_build": true,
+    "publication_condition": "必需字段有实测值，文件清单与哈希已核对，核心部署测试有真实结果"
+  },
+  "transport": {
+    "preferred": "github_private_repo",
+    "remote_url": "https://github.com/haonanhui/CUMCM2026",
+    "remote_visibility": "team_private",
+    "release_channel": "github_release_with_dist_zip",
+    "offline_bootstrap": "optional_fallback",
+    "offline_updates": "optional_fallback",
+    "create_or_publish_remote_automatically": false
+  },
+  "package": {
+    "output_pattern": "dist/cumcm-team-<release_id>.zip",
+    "outer_files": ["START_HERE.md", "bootstrap.json", "SHA256SUMS.txt"],
+    "archive_sha256": "sidecar_file",
+    "manifest_file": "bootstrap.json",
+    "manifest_hash_entries": ["START_HERE.md", "dist/cumcm-team-<release_id>.zip"],
+    "source_selection": [
+      "portable_agent_entry_and_project_identity_template",
+      "code/pipeline_tools_playbooks_tests_and_portable_examples",
+      "tested_core_dependency_lock",
+      "referenced_vendor_files_transitive_dependencies_and_licenses",
+      "paper_template_required_text_sources_and_build_instructions",
+      "team_contracts_and_synthetic_fixtures"
+    ],
+    "exclusions": [
+      "machine_specific_PROJECT_ID.json_and_AGENT.md",
+      "AGENT_CONTEXT.md",
+      ".ai-bridge/",
+      "global_agent_configs_and_central_governance",
+      "private_logs_sessions_credentials_tokens_env_and_proxy_settings",
+      "virtual_environments_interpreters_caches_and_font_files",
+      "historical_paper_library_other_contest_datasets_and_large_intermediates"
+    ],
+    "history_policy": "核对 bundle 的全部可达历史，排除资产不得进入可分发历史",
+    "path_policy": "relative_paths_inside_package_no_traversal_or_external_symlinks"
+  },
+  "members": {
+    "member-01": {"default_role": "modeling_and_integration"},
+    "member-02": {"default_role": "data_and_computation"},
+    "member-03": {"default_role": "paper_and_independent_validation"},
+    "assignment_policy": "队员确定成员槽位；每项任务指定负责人；职责可按长项交换"
+  },
+  "environment": {
+    "scope": "project_local_virtual_environment",
+    "known_core_packages_unpinned": ["pypdf", "python-docx", "openpyxl", "pandas", "PyYAML"],
+    "dependency_policy": "从干净环境生成并验证锁文件，避免复制宿主整套环境",
+    "optional_capabilities": ["problem_specific_solver_packages", "latex_paper_build"],
+    "missing_optional_capability": "记录具体缺失，继续开展已具备能力范围内的任务",
+    "local_identity_policy": "按接收端实际根目录生成本地配置，保留已存在身份和成员信息",
+    "credential_policy": "各成员使用自己的授权，凭证排除分发"
+  },
+  "bootstrap_steps": [
+    "validate_release_manifest_paths_and_file_hashes",
+    "clone_shared_commit_into_empty_recipient_directory",
+    "detect_platform_and_supported_python",
+    "create_project_local_virtual_environment",
+    "install_verified_core_dependency_lock",
+    "generate_local_identity_member_and_contest_config_without_overwrite",
+    "run_core_smoke_in_isolated_clone",
+    "probe_optional_paper_capability",
+    "emit_deployment_receipt_with_actual_versions_and_test_results"
+  ],
+  "collaboration": {
+    "integration_branch": "main",
+    "task_branch_pattern": "work/<member_id>/<task_id>",
+    "task_card_pattern": "team/tasks/<task_id>.json",
+    "task_fields": ["task_id", "owner", "goal", "base_commit", "depends_on", "input_manifest", "write_paths", "expected_outputs", "acceptance"],
+    "run_dir_pattern": "data/contest/<contest>/<problem>/04_solve/runs/<member_id>-<task_id>-<run_id>/",
+    "result_manifest": "result.json",
+    "result_fields": ["schema_version", "task_id", "member_id", "run_id", "status", "source", "inputs", "parameters", "metrics", "artifacts", "reproduce_argv", "validation", "ai_usage_refs"],
+    "published_numbers": "data/contest/<contest>/<problem>/04_solve/frozen_numbers.json",
+    "publication_policy": "single_integrator_reject_conflicting_keys_publish_versioned_snapshot",
+    "paper_policy": "绑定确定版本的数字和图表；在构建副本注入数字，保留模板源占位符",
+    "shared_file_policy": "指定当班整合者，队员分任务和章节文件并行工作",
+    "scheduling_policy": "按真实数据和模型依赖推进；独立任务持续执行"
+  },
+  "verification": {
+    "existing_core_smoke_argv": ["<local_venv_python>", "code/pipeline/tests/smoke_test.py"],
+    "smoke_concurrency": "每个工作副本内串行运行固定输出目录的现有 smoke",
+    "local_integration_exercise": "三份独立克隆完成任务分支合并、独立结果交付和论文快照引用",
+    "targeted_negative_checks": ["missing_input", "bad_hash", "path_escape", "conflicting_metric_key", "repeat_install_preserves_existing_files"],
+    "real_teammate_device_status": "UNVERIFIED",
+    "human_review_default": "pending",
+    "agent_may_assert_human_approval": false
+  },
+  "contest_compliance": {
+    "official_rules_source": "https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html",
+    "rules_publication_date": "2026-08-03",
+    "rules_effective_date": "2026-09-01",
+    "ai_statement_position": "before_references",
+    "ai_details_supporting_filename": "AI工具使用详情.pdf",
+    "ai_log_fields": ["actual_tool_and_model", "purpose_and_stage", "prompting_and_typical_process", "adoption", "human_changes_and_verification"],
+    "ai_log_write_policy": "per_member_or_per_task_files",
+    "team_leads_core_modeling_and_analysis": true,
+    "official_problem_and_deadline": "由实际官方发布核实，训练样例与占位日期不得进入正式配置"
+  },
+  "forbidden_side_effects": [
+    "overwrite_global_agent_or_proxy_configuration",
+    "copy_or_publish_credentials",
+    "force_reset_existing_work_or_team_history",
+    "automatically_publish_competition_materials",
+    "install_central_scheduler_or_always_on_services"
+  ]
+}

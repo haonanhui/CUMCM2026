@@ -1,0 +1,19 @@
+﻿# 国赛正式配置模板：比赛日复制为 contest.yaml 并按实际情况修改
+# 所有相对路径以项目根目录为基准，避免绝对路径耦合
+contest: cumcm-2026                 # 赛事标识，决定 data/contest/<contest>/ 目录名
+problem: TBD_PROBLEM                # 选定题号：A / B / C / D / E（比赛日确定）
+official_dir: "data/contest/cumcm-2026/official"  # 官方赛题及附件解压目录
+deadline: "TBD_OFFICIAL_DEADLINE"   # 官方提交截止时间（如 "2026-09-13 20:00"），用于时间盒调度
+mode: manual                        # manual = 决策停点生效（选题/模型路线/最终提交）；auto = 快速自动化模式
+team:
+  id: "TBD_TEAM_ID"                 # 官方分配参赛队号
+  members:                          # 三人协作槽位，队员使用各自设备与账户
+    - slot: member-01
+      name: "TBD_MEMBER_01"
+      role: "modeling_and_integration"
+    - slot: member-02
+      name: "TBD_MEMBER_02"
+      role: "data_and_computation"
+    - slot: member-03
+      name: "TBD_MEMBER_03"
+      role: "paper_and_independent_validation"

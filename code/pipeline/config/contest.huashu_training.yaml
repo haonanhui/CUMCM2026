@@ -1,0 +1,18 @@
+﻿# 华数杯训练配置（离线演练、接口测试与基线对照使用）
+contest: huashu2026
+problem: A
+official_dir: "data/contest/huashu2026/A"
+deadline: "2026-09-XX 20:00"
+mode: manual
+team:
+  id: "HUASHU_TRAINING_TEAM"
+  members:
+    - slot: member-01
+      name: "TBD_MEMBER_01"
+      role: "modeling_and_integration"
+    - slot: member-02
+      name: "TBD_MEMBER_02"
+      role: "data_and_computation"
+    - slot: member-03
+      name: "TBD_MEMBER_03"
+      role: "paper_and_independent_validation"

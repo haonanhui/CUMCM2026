@@ -1,0 +1,23 @@
+﻿{
+  "task_id": "q1-baseline",
+  "owner": "member-02",
+  "goal": "建立第一问基准模型并输出初步数值计算结果",
+  "base_commit": "main",
+  "depends_on": [],
+  "input_manifest": [
+    {
+      "path": "data/contest/huashu2026/A/00_ingest/manifest.json",
+      "sha256": null
+    }
+  ],
+  "write_paths": [
+    "code/models/q1/",
+    "data/contest/huashu2026/A/04_solve/runs/member-02-q1-baseline-run01/"
+  ],
+  "expected_outputs": [
+    "result.json",
+    "metrics.csv",
+    "figure_convergence.png"
+  ],
+  "acceptance": "核心指标数值稳定，提供复现命令，通过自检验证"
+}

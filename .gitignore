@@ -1,0 +1,58 @@
+﻿# ==============================================================================
+# Git 忽略规则：CUMCM 2026 三人协作脚手架
+# ==============================================================================
+
+# 本机专属与中央治理文件（保护本机环境不外泄，队友环境不耦合）
+.ai-bridge/
+.staging_path
+AGENT_CONTEXT.md
+AGENT.md
+PROJECT_ID.json
+logs/*.log
+
+# 凭证、密钥与本地环境变量（严防外发）
+.env
+.env.*
+*.key
+*.token
+*secret*
+credentials*
+
+# 虚拟环境与解释器（禁止将本地二进制解释器入库，由 bootstrap 自动重建）
+.venv/
+.venv*/
+.workbuddy/
+venv/
+env/
+ENV/
+
+# Python 运行时缓存与临时编译
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.egg-info/
+
+# 构建产物、压缩包与离线 bundle（发布由 Release 承载，源码库不纳重大二进制包）
+dist/
+build/
+*.zip
+*.bundle
+
+# 历史优秀论文库与赛题原始大文件（保留在维护者本地，不随代码分发）
+2018年优秀论文/
+2026年第七届华数杯数学建模竞赛赛题/
+
+# 运行时临时目录与本地配置文件
+# 注意：保留 data/ 整体结构与数据清单，仅忽略 smoke 测试生成的临时目录
+data/contest/smoke/
+code/pipeline/config/contest.yaml
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 本地部署回执
+bootstrap_receipt.json

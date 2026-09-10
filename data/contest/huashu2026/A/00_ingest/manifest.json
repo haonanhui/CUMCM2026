@@ -1,0 +1,28 @@
+{
+  "contest": "huashu2026",
+  "problem": "A",
+  "official_dir": "D:\\A_Projects\\10_Research\\cumcm-2026\\2026年第七届华数杯数学建模竞赛赛题\\A题 微构体中填充导电介质的仿真优化",
+  "generated_by": "code/pipeline/lib/ingest.py",
+  "files": [
+    {
+      "file": "A题 微构体中填充导电介质的仿真优化.pdf",
+      "size_bytes": 1246236,
+      "sha256": "6d31c44022b08840b5e791dd11b431cbcdc187e0f2ff33f613d45728646d0c0a",
+      "extract": "PASS",
+      "outputs": [
+        "00_ingest/problem.md"
+      ]
+    },
+    {
+      "file": "附件.xlsx",
+      "size_bytes": 58207,
+      "sha256": "6dc68dd49356aeab483906a524ff79855b454fcaccd168f81ff3a3ad989c4c51",
+      "extract": "PASS",
+      "outputs": [
+        "00_ingest/data/附件__组1.csv",
+        "00_ingest/data/附件__组2.csv",
+        "00_ingest/data/附件__组3.csv"
+      ]
+    }
+  ]
+}
