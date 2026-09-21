@@ -61,3 +61,6 @@ bootstrap_receipt.json
 references/library/
 references/downloads/
 .mypy_cache/
+
+# Publication-only synthetic verification run (evidence retained locally)
+math-contest-native/results/runs/paper-smoke-20260921T105218380254/
