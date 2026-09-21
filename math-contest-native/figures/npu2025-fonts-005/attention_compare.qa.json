@@ -1,0 +1,110 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "native_zh_12pt_v1",
+  "profile_sha256": "b4ae4266adca9b3d48b3b32a5b4affec8c255199a7b33ed989cb77f7d756466f",
+  "kind": "attention_compare",
+  "synthetic": false,
+  "provenance": {
+    "inputs_sha256": {
+      "results/runs/npu-paper-r3-analysis-001/conv_id_trajectory.json": "091bfd8f2e09bbdc24a86db8c87da8f00494ed0d4192ea06b501fd629f95a525",
+      "results/runs/npu-paper-r3-analysis-001/conv_selected_trajectory.json": "927218b78a8124c9f9545d38567d11e667c5fe537af093278392d8bd712d37ef",
+      "results/runs/npu-paper-r3-analysis-001/conv_memory_trajectory.json": "c329f11b6330d8d6cbc67183f61a6c2b640235cefce2a5577e3545c47f2dc25c",
+      "results/runs/npu-paper-r3-analysis-001/attention_p2_occupancy.json": "840aea60727cae563fd7f80c30b51cc206c15ab2285bbb2a502fa33cc240d265",
+      "results/runs/npu2025-a-005/summary.json": "2a19d425e9e08712575789bb1b83355904316223401efe06465ea3d7c6d8d3ba",
+      "results/runs/npu-paper-r2-analysis-001/analysis.json": "621573d3b6df101592244d8b9e97531b0eda23211c9fac0d221b44cb58b5794f",
+      "results/runs/npu-paper-r2-analysis-001/attention_p2_timeline.json": "a95c10b21257992093cb277b98487be02f1ba87ede4dd42d549e04a0ebb20b81",
+      "results/runs/npu-paper-r2-analysis-001/attention_p3_timeline.json": "4affbfc16eb69adc3e9bde3a5ba491cdb589f23d6bd6d80162826fd07cdc7c6b"
+    },
+    "source_script": "scripts/redraw_npu_figures.py",
+    "source_sha256": "fbca6b520f3df8f3373227bfabdf781cb52544c1ea50021ed3527dc55d205215",
+    "original_scripts": {
+      "scripts/figures_npu_revision2.py": "b7aa5f0f07e61f86eac82b20aba947d856f0e5935c44f49d502fc95f0c2258f9",
+      "scripts/figures_npu_revision3.py": "e631916800b5da946a3dfb867cd206c6cec760c934774c78c97f515c45bf7def"
+    },
+    "processing": "Same recorded arrays, windows, units and reduction formula as original scripts.",
+    "paper_width_mm": 165,
+    "embedding_scale": 1.0
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "(": "Times New Roman",
+      "a": "Times New Roman",
+      ")": "Times New Roman",
+      "执": "SimSun",
+      "行": "SimSun",
+      "时": "SimSun",
+      "间": "SimSun",
+      "（": "SimSun",
+      "千": "SimSun",
+      "周": "SimSun",
+      "期": "SimSun",
+      "）": "SimSun",
+      "−": "Times New Roman",
+      "1": "Times New Roman",
+      "0": "Times New Roman",
+      "2": "Times New Roman",
+      "3": "Times New Roman",
+      "4": "Times New Roman",
+      "5": "Times New Roman",
+      "输": "SimSun",
+      "入": "SimSun",
+      "搬": "SimSun",
+      "运": "SimSun",
+      "级": "SimSun",
+      "矩": "SimSun",
+      "阵": "SimSun",
+      "计": "SimSun",
+      "算": "SimSun",
+      "向": "SimSun",
+      "量": "SimSun",
+      "出": "SimSun",
+      "结": "SimSun",
+      "果": "SimSun",
+      "原": "SimSun",
+      "始": "SimSun",
+      "操": "SimSun",
+      "作": "SimSun",
+      "换": "SimSun",
+      "b": "Times New Roman"
+    },
+    "panel_count": 2,
+    "width_mm": 165.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.023172176080715475,
+      "svg_png_mean_absolute_error": 0.025963733592490056
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "attention_compare.pdf": "5257cea836c90a0259ac2f211221249e1916607c5301726212501e591bf92650",
+    "attention_compare.svg": "8bdca6fa6a22aebc7175904bf16a881d375267bc2bdb6bc2a8a2513cf96a519b",
+    "attention_compare.png": "0d0ef817fb138c789674980a493744e99b6944b73881115f112c48849eb81b93",
+    "attention_compare.gray.png": "1986233593854b19ffbfc0760a0aba634562baf81e889cc833246cbf4e0bcc06",
+    "attention_compare.caption.txt": "4ac9ed19981eb60ca3d1723720461ea4292f1ed83e165b1ec60d546b3d119e09"
+  }
+}

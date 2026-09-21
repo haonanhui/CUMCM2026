@@ -1,0 +1,110 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "native_zh_12pt_v1",
+  "profile_sha256": "b4ae4266adca9b3d48b3b32a5b4affec8c255199a7b33ed989cb77f7d756466f",
+  "kind": "conv_trajectory",
+  "synthetic": false,
+  "provenance": {
+    "inputs_sha256": {
+      "results/runs/npu-paper-r3-analysis-001/conv_id_trajectory.json": "091bfd8f2e09bbdc24a86db8c87da8f00494ed0d4192ea06b501fd629f95a525",
+      "results/runs/npu-paper-r3-analysis-001/conv_selected_trajectory.json": "927218b78a8124c9f9545d38567d11e667c5fe537af093278392d8bd712d37ef",
+      "results/runs/npu-paper-r3-analysis-001/conv_memory_trajectory.json": "c329f11b6330d8d6cbc67183f61a6c2b640235cefce2a5577e3545c47f2dc25c"
+    },
+    "source_script": "scripts/redraw_npu_figures.py",
+    "source_sha256": "cbf75127dedaae5cd919623eee72bfe8456a7a160e15644b1b7dfce967b6790d",
+    "original_scripts": {
+      "scripts/figures_npu_revision2.py": "b7aa5f0f07e61f86eac82b20aba947d856f0e5935c44f49d502fc95f0c2258f9",
+      "scripts/figures_npu_revision3.py": "e631916800b5da946a3dfb867cd206c6cec760c934774c78c97f515c45bf7def"
+    },
+    "processing": "Same recorded arrays, windows, units and reduction formula as original scripts.",
+    "paper_width_mm": 165,
+    "embedding_scale": 1.0
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "(": "Times New Roman",
+      "a": "Times New Roman",
+      ")": "Times New Roman",
+      "已": "SimSun",
+      "处": "SimSun",
+      "理": "SimSun",
+      "节": "SimSun",
+      "点": "SimSun",
+      "位": "SimSun",
+      "置": "SimSun",
+      "−": "Times New Roman",
+      "5": "Times New Roman",
+      "0": "Times New Roman",
+      "1": "Times New Roman",
+      "2": "Times New Roman",
+      "3": "Times New Roman",
+      "驻": "SimSun",
+      "留": "SimSun",
+      "量": "SimSun",
+      "（": "SimSun",
+      "容": "SimSun",
+      "单": "SimSun",
+      "）": "SimSun",
+      "4": "Times New Roman",
+      "编": "SimSun",
+      "号": "SimSun",
+      "基": "SimSun",
+      "准": "SimSun",
+      "选": "SimSun",
+      "定": "SimSun",
+      "深": "SimSun",
+      "度": "SimSun",
+      "优": "SimSun",
+      "先": "SimSun",
+      "局": "SimSun",
+      "部": "SimSun",
+      "缓": "SimSun",
+      "存": "SimSun",
+      "贪": "SimSun",
+      "心": "SimSun",
+      "b": "Times New Roman",
+      "8": "Times New Roman",
+      "6": "Times New Roman",
+      "7": "Times New Roman"
+    },
+    "panel_count": 2,
+    "width_mm": 165.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.018593607902517864,
+      "svg_png_mean_absolute_error": 0.023306625426692595
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "conv_trajectory.pdf": "3bdc967f56eccc1b40c8213d80c37f604a9a834e08c94b8421687437794ae881",
+    "conv_trajectory.svg": "047c1ab81f159a75f5732e12df7911923e43e14c343f978725874353c5e2d934",
+    "conv_trajectory.png": "aa95c3683c655594fb7cd8f3cb4e13d30f353476d709f56b547a806d0e242a86",
+    "conv_trajectory.gray.png": "1f6113c89e4a45b390b8bd07e1d151c912cc193d0804671525f30cf42bfbc120",
+    "conv_trajectory.caption.txt": "b4982cac38c1186fde2fb1e77138b02b2df6e109d8b3395d26672c0623926aae"
+  }
+}

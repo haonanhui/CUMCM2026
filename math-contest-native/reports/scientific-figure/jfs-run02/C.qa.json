@@ -1,0 +1,90 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "jfs_zh_reference_v1",
+  "profile_sha256": "55d53b666e69492579c5dedd5e0ebef28c1c46d7b2d9fc3f9413a9719cc47e8f",
+  "kind": "flow_field",
+  "synthetic": true,
+  "provenance": {
+    "input": "deterministic synthetic functions in regression.py",
+    "seed": null,
+    "generator_sha256": "d14586448e0af31e465be74852621fd65ce1428c9503c0fed46bcdd21b6d224c",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "(": "Times New Roman",
+      "a": "Times New Roman",
+      ")": "Times New Roman",
+      "时": "SimSun",
+      "刻": "SimSun",
+      " ": "SimSun",
+      "t": "STIXGeneral",
+      "/": "Times New Roman",
+      "T": "STIXGeneral",
+      "=": "Times New Roman",
+      "0": "Times New Roman",
+      ".": "Times New Roman",
+      "位": "SimSun",
+      "置": "SimSun",
+      "y": "STIXGeneral",
+      "D": "STIXGeneral",
+      "−": "Times New Roman",
+      "2": "Times New Roman",
+      "1": "Times New Roman",
+      "b": "Times New Roman",
+      "5": "Times New Roman",
+      "c": "Times New Roman",
+      "x": "STIXGeneral",
+      "3": "Times New Roman",
+      "4": "Times New Roman",
+      "6": "Times New Roman",
+      "7": "Times New Roman",
+      "d": "Times New Roman",
+      "涡": "SimSun",
+      "量": "SimSun",
+      "ω": "STIXGeneral",
+      "U": "STIXGeneral"
+    },
+    "panel_count": 4,
+    "width_mm": 180.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT",
+      "FTXWZA+STIXGeneral-Italic"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.022413697852668855,
+      "svg_png_mean_absolute_error": 0.021291371507755695
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "C.pdf": "0c6cde1976c66da654b494c7baf7d8a8a0b6e466faabd0676df32e814b98c3f5",
+    "C.svg": "580c4aa2879a332afd3c26d1e1963bbd1e365a1438ecf3c2f472790aba30aa35",
+    "C.png": "3726948c455f8085c71f834a00b85e997a4e0a257a0dbf5e680bf230391bafd4",
+    "C.gray.png": "b619535a6bef8466dc80043335fe5785fbf89f6e35a144a6a0c7f1c6d77615be",
+    "C.caption.txt": "a73b9a09123691f541acedd52165a927b2d5deda1a8d7e78ad7bf7a93db46efc"
+  }
+}

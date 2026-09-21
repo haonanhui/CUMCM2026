@@ -1,0 +1,39 @@
+{
+  "task_id": "npu-paper-policy",
+  "revision": 2,
+  "owner": "codex-root",
+  "status": "completed_policy_paper_revision_pending",
+  "goal": "审查并补齐论文Git快照，核验图件格式，修订正向写作与评分技能；保留revision3等待下一轮改稿",
+  "spec_version": "policy-1",
+  "spec_refs": [
+    "docs/WORKSPACE_SPEC.md",
+    "docs/PAPER_POLICY_REVISION_20260921.md",
+    "docs/PAPER_WRITING_GUIDE.md",
+    "docs/PAPER_QUALITY_STANDARD.md",
+    "docs/paper-quality/SCORING_ANCHORS.md",
+    "docs/FIGURES_ZH.md",
+    "provenance/UPSTREAM.md"
+  ],
+  "write_scope": [
+    ".agents/skills/5writing/SKILL.md",
+    ".agents/skills/6verity/SKILL.md",
+    "docs",
+    "reports/PAPER_POLICY*",
+    "reports/PAPER_VERSION_BASELINE_20260921.json",
+    "AGENTS.md",
+    "agents/writer.md",
+    "provenance/UPSTREAM.md",
+    "PROJECT_STATE.json",
+    "AI_USAGE.md",
+    "team/tasks/npu-paper-policy.json",
+    "team/handoffs/npu-paper-policy.json",
+    ".gitignore"
+  ],
+  "baseline_commit": "ef8211d",
+  "constraints": [
+    "保留原稿、实验与历史评审",
+    "不修改数值和科学阈值",
+    "仅本地scoped commit，不push",
+    "新规则不冒充新PDF已完成"
+  ]
+}

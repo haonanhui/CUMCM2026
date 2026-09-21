@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "run": "npu2025-a-005",
+  "graphs": [
+    "Conv_Case0",
+    "Conv_Case1",
+    "FlashAttention_Case0",
+    "FlashAttention_Case1",
+    "Matmul_Case0",
+    "Matmul_Case1"
+  ],
+  "attachment_count": 42,
+  "source_and_input_hashes": "PASS",
+  "tables_and_pdf_numbers": "PASS",
+  "archive_crc_and_contents": "PASS",
+  "pdf_pages": 11,
+  "official_evaluator": "UNVERIFIED",
+  "optimality": "UNPROVEN",
+  "rar_packaging": "NOT_RUN_NO_RAR_TOOL",
+  "artifacts": {
+    "results\\NPU_2025_A_Attachment.zip": {
+      "sha256": "b1caf30b3a10b4ace302e7f20109f047ae4db9c478211111a0352a271c4ed9ee",
+      "bytes": 796320
+    },
+    "paper\\NPU_2025_A.pdf": {
+      "sha256": "0f23f5ff77e886478253c868c399866e5f264cc8bd548515651da36636227226",
+      "bytes": 334164
+    }
+  }
+}

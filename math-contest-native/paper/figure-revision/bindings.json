@@ -1,0 +1,14 @@
+{
+  "solver_run": "npu2025-a-005",
+  "analyses": [
+    "npu-paper-r2-analysis-001",
+    "npu-paper-r3-analysis-001"
+  ],
+  "pdf_sha256": "7a2fc174854f8eed9c091616d32149b4c1b57f81bc1750442e2672a230307eb7",
+  "verification": "reports/npu-figure-revision/verification.json",
+  "figure_directory": "figures/npu2025-centered-001",
+  "figure_manifest": "figures/npu2025-centered-001/manifest.json",
+  "quality_review": "reports/npu-figure-centering/REVIEW.md",
+  "full_paper_quality_status": "NEEDS_LANGUAGE_REVISION_NOT_REASSESSED",
+  "historical_verification": "reports/npu-r3-evidence/verification.json"
+}

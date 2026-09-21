@@ -1,0 +1,19 @@
+\section{计算流程与附件说明}
+程序先对图作拓扑与数据检查，生成候选，再执行连续空间分配，最后重建驻留依赖并求各执行单元的完成时间。核心递推可写为以下伪代码，其中新节点的所有前驱均须已完成：
+\begin{lstlisting}[language=Python]
+for node in topological_sequence:
+    ready = max(finish[u] for u in predecessors[node])
+    if node.has_execution_pipe:
+        start = max(ready, pipe_finish[node.pipe])
+    else:
+        start = ready
+    finish[node] = start + node.cycles
+    if node.has_execution_pipe:
+        pipe_finish[node.pipe] = finish[node]
+makespan = max(finish.values())
+\end{lstlisting}
+无前驱时的最大值取零。前驱集合包含原始依赖、换入换出使用依赖和驻留段地址复用依赖；不先构造这些关系，以上递推不能给出有效评价。
+
+附件按题面分为三个问题目录。问题一为每图一份调度序列；问题二和问题三另含缓冲区偏移与换出清单，共四十二份文本。每行一个调度节点，地址行采用缓冲区编号与偏移，换出行按实际换出次序给出缓冲区编号与新偏移。新增节点按该清单顺序成对编号。零换出方案须保留空换出清单，不能省略所需文件。
+
+源程序及算法参数另行保留，所有运行均使用独立目录。本文未设置参赛队号，不以研究材料的文件名冒充正式上传命名；未执行官方评测程序，也未声称达到正式提交条件。

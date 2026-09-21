@@ -1,4 +1,10 @@
-﻿# 复杂系统数学建模与数值计算智能体协作指引 (AGENTS.md)
+## 2026-09-21 当前入口覆盖
+
+用户已选定 math-contest-native 作为完整数模竞赛框架。先读 docs/NATIVE_TEAM_SETUP.md；研究工作目录为 math-contest-native/，其 AGENTS.md 与 docs/TEAM_MOUNT.md 是当前工作约定。不得执行下方旧 bootstrap 或旧任务流程。AI 使用必须按真实参与记录，不得套用下方旧固定声明。旧目录仅保留历史，不自动续跑。
+
+---
+
+# 复杂系统数学建模与数值计算智能体协作指引 (AGENTS.md)
 
 本指引适用于参与本项目协同研发的各类 AI 智能体（Codex、Antigravity、Claude、ChatGPT、Cursor 等）。
 本项目为 **复杂工程系统数学建模与数值仿真优化联合研究课题**，采用 **“GitHub 私有仓库承载共享源码和持续协作，Release 承载精简部署包”** 的高效研发模式。

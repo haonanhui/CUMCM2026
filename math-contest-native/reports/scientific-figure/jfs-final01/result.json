@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "synthetic": true,
+  "figures": {
+    "A": "PASS",
+    "B": "PASS",
+    "C": "PASS",
+    "D": "PASS",
+    "E": "PASS",
+    "F": "PASS",
+    "schematic": "PASS"
+  },
+  "human_review": "pending"
+}

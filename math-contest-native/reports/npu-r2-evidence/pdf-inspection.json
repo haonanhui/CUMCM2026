@@ -1,0 +1,1138 @@
+{
+  "sha256": "b4429e1cfb1893832627336df215c499133b754183f8fdd324aa5b4ec3c0f0f5",
+  "render_scale": 2,
+  "pages": [
+    {
+      "pdf_page": 1,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 107,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          40
+        ],
+        [
+          "KAESKB+SimHei",
+          22.0,
+          27
+        ],
+        [
+          "KAESKB+SimHei",
+          16.0,
+          17
+        ],
+        [
+          "LJJUGG+SimSun",
+          14.0,
+          9
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          8
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          22.0,
+          4
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          16.0,
+          1
+        ],
+        [
+          "LJJUGG+SimSun",
+          16.0,
+          1
+        ]
+      ],
+      "body_baseline_gaps": {},
+      "leftmost": 132.63800000000003,
+      "rightmost": 462.63800000000003,
+      "first_text": "2025 年中国研究生数学建模竞赛\nA 题\n通用神经网络处理器下的核内调度\n基于驻留段约束的缓存与流水协同优化\n历史真题研究阅读版\n本稿用于学习研究，不是正式参赛提交版。\n正文采用12pt字号与约18pt基线间距，便于阅",
+      "last_text": "年中国研究生数学建模竞赛\nA 题\n通用神经网络处理器下的核内调度\n基于驻留段约束的缓存与流水协同优化\n历史真题研究阅读版\n本稿用于学习研究，不是正式参赛提交版。\n正文采用12pt字号与约18pt基线间距，便于阅读与复核。"
+    },
+    {
+      "pdf_page": 2,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 829,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          668
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          138
+        ],
+        [
+          "KAESKB+SimHei",
+          16.0,
+          17
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          4
+        ],
+        [
+          "KAESKB+SimHei",
+          14.0,
+          2
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 18,
+        "17.9": 2
+      },
+      "leftmost": 63.77899999999997,
+      "rightmost": 540.1464991999998,
+      "first_text": "基于驻留段约束的缓存与流水协同优化\n摘 要\n针对通用神经网络处理器中拓扑依赖、有限连续缓存与多执行单元并行的耦合，建立以生\n命周期收缩、驻留段分配和固定驻留图重排为核心的调度方法。在六个题面计算图上，分\n别求解最小驻留、",
+      "last_text": "所有方案经原始依赖、连续地址、使用时驻留和执行单元互斥重算。所得改善针对题\n面抽象模型及本文的换出期间地址复用解释，尚未由官方评价器或真实芯片测量确认。\n关键词：有向无环图；生命周期；连续地址分配；换入换出；流水调度\n1"
+    },
+    {
+      "pdf_page": 3,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 912,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          707
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          10.91,
+          139
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          21
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          18
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          14
+        ],
+        [
+          "KAESKB+SimHei",
+          13.95,
+          13
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 15,
+        "17.9": 2
+      },
+      "leftmost": 58.176,
+      "rightmost": 539.2143935999998,
+      "first_text": "1. 问题重述\n题目将算子细化为由原子指令构成的有向无环图，节点包括指定执行单元上的操作，以\n及缓冲区申请和释放操作[1]。每个缓冲区只属于一种缓存，需占据长度确定的连续地址区\n间。不同执行单元可以并行工作，同一执行单元",
+      "last_text": "配成功。一方面，不同类型不能互相借\n用空间；另一方面，分散的空闲区间无法容纳较大的连续申请。与此相反，过度追求小峰\n值可能使原本可重叠的计算串行化。因此首先通过生命周期收缩建立基准，再分别围绕搬\n运量和时间评价候选。\n2"
+    },
+    {
+      "pdf_page": 4,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 957,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          708
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          153
+        ],
+        [
+          "TLTDUV+CMMI10",
+          10.91,
+          39
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          15
+        ],
+        [
+          "KAESKB+SimHei",
+          13.95,
+          13
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          10.91,
+          11
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          6
+        ],
+        [
+          "DQURKC+CMR10",
+          10.91,
+          6
+        ],
+        [
+          "DTGYVH+CMSY10",
+          10.91,
+          3
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          2
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          1
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 13,
+        "17.9": 3,
+        "16.9": 2
+      },
+      "leftmost": 63.77999999999997,
+      "rightmost": 540.2780063999998,
+      "first_text": "采用“拓扑顺序—连续分配—依赖重建—流水评价”的计算链。求解程序只产生候选，\n随后由不调用求解模块的重放程序从文本附件读回结果，重新检查空间和时间约束。两个\n程序共享输入字段定义，但不共享区间分配逻辑，减少同一实现错误同",
+      "last_text": "一为V 到{1,...,N}的双射\nx ,o ,z 第j 个驻留段的非负整数偏移、开始与结束节点\nbj bj bj\nχ 被任一COPY_IN引用时取1，否则取0\nb\nM,M 换出事件集合及事件数；同一缓冲区可重复出现\n3"
+    },
+    {
+      "pdf_page": 5,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 766,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          409
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          112
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          66
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          43
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          32
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          27
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          23
+        ],
+        [
+          "TLTDUV+CMMI10",
+          10.91,
+          21
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          11
+        ],
+        [
+          "KAESKB+SimHei",
+          13.95,
+          8
+        ],
+        [
+          "EMWLRE+CMSY8",
+          7.97,
+          6
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          2
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 7,
+        "17.9": 1
+      },
+      "leftmost": 63.779999999999916,
+      "rightmost": 531.4971312,
+      "first_text": "表2（续）\n符号 定义与取值\nH,D,T 最大逻辑驻留量、额外搬运量、总执行周期\nc ,p 非负执行周期、指定执行单元；管理节点无独占单元\nv v\nS ,F ,r 非负开始时间、结束时间、下游最长路径长度\nv v v\nL",
+      "last_text": "根、释放节点为叶，六图均满足这一结构。固定非管理操作的相\n对顺序后，一个申请必须早于其所有显式后继以及所有引用该缓冲区的操作。称其中最早\n出现的节点为首次需求节点。相应地，释放必须晚于全部显式前驱和全部使用者，称其中\n4"
+    },
+    {
+      "pdf_page": 6,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 1179,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          997
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          46
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          45
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          19
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          19
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          14
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          13
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          6
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          7.97,
+          6
+        ],
+        [
+          "EMWLRE+CMSY8",
+          7.97,
+          4
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          5.98,
+          4
+        ],
+        [
+          "TESGVW+CMEX10",
+          11.96,
+          3
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 25,
+        "17.9": 4
+      },
+      "leftmost": 63.77900000000005,
+      "rightmost": 539.2012000000003,
+      "first_text": "最晚出现的节点为末次需求节点。这里不能仅以第一次读或最后一次读代替需求节点，否\n则可能遗漏额外管理依赖。\n收缩性质。在上述前提下，将申请移动到首次需求节点之前，将释放移动到末次需求\n节点之后，不会增加驻留峰值。\n证明分两",
+      "last_text": "gN)开销。窗口贪心每步扫描就绪集合，并计算至\n多W 个缓冲区评分，保守界为O(N2log(W+1)+NWK+|E|+Q)。空间为O(N+|E|+Q)。\n实际并未枚举所有拓扑序，因此计算可承受性以限制搜索范围为代价。\n5"
+    },
+    {
+      "pdf_page": 7,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 952,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          606
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          10.91,
+          101
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          66
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          51
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          7.97,
+          28
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          25
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          19
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          12
+        ],
+        [
+          "KAESKB+SimHei",
+          13.95,
+          11
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          10
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          9
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          7
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 13,
+        "17.9": 2
+      },
+      "leftmost": 63.77999999999986,
+      "rightmost": 539.2011999999999,
+      "first_text": "5.4 六图峰值与解质量\n表3同时给出收缩后编号基准、选定峰值及式(5)的下界。比值H /L 是相对一个可\n1 H\n计算下界的比值，不是已知的最优性误差。\n表3: 驻留峰值与同时使用下界（题面容量单位）\n计算图 H H ",
+      "last_text": "\n只有驻留状态允许操作引用；已释放后不可再次申请同一标识。换出不终结逻辑生命，仍\n须保留原始FREE。若换出后已无普通操作需要该对象，也必须完成配对换入后再释放，以\n符合新增节点和配对规则，而不能删去换入以降低指标。\n6"
+    },
+    {
+      "pdf_page": 8,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 1062,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          820
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          82
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          42
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          39
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          37
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          22
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          6
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          7.97,
+          5
+        ],
+        [
+          "EMWLRE+CMSY8",
+          7.97,
+          3
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          3
+        ],
+        [
+          "MDPIYD+MSBM10",
+          11.96,
+          1
+        ],
+        [
+          "UGLWWJ+CMMI6",
+          5.98,
+          1
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 16,
+        "17.9": 2
+      },
+      "leftmost": 58.17500000000007,
+      "rightmost": 540.1468991999997,
+      "first_text": "用序列区间 [π(o ),π(z )) 表示第 j 段物理驻留，从 ALLOC 或 SPILL_IN 开始，到\nbj bj\nFREE或SPILL_OUT结束。其地址为整数半开区间[x ,x +s )，满足\nbj bj b",
+      "last_text": "地址\n限制，故不能把经典分页的最优性结论移植给这两种评分。\n普通换出可能被受保护对象的碎片阻塞，此时启用显式恢复：换出本次操作所需缓存\n类型中的全部驻留对象，再按对象大小递减顺序重装本次必需集合。该步骤允许改变偏移，\n7"
+    },
+    {
+      "pdf_page": 9,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 1077,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          739
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          10.91,
+          107
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          87
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          52
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          31
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          25
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          10
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          9
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          6
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          3
+        ],
+        [
+          "UGLWWJ+CMMI6",
+          5.98,
+          2
+        ],
+        [
+          "TLTDUV+CMMI10",
+          10.91,
+          2
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 16,
+        "17.9": 2
+      },
+      "leftmost": 63.778999999999996,
+      "rightmost": 540.2751999999999,
+      "first_text": "但每次搬运均计入式(10)，不是零成本地址搬移。当前实现以容量单元数组表示占用情况，\n便于检查边界；这也是容量不大时选择简单实现的原因。\n恢复成功的前提为每个操作在每种缓存上的必需总量满足\n∑\ns ≤ C , v ∈ V",
+      "last_text": "说明式 (11) 不是\n普遍优于距离评分的准则。\n两个注意力图和两个矩阵乘图均保留编号基准的搬运量。尤其矩阵乘大图仍需3600次\n换出、搬运460800容量单位；不能从这一大数值推断它就是硬件容量造成的不可避免开销，\n8"
+    },
+    {
+      "pdf_page": 10,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 1001,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          837
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          45
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          35
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          23
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          22
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          12
+        ],
+        [
+          "KAESKB+SimHei",
+          13.95,
+          11
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          7
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          3
+        ],
+        [
+          "TESGVW+CMEX10",
+          11.96,
+          2
+        ],
+        [
+          "EMWLRE+CMSY8",
+          7.97,
+          2
+        ],
+        [
+          "UGLWWJ+CMMI6",
+          5.98,
+          2
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 18,
+        "17.9": 2
+      },
+      "leftmost": 63.779999999999916,
+      "rightmost": 540.1468991999997,
+      "first_text": "因为本文没有给出该实例的正搬运量下界。所有结果只表示已比较候选中的较优可行解。\n重复换出次数和搬运总量共同进入下一问，不应只比较峰值或只比较换出次数。\n7. 搬运量约束下的流水优化\n7.1 联合目标与时间递推\n在有限缓存",
+      "last_text": "原序列中所有节点的总\n顺序。换出事件的对象和次数不变，式(10)的每一项随之不变，故固定驻留图重排严格保\n持 D。这一性质比事后观察搬运量相同更强，但只适用于固定事件集合的阶段；地址重分\n配本身仍须单独接受预算检查。\n9"
+    },
+    {
+      "pdf_page": 11,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 1011,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          633
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          10.91,
+          180
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          51
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          44
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          29
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          19
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          18
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          15
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          8
+        ],
+        [
+          "EMWLRE+CMSY8",
+          7.97,
+          7
+        ],
+        [
+          "TLTDUV+CMMI10",
+          10.91,
+          4
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          2
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 17,
+        "17.9": 2
+      },
+      "leftmost": 63.77900000000011,
+      "rightmost": 540.2752000000002,
+      "first_text": "7.3 候选扩展与列表调度\n首先扩展原始候选：增加两种按估计最早开始时间与新增容量加权的操作排序，窗口\n均为64，新增容量权重分别为0、1周期/容量单位；对八种顺序的距离换出方案分别尝试地\n址轮换。轮换从上次分配末端继续",
+      "last_text": "5902 150499 150499 33.38\n矩阵乘小图 194331 177625 186969 173274 10.84\n矩阵乘大图 1800001 1765989 1758881 1749773 2.79\n10"
+    },
+    {
+      "pdf_page": 12,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 843,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          544
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          69
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          41
+        ],
+        [
+          "DFIMHP+MicrosoftYaHei",
+          9.84,
+          41
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          29
+        ],
+        [
+          "DFIMHP+MicrosoftYaHei",
+          13.26,
+          28
+        ],
+        [
+          "DFIMHP+MicrosoftYaHei",
+          10.83,
+          21
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          17
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          15
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          10
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          9
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          8
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 11,
+        "17.9": 1
+      },
+      "leftmost": 63.778999999999996,
+      "rightmost": 531.5068752,
+      "first_text": "卷积与注意力四图的 T = T ，而 T = T < T ，所以已取得的改善可以归于固定驻\nA 2 F 3 2\n留关系后的重排。矩阵乘小图则先由扩展候选从 194331 降至 177625，再降至 173274；仅\n重排",
+      "last_text": "更长路径，却把搜索决\n策固定成现有答案，不能再用来证明其他单元顺序也必须如此缓慢。\n表6列出三个层次，尤其要避免把g 当作联合问题的全局最优性差距。更换换出集合\nR\n或地址关系时，L 和L 也会变化。\nwork R\n11"
+    },
+    {
+      "pdf_page": 13,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 928,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          421
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          10.91,
+          305
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          101
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          74
+        ],
+        [
+          "TLTDUV+CMMI10",
+          10.91,
+          10
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          6
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          4
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          7.97,
+          4
+        ],
+        [
+          "DQURKC+CMR10",
+          10.91,
+          2
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          1
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 13
+      },
+      "leftmost": 63.779999999999916,
+      "rightmost": 540.2751999999999,
+      "first_text": "表6: 最终方案的分层时间下界及固定驻留差距\n计算图 L L L T g /%\n0 work R 3 R\n卷积小图 348677 348677 458852 465892 1.53\n卷积大图 409566 761650 ",
+      "last_text": "，但没有证明其他搬运方案无法降低工作量。\n为观察等待分布，图 2 展示注意力小图在相同横轴上的两份完整流水。细条表示实际\n操作区间，空白表示该单元未执行操作；换出为零周期时不画成有宽度的条块，但其依赖\n仍参与计算。\n12"
+    },
+    {
+      "pdf_page": 14,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 350,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          163
+        ],
+        [
+          "DFIMHP+MicrosoftYaHei",
+          10.77,
+          86
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          36
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          21
+        ],
+        [
+          "KAESKB+SimHei",
+          13.95,
+          9
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          9
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          9
+        ],
+        [
+          "DFIMHP+MicrosoftYaHei",
+          9.79,
+          8
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          5
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          10.91,
+          2
+        ],
+        [
+          "QFAICK+CMMI8",
+          7.97,
+          2
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 4
+      },
+      "leftmost": 63.77999999999997,
+      "rightmost": 531.5065359999999,
+      "first_text": "原始操作 换入换出\n（甲）缓存优先方案\n结果搬运\n输出搬运\n向量计算\n矩阵计算\n级间搬运\n输入搬运\n（乙）固定驻留图重排后\n结果搬运\n输出搬运\n向量计算\n矩阵计算\n级间搬运\n输入搬运\n0 10 20 30 40\n执行时间",
+      "last_text": "则全部一致应用于六个图，不按算子名称选用专门参数。为分离窗口影响，表\n8只比较释放权重α = 1、距离换出、最佳适配都固定时的W = 32和W = 128。H 是原\nW\n始序列峰值，D 是随后分配的额外搬运量。\nW\n13"
+    },
+    {
+      "pdf_page": 15,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 1115,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          798
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          10.91,
+          129
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          70
+        ],
+        [
+          "LJJUGG+SimSun",
+          10.91,
+          54
+        ],
+        [
+          "FFNCPF+CMR12",
+          11.96,
+          37
+        ],
+        [
+          "SBEJVQ+CMR8",
+          7.97,
+          10
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          9
+        ],
+        [
+          "TLTDUV+CMMI10",
+          10.91,
+          4
+        ],
+        [
+          "LSNTHS+CMMI12",
+          11.96,
+          3
+        ],
+        [
+          "DTGYVH+CMSY10",
+          11.96,
+          1
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 21,
+        "17.9": 2
+      },
+      "leftmost": 63.77899999999988,
+      "rightmost": 540.2751999999999,
+      "first_text": "表8: 固定其他规则时的窗口对照\n计算图 H H D D 顺序相同\n32 128 32 128\n卷积小图 21762 21762 95564 95564 否\n卷积大图 157630 180030 407112 43976",
+      "last_text": "搬运各耗时158，完整时间为346。这些手算测试覆盖零耗时换出和双向计费。再分别注\n入地址重叠、拓扑逆序、越界偏移及节点重复，检查程序均拒绝对应附件。拒绝非法输入\n只是验证的一部分，不替代对合法实例的数学建模判断。\n14"
+    },
+    {
+      "pdf_page": 16,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 1163,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          860
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          256
+        ],
+        [
+          "AAOBEI+Consolas",
+          11.96,
+          24
+        ],
+        [
+          "KAESKB+SimHei",
+          11.96,
+          12
+        ],
+        [
+          "KAESKB+SimHei",
+          13.95,
+          11
+        ]
+      ],
+      "body_baseline_gaps": {
+        "18.0": 22,
+        "17.9": 3
+      },
+      "leftmost": 63.77999999999997,
+      "rightmost": 540.1468991999998,
+      "first_text": "8.3 解释边界与尚未解决的问题\n本题附录C的地址复用描述直接针对ALLOC/FREE；本文将其延伸为驻留段结束到开\n始的依赖。若把已换出的缓冲区仍视为占用地址直到最终 FREE，就无法表达换出释放空\n间的目的，并可能生",
+      "last_text": "l Review. International Workshop on Memory Management, LNCS 986, 1995: 1–116.\nDOI:10.1007/3‐540‐60368‐9_19.\n15"
+    },
+    {
+      "pdf_page": 17,
+      "size": [
+        595.28,
+        841.89
+      ],
+      "chars": 881,
+      "font_sizes": [
+        [
+          "LJJUGG+SimSun",
+          11.96,
+          418
+        ],
+        [
+          "FZCOXY+TimesNewRomanPSMT",
+          11.96,
+          332
+        ],
+        [
+          "AAOBEI+Consolas",
+          11.96,
+          120
+        ],
+        [
+          "KAESKB+SimHei",
+          13.95,
+          11
+        ]
+      ],
+      "body_baseline_gaps": {
+        "17.9": 2,
+        "18.0": 11
+      },
+      "leftmost": 63.77999999999997,
+      "rightmost": 540.2792015999999,
+      "first_text": "[3] Bélády L A. A study of replacement algorithms for a virtual-storage computer. IBM Systems\nJournal,1966,5(2",
+      "last_text": "dex辅助。工具精确模型标识和版本发布日\n期未核实，参赛队员独立复核尚未完成。本阅读稿不构成人工原创、独立审查或正式提交\n资格的声明。若用于参赛，应由队员依据适用规定理解、核验并完成真实工具记录与使用\n声明[5]。\n16"
+    }
+  ]
+}

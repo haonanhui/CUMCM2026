@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "project_id": "math-contest-native",
+  "revision": 11,
+  "status": "typography_revision_completed_language_revision_pending",
+  "active_contest": "2025年中国研究生数学建模竞赛（历史真题研究）",
+  "active_problem": "A：通用神经网络处理器下的核内调度问题",
+  "deadline": null,
+  "rules_verified": false,
+  "submission_ready": false,
+  "integration_owner": "codex-root",
+  "next_action": {
+    "handoff_file": "team/handoffs/npu-typography-20260921.json",
+    "task_file": "team/tasks/npu-typography-20260921.json",
+    "instruction": "Use paper/typography-revision and its bindings for any further language/content revision. Preserve centered figure sources. Read writing-guide-2 and internal-v3.1; do not inherit historical score. See REVIEW.md for current measured typography and its official-equivalence boundary."
+  },
+  "paper_quality": {
+    "pdf_sha256": "28eb3429c3bfe60d038d8a6383c07d721637044ff0a4a532ebe748d9aa66dbf7",
+    "runtime_read": "READ_FULL_2026-09-21_INCLUDING_SCORING_ANCHORS",
+    "status": "REVIEWED_MINOR_EDITS",
+    "standard": "docs/PAPER_QUALITY_STANDARD.md",
+    "rubric": "internal-v3",
+    "report": "reports/PAPER_QUALITY_REVIEW.md",
+    "historical_diagnosis": "reports/NPU_PAPER_QUALITY_DIAGNOSIS_20260921.md",
+    "verified_score_lower": 82.17,
+    "unknown_weight": 2,
+    "coverage_pct": 98,
+    "total_score": null,
+    "loader_visible": true,
+    "historical_review": true
+  },
+  "paper_policy": {
+    "writing": "writing-guide-2",
+    "rubric": "internal-v3.1",
+    "figures": "figure-style-2",
+    "baseline_commit": "ef8211d",
+    "current_pdf_updated": true,
+    "current_pdf_status": "TYPOGRAPHY_COMPLETE_LANGUAGE_REVISION_PENDING",
+    "report": "reports/PAPER_POLICY_REVISION_20260921.md",
+    "runtime_read_other_sessions": "UNVERIFIED"
+  },
+  "figure_font_revision": {
+    "pdf": "paper/NPU_2025_A_figure_revision.pdf",
+    "sha256": "7a2fc174854f8eed9c091616d32149b4c1b57f81bc1750442e2672a230307eb7",
+    "report": "reports/npu-figure-centering/REVIEW.md",
+    "scope_status": "PASS",
+    "full_paper_quality_status": "NEEDS_LANGUAGE_REVISION_NOT_REASSESSED",
+    "figures": "figures/npu2025-centered-001"
+  },
+  "typography_revision": {
+    "pdf": "paper/NPU_2025_A_typography_revised.pdf",
+    "sha256": "ebfe4b6f2105ba070e75676e8aa059f880acc97e09394fbd87c89da6bcb7b6cf",
+    "report": "reports/npu-typography-20260921/REVIEW.md",
+    "source": "paper/typography-revision",
+    "scope_status": "PASS",
+    "body_baseline_bp": 19.872,
+    "official_single_spacing_equivalence": "UNVERIFIED",
+    "full_paper_quality_status": "NEEDS_LANGUAGE_REVISION_NOT_REASSESSED"
+  }
+}

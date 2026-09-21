@@ -1,0 +1,22 @@
+{
+  "task_id": "npu-paper-revision2",
+  "revision": 1,
+  "owner": "codex-root",
+  "branch": "codex/paper-quality-native-20260921",
+  "commit": null,
+  "base_commit": "d79ae10639803c0e747a4aafafee163c7d3b9e95",
+  "status": "research_revision_delivered_with_limits",
+  "uncommitted": "本轮新增revision2源码、revised PDF、两张中文图、六表派生分析、验证和质量报告、辅助脚本及文献核验；保留工作区既有大量未提交改动，未stage/commit/push。",
+  "read_inputs": ["质量诊断全文", "native-quality-1/internal-v2全文", "工作区规范及中文图规范", "原题全文与DOCX的65项OMML", "旧稿和新版全文", "005结果、原始JSON和附件", "2025官方格式和AI规则", "三篇原始方法文献相关段"],
+  "deliverable": "paper/NPU_2025_A_revised.pdf",
+  "pdf_sha256": "b4429e1cfb1893832627336df215c499133b754183f8fdd324aa5b4ec3c0f0f5",
+  "source": "paper/revision2/main.tex",
+  "results_baseline": "results/runs/npu2025-a-005",
+  "derived_analysis": "results/runs/npu-paper-r2-analysis-001/analysis.json",
+  "verification": ["12份完整方案与6份Q1序列重放", "表3至8全部六图逐列一致", "手算与错误注入PASS", "文本硬门禁PASS并处置6项WARN", "XeLaTeX最终编译无溢出/缺字/未定义", "最终17页按2倍渲染逐页查看", "旧PDF与005源码指纹保持"],
+  "evidence": ["reports/PAPER_QUALITY_REVIEW.md", "reports/NPU_REVISION2_VERIFY_REPORT.md", "reports/npu-r2-evidence/verification.json", "reports/npu-r2-evidence/pdf-inspection.json"],
+  "failed_attempts": "首次编译浮动页和图例遮挡已改；Python3.9直接运行稿件生成脚本编码错误改用文档Python成功，根因未推断；部分出版社访问不可达采用可核原文镜像，未绕过访问控制。",
+  "quality": {"standard":"native-quality-1/internal-v2", "verified_score_lower":77.25, "unknown_weight":2, "coverage_pct":98, "total_score":null, "status":"REVIEWED_WITH_LIMITS"},
+  "unresolved": ["官方评价器对驻留段解释的一致性未知", "无全局H/D最优性及独立泛化集", "精确AI工具标识与队员独立复核未知", "本版为阅读版而非正式格式，未重做RAR提交包"],
+  "next_action": "本轮诊断返修已交付；阅读新版与逐项评审。继续研究时在新实验目录增强H/D界或独立图集；正式参赛采用前另行补齐官方格式、AI记录和队员复核，不改写005基线或历史报告。"
+}

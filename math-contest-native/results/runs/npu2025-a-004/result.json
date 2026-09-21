@@ -1,0 +1,287 @@
+{
+  "run_id": "npu2025-a-004",
+  "status": "EXECUTED",
+  "scientific_validation": "UNVERIFIED",
+  "started_at": "2026-09-21T03:21:23.532448+00:00",
+  "argv": [
+    "D:\\A_Projects\\10_Research\\math-contest-native\\.venv\\Scripts\\python.exe",
+    "-B",
+    "code/refine_npu.py",
+    "--run",
+    "D:\\A_Projects\\10_Research\\math-contest-native\\results\\runs\\npu2025-a-004",
+    "--base",
+    "results/runs/npu2025-a-003"
+  ],
+  "cwd": "D:\\A_Projects\\10_Research\\math-contest-native",
+  "python": "D:\\A_Projects\\10_Research\\math-contest-native\\.venv\\Scripts\\python.exe",
+  "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+  "inputs_and_sources": {
+    "configs/npu2025-refine.json": {
+      "sha256": "2062132abfe0ef6ad3fdb20631221e4e8c9c09092983ebf754a5657426049ba1",
+      "bytes": 4887
+    },
+    "results/runs/npu2025-a-003/summary.json": {
+      "sha256": "179db40bdd454ae17249270ffefe7424fc702f7f671328a4b7f10878ab560a4c",
+      "bytes": 15828
+    },
+    "results/runs/npu2025-a-003/audit.json": {
+      "sha256": "4d728a096f855b79752e927c1c307867c599fa80856ab9b3b6b92421a592b8ad",
+      "bytes": 799
+    },
+    "results/runs/npu2025-a-003/candidates.json": {
+      "sha256": "2337a5c51b906468afc8f4813f392b5a88b002de6ea2e16ce9c62b88d0ba8cf8",
+      "bytes": 82864
+    },
+    "results/runs/npu2025-a-003/environment.json": {
+      "sha256": "74ec7a4768f8b5063e11a476bfc438d6df95c09999d202bf90e1b443d98e6829",
+      "bytes": 113
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem1/Conv_Case0_schedule.txt": {
+      "sha256": "5aa980230742bb33970a9c965732cccf3e6f22224fbe9b890a4fcebe6e29b24e",
+      "bytes": 14370
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem1/Conv_Case1_schedule.txt": {
+      "sha256": "b241d709d696533409400b8321f596a011dba98674d7d8d5c73ee1f1e28081a2",
+      "bytes": 241492
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem1/FlashAttention_Case0_schedule.txt": {
+      "sha256": "03dcefd59aeefe689c7cbd70bc3b3d3b76001e06f77524bf8961953d5902935c",
+      "bytes": 9186
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem1/FlashAttention_Case1_schedule.txt": {
+      "sha256": "ecdee9318e98f81a318545e6326e2e0aed562baa1b28a528ba2d1d74eb052334",
+      "bytes": 40602
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem1/Matmul_Case0_schedule.txt": {
+      "sha256": "d4d864d9ceebd43fe3ce05bf631b5a302892e4682da1d07843d259f760b84075",
+      "bytes": 23850
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem1/Matmul_Case1_schedule.txt": {
+      "sha256": "8f9c2df2cbfd94a1af99d3d55aeb79bcdcce3fe2601a7ab5b36c01522531458e",
+      "bytes": 205722
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Conv_Case0_memory.txt": {
+      "sha256": "9a7432cf6770659f6916571ca1782e28c13d8952dc1b4c33d2c29fce0629f4b8",
+      "bytes": 6771
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Conv_Case0_schedule.txt": {
+      "sha256": "ebc7f88dbaa55d3ef0006ed905d6788daf78ab1ed568148a99ec4479cbdeff4a",
+      "bytes": 15042
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Conv_Case0_spill.txt": {
+      "sha256": "40f7f5590f1cbf8474203ead45291391deccc1d0f90e82f2af5fb946b870bf79",
+      "bytes": 534
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Conv_Case1_memory.txt": {
+      "sha256": "d6bbada898ed67db23c52e8cb7272384a7df8f190b93b9714ef3d310abb252b4",
+      "bytes": 114351
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Conv_Case1_schedule.txt": {
+      "sha256": "1454ffafb3a31529ab98507315125bb7907f769f316ef97e24ad1744236c2913",
+      "bytes": 271116
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Conv_Case1_spill.txt": {
+      "sha256": "b2fd16ef05a56c42cfb7a1af2a136c81ef6288b0b605e9c22739ccf4163f4054",
+      "bytes": 22491
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/FlashAttention_Case0_memory.txt": {
+      "sha256": "feae97fd5653ecbb121fa7594048e5be17bbac50a19c143eb6614801349bbdd1",
+      "bytes": 4668
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/FlashAttention_Case0_schedule.txt": {
+      "sha256": "aa8282c4e08431b69519f11b6b5ccdcd599bedd7b91b0088451de427dd68728a",
+      "bytes": 9462
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/FlashAttention_Case0_spill.txt": {
+      "sha256": "a4f9d1cee2853db9fc1756cf226aab8e6894150274c9772347b32011f65cc6ac",
+      "bytes": 200
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/FlashAttention_Case1_memory.txt": {
+      "sha256": "67876fb534b243ef85fb43ce6750857ebe4e5220ab10999e2c2c4dd2a303eb97",
+      "bytes": 20697
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/FlashAttention_Case1_schedule.txt": {
+      "sha256": "5d3a85af256104d621e8554356a7cef2d9476cfd830c39df8bb32421d0bd075e",
+      "bytes": 43146
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/FlashAttention_Case1_spill.txt": {
+      "sha256": "b66ce82dc80a9bb9c65285047b60c23b55f680a6b828460313dc8c727047ee93",
+      "bytes": 1966
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Matmul_Case0_memory.txt": {
+      "sha256": "1c9e00b502efca3256941a5da1a4b65003e611988cfab7a482c73a7d88fdd935",
+      "bytes": 8958
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Matmul_Case0_schedule.txt": {
+      "sha256": "14537d4f9580f4de5101dd26981b81e6e24f7da007ff3aab0cf4d847839f334d",
+      "bytes": 27126
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Matmul_Case0_spill.txt": {
+      "sha256": "d729ad41c41dbb25fcef38f5149c6e50afc88463a27eff9aaba9599d592e5d20",
+      "bytes": 2583
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Matmul_Case1_memory.txt": {
+      "sha256": "7edc8e39afaaac3806e725e052af82338832ccc5a3d676c76ea768666eba4198",
+      "bytes": 72030
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Matmul_Case1_schedule.txt": {
+      "sha256": "6e6549cecd9269ccc51d702f989da068b838bd789562afea4a000bc84c024082",
+      "bytes": 256122
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem2/Matmul_Case1_spill.txt": {
+      "sha256": "b1bccac9ec7c6131ee36004c99df94059a6618b287202c749e2f4bd30821a39f",
+      "bytes": 34164
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Conv_Case0_memory.txt": {
+      "sha256": "9a7432cf6770659f6916571ca1782e28c13d8952dc1b4c33d2c29fce0629f4b8",
+      "bytes": 6771
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Conv_Case0_schedule.txt": {
+      "sha256": "ebc7f88dbaa55d3ef0006ed905d6788daf78ab1ed568148a99ec4479cbdeff4a",
+      "bytes": 15042
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Conv_Case0_spill.txt": {
+      "sha256": "40f7f5590f1cbf8474203ead45291391deccc1d0f90e82f2af5fb946b870bf79",
+      "bytes": 534
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Conv_Case1_memory.txt": {
+      "sha256": "d6bbada898ed67db23c52e8cb7272384a7df8f190b93b9714ef3d310abb252b4",
+      "bytes": 114351
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Conv_Case1_schedule.txt": {
+      "sha256": "1454ffafb3a31529ab98507315125bb7907f769f316ef97e24ad1744236c2913",
+      "bytes": 271116
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Conv_Case1_spill.txt": {
+      "sha256": "b2fd16ef05a56c42cfb7a1af2a136c81ef6288b0b605e9c22739ccf4163f4054",
+      "bytes": 22491
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/FlashAttention_Case0_memory.txt": {
+      "sha256": "feae97fd5653ecbb121fa7594048e5be17bbac50a19c143eb6614801349bbdd1",
+      "bytes": 4668
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/FlashAttention_Case0_schedule.txt": {
+      "sha256": "aa8282c4e08431b69519f11b6b5ccdcd599bedd7b91b0088451de427dd68728a",
+      "bytes": 9462
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/FlashAttention_Case0_spill.txt": {
+      "sha256": "a4f9d1cee2853db9fc1756cf226aab8e6894150274c9772347b32011f65cc6ac",
+      "bytes": 200
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/FlashAttention_Case1_memory.txt": {
+      "sha256": "67876fb534b243ef85fb43ce6750857ebe4e5220ab10999e2c2c4dd2a303eb97",
+      "bytes": 20697
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/FlashAttention_Case1_schedule.txt": {
+      "sha256": "5d3a85af256104d621e8554356a7cef2d9476cfd830c39df8bb32421d0bd075e",
+      "bytes": 43146
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/FlashAttention_Case1_spill.txt": {
+      "sha256": "b66ce82dc80a9bb9c65285047b60c23b55f680a6b828460313dc8c727047ee93",
+      "bytes": 1966
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Matmul_Case0_memory.txt": {
+      "sha256": "6ec49c460a28fa119d946a89766aaa1e85470bad35a1c2c4e917c5555b669421",
+      "bytes": 10046
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Matmul_Case0_schedule.txt": {
+      "sha256": "14537d4f9580f4de5101dd26981b81e6e24f7da007ff3aab0cf4d847839f334d",
+      "bytes": 27126
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Matmul_Case0_spill.txt": {
+      "sha256": "a02a5a63967304818acf3a7122244c776464f50cfe22fc54d69de93949a31ff6",
+      "bytes": 2583
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Matmul_Case1_memory.txt": {
+      "sha256": "91383a1ee2a9fa406d0f3ac734e9ffd9fe919c84ed48c530b5ecb8cb5de094f0",
+      "bytes": 80478
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Matmul_Case1_schedule.txt": {
+      "sha256": "c27783ff12bf3e11eb2c9e856d0a15a50395ed1b6bf353cf664989ee338910d5",
+      "bytes": 256122
+    },
+    "results/runs/npu2025-a-003/Attachment/Problem3/Matmul_Case1_spill.txt": {
+      "sha256": "ae124ef854742b5f1b028f0a67c7a59a915ed07d9073f432ad3e43580ffeaf8b",
+      "bytes": 34206
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Conv_Case0.json": {
+      "sha256": "5d6452bb9d9484080523fd9c4784aa787cced24983f9576d98532d43af1f8952",
+      "bytes": 318017
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Conv_Case1.json": {
+      "sha256": "7aa9fe00a997ecbf7b8d23395a85c30ad448c0c22138c00eb26fb342e54121ab",
+      "bytes": 5249015
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/FlashAttention_Case0.json": {
+      "sha256": "8ae6afffbc381599a4f0b14f129c47ab872146b6de4e5d4b573c2be86d5b135a",
+      "bytes": 211908
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/FlashAttention_Case1.json": {
+      "sha256": "de2221eec5c6252ec0edea88bf65e5fb558eb7167ea87228ac96a92a2e46c77f",
+      "bytes": 884160
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Matmul_Case0.json": {
+      "sha256": "f978856c7a99fb23aa6eccf9bab32530bce3b4361387fd432f2e76d3ea9d293e",
+      "bytes": 534909
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Matmul_Case1.json": {
+      "sha256": "87f2f6cc1020f9d247f305ab7ea8fbfe7ee6776c83a7e6b0e8207042d8f7bdb9",
+      "bytes": 4182237
+    },
+    "code/refine_npu.py": {
+      "sha256": "4b89abe334e58daba577cfa4c506faaa7a175db630de7d580eea9e9766028b15",
+      "bytes": 3755
+    },
+    "code/run_npu.py": {
+      "sha256": "504f0ccc77af64449af84a974627ed1213bf4e4b6ed8adfbe9fb861a836b05af",
+      "bytes": 6462
+    },
+    "code/interfaces/npu.py": {
+      "sha256": "927c1ad2772fa29b3a191925ca9cb4a0678652cd3ce2b64a3991b4c63d60c823",
+      "bytes": 1941
+    },
+    "code/solvers/npu_memory.py": {
+      "sha256": "df6af691775d4eac9f7a789371a6295654fb6136a9fcca606080fe0dbc9252bf",
+      "bytes": 4651
+    },
+    "code/solvers/npu_pipeline.py": {
+      "sha256": "3e57caf3f8653babd9e46cfd6e93eda569e730971eb286266e11a24dcf89eaa2",
+      "bytes": 2160
+    },
+    "code/solvers/npu_schedule.py": {
+      "sha256": "4265c993a113885ebdd7c5f32cbeb6b08b1023d93b270a24bc98dcd6054220b2",
+      "bytes": 5049
+    },
+    "code/validation/check_npu.py": {
+      "sha256": "e81d420f8ba34db09c21258fb439fb34158751615b1bddafde8eb4c52d12600b",
+      "bytes": 2591
+    },
+    "code/validation/npu_replay.py": {
+      "sha256": "987264a1b33f11b81eb3f20237492113c71e229a9fa8abcf56076631b7e1ab42",
+      "bytes": 5195
+    }
+  },
+  "exit_code": 0,
+  "outputs": {
+    "summary.json": {
+      "sha256": "52ed3436ec0c4d8face88e45d157236dd46cd2af1d83cd9460961d734eaa26aa",
+      "bytes": 14845
+    },
+    "validation.json": {
+      "sha256": "262fdd7a26df88de54767726fb8636a8afec8116d1fc16ee38d17c339b05009d",
+      "bytes": 338
+    },
+    "refinements.json": {
+      "sha256": "ff830fbd44e20e836b8b96beef0353b546900ae867ba491134e1921fa9751f82",
+      "bytes": 9824
+    }
+  },
+  "expected": [
+    "summary.json",
+    "validation.json",
+    "refinements.json"
+  ],
+  "errors": [],
+  "environment_note": "Inherited process environment; credentials are not recorded. Freeze domain dependencies separately.",
+  "finished_at": "2026-09-21T03:21:38.448861+00:00"
+}

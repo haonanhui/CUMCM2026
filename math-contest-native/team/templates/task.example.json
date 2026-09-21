@@ -1,0 +1,14 @@
+{
+  "is_template": true,
+  "status": "example_not_executed",
+  "task_id": null,
+  "revision": 0,
+  "owner": null,
+  "goal": null,
+  "spec_refs": [],
+  "inputs": [],
+  "write_scope": [],
+  "dependencies": [],
+  "acceptance": [],
+  "budget_and_stop_conditions": null
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "npu-paper-revision2",
+  "revision": 1,
+  "owner": "codex-root",
+  "status": "research_revision_delivered_with_limits",
+  "goal": "按20260921质量诊断完成2025研究生数模A题论文实质返修、LaTeX重编译、数值与逐页检查及24项评审",
+  "authorization": "用户要求论文返修并指定NPU_PAPER_QUALITY_DIAGNOSIS_20260921.md；此前确认LaTeX",
+  "write_scope": ["paper/revision2", "paper/NPU_2025_A_revised.pdf", "figures/npu2025-r2", "reports/PAPER_WRITING_PLAN.md", "reports/PAPER_QUALITY_REVIEW.md", "reports/NPU_REVISION2_VERIFY_REPORT.md", "reports/npu-r2-evidence", "results/runs/npu-paper-r2-analysis-001", "scripts/*npu_revision2*.py", "provenance/literature2025", "team/tasks/npu-paper-revision2.json", "team/handoffs/npu-paper-revision2.json", "PROJECT_STATE.json"],
+  "inputs": ["reports/NPU_PAPER_QUALITY_DIAGNOSIS_20260921.md", "docs/PAPER_QUALITY_STANDARD.md", "results/runs/npu2025-a-005", "data/raw/npu2025", "provenance/official2025"],
+  "preserved": ["paper/NPU_2025_A.pdf", "paper/main.tex", "reports/VERIFY_REPORT.md", "reports/NPU_PAPER_QUALITY_DIAGNOSIS_20260921.md", "results/runs/npu2025-a-005"],
+  "constraints": ["原始数据与旧实验只读", "不修改容量或科学边界", "不虚构最优性或实验", "研究阅读版与正式提交分离", "不自动提交或push"]
+}

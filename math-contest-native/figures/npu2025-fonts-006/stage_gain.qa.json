@@ -1,0 +1,116 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "native_zh_12pt_v1",
+  "profile_sha256": "b4ae4266adca9b3d48b3b32a5b4affec8c255199a7b33ed989cb77f7d756466f",
+  "kind": "stage_gain",
+  "synthetic": false,
+  "provenance": {
+    "inputs_sha256": {
+      "results/runs/npu-paper-r3-analysis-001/conv_id_trajectory.json": "091bfd8f2e09bbdc24a86db8c87da8f00494ed0d4192ea06b501fd629f95a525",
+      "results/runs/npu-paper-r3-analysis-001/conv_selected_trajectory.json": "927218b78a8124c9f9545d38567d11e667c5fe537af093278392d8bd712d37ef",
+      "results/runs/npu-paper-r3-analysis-001/conv_memory_trajectory.json": "c329f11b6330d8d6cbc67183f61a6c2b640235cefce2a5577e3545c47f2dc25c",
+      "results/runs/npu-paper-r3-analysis-001/attention_p2_occupancy.json": "840aea60727cae563fd7f80c30b51cc206c15ab2285bbb2a502fa33cc240d265",
+      "results/runs/npu2025-a-005/summary.json": "2a19d425e9e08712575789bb1b83355904316223401efe06465ea3d7c6d8d3ba",
+      "results/runs/npu-paper-r2-analysis-001/analysis.json": "621573d3b6df101592244d8b9e97531b0eda23211c9fac0d221b44cb58b5794f"
+    },
+    "source_script": "scripts/redraw_npu_figures.py",
+    "source_sha256": "84b3f6a140c7a2e404cfc3bfe3f7085915c9fc09410150fa3409de8819febba3",
+    "original_scripts": {
+      "scripts/figures_npu_revision2.py": "b7aa5f0f07e61f86eac82b20aba947d856f0e5935c44f49d502fc95f0c2258f9",
+      "scripts/figures_npu_revision3.py": "e631916800b5da946a3dfb867cd206c6cec760c934774c78c97f515c45bf7def"
+    },
+    "processing": "Same recorded arrays, windows, units and reduction formula as original scripts.",
+    "paper_width_mm": 165,
+    "embedding_scale": 1.0
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "1": "Times New Roman",
+      ".": "Times New Roman",
+      "3": "Times New Roman",
+      "0": "Times New Roman",
+      "7": "Times New Roman",
+      "6": "Times New Roman",
+      "2": "Times New Roman",
+      "5": "Times New Roman",
+      "8": "Times New Roman",
+      "4": "Times New Roman",
+      "9": "Times New Roman",
+      "卷": "SimSun",
+      "积": "SimSun",
+      "小": "SimSun",
+      "图": "SimSun",
+      "大": "SimSun",
+      "注": "SimSun",
+      "意": "SimSun",
+      "力": "SimSun",
+      "矩": "SimSun",
+      "阵": "SimSun",
+      "乘": "SimSun",
+      "相": "SimSun",
+      "对": "SimSun",
+      "问": "SimSun",
+      "题": "SimSun",
+      "二": "SimSun",
+      "的": "SimSun",
+      "时": "SimSun",
+      "间": "SimSun",
+      "降": "SimSun",
+      "幅": "SimSun",
+      "（": "SimSun",
+      "%": "Times New Roman",
+      "）": "SimSun",
+      "−": "Times New Roman",
+      "扩": "SimSun",
+      "展": "SimSun",
+      "候": "SimSun",
+      "选": "SimSun",
+      "后": "SimSun",
+      "固": "SimSun",
+      "定": "SimSun",
+      "驻": "SimSun",
+      "留": "SimSun",
+      "重": "SimSun",
+      "排": "SimSun"
+    },
+    "panel_count": 1,
+    "width_mm": 165.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.017856713773984793,
+      "svg_png_mean_absolute_error": 0.017776439694247914
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "stage_gain.pdf": "641766dfd249d1b01a16e9a804cf2c8286adc79c858967af4794312f465963f0",
+    "stage_gain.svg": "418dc1bddbb7a2627c5f6a957cd4d70a7818cdcf481913deb7fe46949b0fc704",
+    "stage_gain.png": "ced207cbfe8b40effa2f843a789180661db11605b1189f4d4483f669ea85273c",
+    "stage_gain.gray.png": "f4c990df88782ab874e53559ad692d2feac14ff142b84bf3c7a31abdca3dd5f3",
+    "stage_gain.caption.txt": "75f32243a8f7bf6d628a6470c6de02b7d7a21b03c2095c6d562d4073a551f5de"
+  }
+}

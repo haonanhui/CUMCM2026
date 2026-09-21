@@ -1,4 +1,15 @@
-﻿# 复杂工程系统数学建模与数值仿真优化三人协作工程
+# CUMCM2026：Math Contest Native
+
+当前数模竞赛主框架为 [math-contest-native](math-contest-native/README.md)。队友请从 [自动接入说明与 prompt](docs/NATIVE_TEAM_SETUP.md) 开始。
+
+- [示例论文（仅架构能力演示，非优秀参考案例）](math-contest-native/paper/REFERENCE_ONLY.md)
+- [2022—2025 年赛题与优秀论文资料](references/README.md)
+
+以下为旧脚手架历史说明，不作为当前启动入口。
+
+---
+
+# 复杂工程系统数学建模与数值仿真优化三人协作工程
 
 本项目为多成员协同的数学建模与科学计算工程脚手架，采用 **“GitHub 私有仓库承载共享源码和持续协作，Release 承载精简部署包”** 的轻量化研发协作体系。
 

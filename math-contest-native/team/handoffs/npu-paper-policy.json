@@ -1,0 +1,19 @@
+{
+  "task_id": "npu-paper-policy",
+  "revision": 1,
+  "owner": "codex-root",
+  "date": "2026-09-21",
+  "status": "policy_completed_paper_revision4_pending",
+  "branch": "codex/paper-quality-native-20260921",
+  "baseline_commit": "ef8211d",
+  "policy_commit": "包含本交接的Git提交；使用git log -- team/handoffs/npu-paper-policy.json解析",
+  "pushed": false,
+  "remote_configured": false,
+  "read_inputs": ["AGENTS.md", "PROJECT_STATE.json", "docs/WORKSPACE_SPEC.md", "docs/SKILLS.md", "agents/README.md", "docs/HARNESS.md", "paper-quality-native任务与交接及全部spec_refs", "npu-paper-revision3任务与交接", "5writing和6verity全文", "docs/PAPER_WRITING_GUIDE.md", "docs/PAPER_QUALITY_STANDARD.md", "docs/paper-quality/SCORING_ANCHORS.md", "docs/FIGURES_ZH.md", "provenance/UPSTREAM.md", "官方format.pdf全文", "revision3针对性源文/PDF文本/图件字体", "用户附图视觉参考"],
+  "report": "reports/PAPER_POLICY_REVISION_20260921.md",
+  "versions": {"writing": "writing-guide-2", "quality": "native-quality-4", "rubric": "internal-v3.1", "figures": "figure-style-2"},
+  "verified": ["旧稿与前两轮约束首次Git归档1339路径", "官方重新下载字节与本地format.pdf相同", "2份skill的quick_validate通过", "24个唯一评分子项且权重100", "16条功能示例JSONL可解析，新增4条改写无修辞引号", "2份技能引用写作/质量/图件规则", "1291个既有论文图件实验代码等文件SHA-256不变", "revision3自动文本定位32个中文引号字符、23个把字，非语义缺陷数", "pdffonts确认旧图嵌入MicrosoftYaHei", "本轮diff --check按cr-at-eol通过"],
+  "failed_attempts": ["默认commit无作者配置：命令级沿用初始化commit身份后成功，无配置改写", "历史证据尾空白与CRLF导致初次diff输出过大：按cr-at-eol复核，旧尾空白保留WARN", "PowerShell中文管道Python解码失败两次：改用apply_patch及ASCII脚本", "项目Python无pdfplumber：改用已安装pdftotext/pdffonts", "系统Python无yaml：使用已有cumcm-2026虚拟环境完成结构验证，未安装依赖"],
+  "limitations": ["无远端，未异机备份", "现有版本为同一恢复快照，不是追造各轮历史commit", "未全文重评29页论文或运行新数学实验", "未生成revision4", "其他运行中Harness是否重读新规则UNVERIFIED", "正文引号与图内字体仍需下一版处理"],
+  "next_action": "从revision3创建revision4；按writing-guide-2全文清理引号、把字句和补充性否定，按figure-style-2重绘并下置TeX图注，保持数值后编译和逐页验收，再按internal-v3.1完整评分与独立提交。"
+}

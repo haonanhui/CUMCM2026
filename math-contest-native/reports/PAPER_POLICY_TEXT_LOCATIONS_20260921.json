@@ -1,0 +1,101 @@
+{
+  "pdf_sha256": "28eb3429c3bfe60d038d8a6383c07d721637044ff0a4a532ebe748d9aa66dbf7",
+  "scope": "Automated PDF character locations only; not semantic counts or complete quality review",
+  "pages": [
+    {
+      "page": 3,
+      "quote_codepoints": 4,
+      "ba_codepoints": 1
+    },
+    {
+      "page": 4,
+      "quote_codepoints": 2,
+      "ba_codepoints": 0
+    },
+    {
+      "page": 5,
+      "quote_codepoints": 2,
+      "ba_codepoints": 0
+    },
+    {
+      "page": 7,
+      "quote_codepoints": 0,
+      "ba_codepoints": 2
+    },
+    {
+      "page": 8,
+      "quote_codepoints": 0,
+      "ba_codepoints": 1
+    },
+    {
+      "page": 11,
+      "quote_codepoints": 0,
+      "ba_codepoints": 1
+    },
+    {
+      "page": 12,
+      "quote_codepoints": 4,
+      "ba_codepoints": 1
+    },
+    {
+      "page": 13,
+      "quote_codepoints": 2,
+      "ba_codepoints": 0
+    },
+    {
+      "page": 14,
+      "quote_codepoints": 0,
+      "ba_codepoints": 2
+    },
+    {
+      "page": 15,
+      "quote_codepoints": 0,
+      "ba_codepoints": 1
+    },
+    {
+      "page": 16,
+      "quote_codepoints": 0,
+      "ba_codepoints": 1
+    },
+    {
+      "page": 18,
+      "quote_codepoints": 4,
+      "ba_codepoints": 1
+    },
+    {
+      "page": 19,
+      "quote_codepoints": 4,
+      "ba_codepoints": 4
+    },
+    {
+      "page": 20,
+      "quote_codepoints": 0,
+      "ba_codepoints": 2
+    },
+    {
+      "page": 21,
+      "quote_codepoints": 4,
+      "ba_codepoints": 0
+    },
+    {
+      "page": 23,
+      "quote_codepoints": 0,
+      "ba_codepoints": 1
+    },
+    {
+      "page": 27,
+      "quote_codepoints": 2,
+      "ba_codepoints": 2
+    },
+    {
+      "page": 28,
+      "quote_codepoints": 2,
+      "ba_codepoints": 3
+    },
+    {
+      "page": 29,
+      "quote_codepoints": 2,
+      "ba_codepoints": 0
+    }
+  ]
+}

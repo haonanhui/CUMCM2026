@@ -1,0 +1,23 @@
+[3] Bélády L A. A study of replacement algorithms for a virtual-storage computer. IBM Systems
+Journal,1966,5(2): 78–101.DOI:10.1147/sj.52.0078.
+[4] Topcuoglu H, Hariri S, Wu M Y. Performance-effective and low-complexity task scheduling
+for heterogeneous computing. IEEE Transactions on Parallel and Distributed Systems, 2002,
+13(3): 260–274.DOI:10.1109/71.993206.
+[5] 中国研究生数学建模竞赛组织委员会. “华为杯”第二十二届中国研究生数学建模
+竞赛人工智能工具及输出使用规定. 2025. https://cpipc.acge.org.cn/sysFile/
+downFile.do?fileId=e3edba52b87c4bf7922f737c35c14b74. 访问日期：2026-09-
+21.
+A. 复算与人工智能使用说明
+支撑材料给出三问的完整调度文本。问题一只含原始节点顺序；问题二、三分别提供
+扩展节点顺序、初始地址偏移与按换出顺序列出的新偏移。新增节点每对由换出及换入组
+成，重新排列后也保持列表与节点编号一致。复算应从原图和这些文本重新建立依赖、空
+间状态及执行时间，不能只读取汇总数值。
+程序以Python实现。图读取、顺序生成、地址分配、流水重排与附件重放分模块组织；
+随机种子不适用，因为候选规则及平局处理均为确定性。候选保留失败记录，论文表中的
+最终值来自同一组六图方案。本研究不把程序正常结束或结果文件存在当作数值正确的充
+分条件。
+模型推导、程序及文字分析使用OpenAICodex辅助。工具精确模型标识和版本发布日
+期未核实，参赛队员独立复核尚未完成。本阅读稿不构成人工原创、独立审查或正式提交
+资格的声明。若用于参赛，应由队员依据适用规定理解、核验并完成真实工具记录与使用
+声明[5]。
+16

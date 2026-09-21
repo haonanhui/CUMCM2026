@@ -1,0 +1,135 @@
+{
+  "run_id": "npu2025-a-001",
+  "status": "FAIL",
+  "scientific_validation": "UNVERIFIED",
+  "started_at": "2026-09-21T03:13:29.514473+00:00",
+  "argv": [
+    "D:\\A_Projects\\10_Research\\math-contest-native\\.venv\\Scripts\\python.exe",
+    "-B",
+    "code/run_npu.py",
+    "--run",
+    "D:\\A_Projects\\10_Research\\math-contest-native\\results\\runs\\npu2025-a-001"
+  ],
+  "cwd": "D:\\A_Projects\\10_Research\\math-contest-native",
+  "python": "D:\\A_Projects\\10_Research\\math-contest-native\\.venv\\Scripts\\python.exe",
+  "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+  "inputs_and_sources": {
+    "configs/npu2025.json": {
+      "sha256": "e5ab382431c260c4f3731fd429967dd052ae2ae79895f95b4463e8b5ad6cc75c",
+      "bytes": 2628
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题.docx": {
+      "sha256": "dc4670c67f3a06721cfa466663fa87925a0aa67cb89e2528920790299ee0b395",
+      "bytes": 592649
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case0_Edges.csv": {
+      "sha256": "235d4efbe487e4b90e0d8d4d18a26a2bfe67361da34561c2c0245b251c1dfa3d",
+      "bytes": 38928
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case0_Nodes.csv": {
+      "sha256": "09b96fa0f4eaab73b8fe61f48a4f31da507e55e58a10374c248055bb9173fdec",
+      "bytes": 72035
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case1_Edges.csv": {
+      "sha256": "b28a8c4d7cc82f0b01a090dd5d9e52bc7009d33e62af77c004514bf98522e245",
+      "bytes": 1058713
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case1_Nodes.csv": {
+      "sha256": "bf7642f4ec46000a528cada344e4829e180f349d4a79caf191343aa5b838d7f8",
+      "bytes": 1127073
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case0_Edges.csv": {
+      "sha256": "b6fe7036e78d9f9e8648334b81d16f8210b939f0ce7eec2250485b7bad848acf",
+      "bytes": 25918
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case0_Nodes.csv": {
+      "sha256": "3bf0eec84bad46e8a87e57acefd6554b2937f1aeb3c5301e59139316502d8957",
+      "bytes": 47536
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case1_Edges.csv": {
+      "sha256": "a98987ee292027a3d05c1c9bfadd809f47430916c84120d5683322a0b4c3f3ee",
+      "bytes": 119004
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case1_Nodes.csv": {
+      "sha256": "57726c99e42b3445edc96b7acad00720599df9eea07af864e816621458d215ea",
+      "bytes": 203070
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case0_Edges.csv": {
+      "sha256": "f9bc823b19d8e75c8553ec6cbc9b1120129d086e78c2c14a9928f40cbd01a556",
+      "bytes": 73825
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case0_Nodes.csv": {
+      "sha256": "532ad7ce18651f3f45fc92389d349dd7a48828515fee26ae192c949c4b5206a5",
+      "bytes": 122294
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case1_Edges.csv": {
+      "sha256": "8cadbed4bac6ec38853eaae91351e7b0b92b92cd977457543f61f5071c21cdc4",
+      "bytes": 669379
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case1_Nodes.csv": {
+      "sha256": "1e61783fda0e3e3b03e3baf8fc5a2afe8078bcfe89affe34588c6d5dbe4adfd7",
+      "bytes": 977972
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Conv_Case0.json": {
+      "sha256": "5d6452bb9d9484080523fd9c4784aa787cced24983f9576d98532d43af1f8952",
+      "bytes": 318017
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Conv_Case1.json": {
+      "sha256": "7aa9fe00a997ecbf7b8d23395a85c30ad448c0c22138c00eb26fb342e54121ab",
+      "bytes": 5249015
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/FlashAttention_Case0.json": {
+      "sha256": "8ae6afffbc381599a4f0b14f129c47ab872146b6de4e5d4b573c2be86d5b135a",
+      "bytes": 211908
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/FlashAttention_Case1.json": {
+      "sha256": "de2221eec5c6252ec0edea88bf65e5fb558eb7167ea87228ac96a92a2e46c77f",
+      "bytes": 884160
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Matmul_Case0.json": {
+      "sha256": "f978856c7a99fb23aa6eccf9bab32530bce3b4361387fd432f2e76d3ea9d293e",
+      "bytes": 534909
+    },
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Matmul_Case1.json": {
+      "sha256": "87f2f6cc1020f9d247f305ab7ea8fbfe7ee6776c83a7e6b0e8207042d8f7bdb9",
+      "bytes": 4182237
+    },
+    "code/run_npu.py": {
+      "sha256": "8b449aab58a1d412cd480f226cded89f519be9253dd5c744ab850b7c1a980e0f",
+      "bytes": 5330
+    },
+    "code/interfaces/npu.py": {
+      "sha256": "927c1ad2772fa29b3a191925ca9cb4a0678652cd3ce2b64a3991b4c63d60c823",
+      "bytes": 1941
+    },
+    "code/solvers/npu_memory.py": {
+      "sha256": "523b0cc14ab99961e267ae77575261b8784a13dd62b10be29f230faa98b83d78",
+      "bytes": 3513
+    },
+    "code/solvers/npu_schedule.py": {
+      "sha256": "8f19735cc4be2ec1d66a9ac5afce1ae4504ca637b3eb404690070497dc4f967c",
+      "bytes": 4174
+    },
+    "code/validation/npu_replay.py": {
+      "sha256": "24081c90b8472144afdb18a30c4de8db320f10e5f38ba2774d812cdf895e1db2",
+      "bytes": 4935
+    }
+  },
+  "exit_code": 1,
+  "outputs": {},
+  "expected": [
+    "summary.json",
+    "audit.json",
+    "candidates.json",
+    "environment.json"
+  ],
+  "errors": [
+    "COMMAND_FAILED",
+    "OUTPUT_INVALID: summary.json: [Errno 2] No such file or directory: 'D:\\\\A_Projects\\\\10_Research\\\\math-contest-native\\\\results\\\\runs\\\\npu2025-a-001\\\\summary.json'",
+    "OUTPUT_INVALID: audit.json: [Errno 2] No such file or directory: 'D:\\\\A_Projects\\\\10_Research\\\\math-contest-native\\\\results\\\\runs\\\\npu2025-a-001\\\\audit.json'",
+    "OUTPUT_INVALID: candidates.json: [Errno 2] No such file or directory: 'D:\\\\A_Projects\\\\10_Research\\\\math-contest-native\\\\results\\\\runs\\\\npu2025-a-001\\\\candidates.json'",
+    "OUTPUT_INVALID: environment.json: [Errno 2] No such file or directory: 'D:\\\\A_Projects\\\\10_Research\\\\math-contest-native\\\\results\\\\runs\\\\npu2025-a-001\\\\environment.json'"
+  ],
+  "environment_note": "Inherited process environment; credentials are not recorded. Freeze domain dependencies separately.",
+  "finished_at": "2026-09-21T03:13:32.761560+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "run": "npu2025-a-005",
+  "font": "Microsoft YaHei",
+  "matplotlib": "3.9.4",
+  "numpy": "2.0.2",
+  "missing_glyph_warnings": [],
+  "figures": [
+    "peak",
+    "time",
+    "tradeoff",
+    "pipeline"
+  ],
+  "visual_review": "PASS: four figures inspected in final 11-page PDF"
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "jfs_zh_reference_v1",
+  "profile_sha256": "55d53b666e69492579c5dedd5e0ebef28c1c46d7b2d9fc3f9413a9719cc47e8f",
+  "kind": "convergence_validation",
+  "synthetic": true,
+  "provenance": {
+    "input": "deterministic synthetic functions in regression.py",
+    "seed": null,
+    "generator_sha256": "d14586448e0af31e465be74852621fd65ce1428c9503c0fed46bcdd21b6d224c",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "位": "SimSun",
+      "置": "SimSun",
+      " ": "SimSun",
+      "x": "STIXGeneral",
+      "/": "Times New Roman",
+      "L": "STIXGeneral",
+      "−": "Times New Roman",
+      "0": "Times New Roman",
+      ".": "Times New Roman",
+      "2": "Times New Roman",
+      "4": "Times New Roman",
+      "6": "Times New Roman",
+      "8": "Times New Roman",
+      "1": "Times New Roman",
+      "响": "SimSun",
+      "应": "SimSun",
+      "y": "STIXGeneral",
+      "D": "STIXGeneral",
+      "粗": "SimSun",
+      "网": "SimSun",
+      "格": "SimSun",
+      "基": "SimSun",
+      "准": "SimSun",
+      "细": "SimSun",
+      "解": "SimSun",
+      "析": "SimSun",
+      "s": "Times New Roman",
+      "i": "Times New Roman",
+      "n": "Times New Roman",
+      "(": "Times New Roman",
+      "π": "STIXGeneral",
+      ")": "Times New Roman"
+    },
+    "panel_count": 1,
+    "width_mm": 85.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT",
+      "FTXWZA+STIXGeneral-Italic"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.019332573970113634,
+      "svg_png_mean_absolute_error": 0.020412207480402202
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "E.pdf": "a5fd1cc37ab9529619c1f72b79cfbc4c2eebcdd0244264880aa453080a23b6be",
+    "E.svg": "e77d9ddf6a8424a84a916d91c402ac126940e9bf8a53a334d0b9ce4d0f22d48f",
+    "E.png": "75f58fe5bd9ccfe6f06214a7d18a25520feb337e6be69c5e91a9dd39a624c68b",
+    "E.gray.png": "c6143481e0f31f69b43192c9c45e844f60ef4774bec518f6e9f9c87e4482d598",
+    "E.caption.txt": "3f894182e2dbae768ecb31205711867fb09e9e449c44deed3aae32e8e5fbb625"
+  }
+}

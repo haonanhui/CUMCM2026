@@ -1,0 +1,9 @@
+{
+  "solver_run": "npu2025-a-005",
+  "analyses": [
+    "npu-paper-r2-analysis-001",
+    "npu-paper-r3-analysis-001"
+  ],
+  "pdf_sha256": "28eb3429c3bfe60d038d8a6383c07d721637044ff0a4a532ebe748d9aa66dbf7",
+  "verification": "reports/npu-r3-evidence/verification.json"
+}

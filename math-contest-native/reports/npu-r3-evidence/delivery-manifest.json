@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-21",
+  "rubric": "internal-v3",
+  "review_type": "self_review",
+  "quality": "REVIEWED_MINOR_EDITS",
+  "engineering": "PASS",
+  "submission_ready": false,
+  "files": [
+    {
+      "path": "docs/PAPER_WRITING_GUIDE.md",
+      "sha256": "1c1977885b6815f035d0aa3f19b6562fbd932598aa724c53dd1530ce89f1e81f"
+    },
+    {
+      "path": "docs/PAPER_QUALITY_STANDARD.md",
+      "sha256": "7bfe7fb1467be76d4166505e49dea517a3fed9a77f6b799ac2c7ee7bdfff5e3a"
+    },
+    {
+      "path": "docs/paper-quality/SCORING_ANCHORS.md",
+      "sha256": "c1fab21ba45fae30387a80254ccfb37b3b2cc531ca588288e532a26a26513690"
+    },
+    {
+      "path": ".agents/skills/5writing/SKILL.md",
+      "sha256": "2ca8a9b8b5153d7bf3d0ec659850a31ab46c011e77be2e5c8101a1971c2bb68d"
+    },
+    {
+      "path": ".agents/skills/6verity/SKILL.md",
+      "sha256": "8230acb94f1043aadd09daeb05ed5f94d167bf182221643d550fcfb5d0b17d4d"
+    },
+    {
+      "path": "reports/PAPER_QUALITY_REVIEW.md",
+      "sha256": "e6b95a99c9566e1ae34ae067f54cac10176d21f3f96e3c09e4d0ffecb6df5946"
+    },
+    {
+      "path": "reports/VERIFY_REPORT.md",
+      "sha256": "3777baf0edb724e1d237f96c10d60fe07dfeef16146f39234e38a9c3222c1d2c"
+    },
+    {
+      "path": "reports/NPU_REVISION3_RESULTS.md",
+      "sha256": "87c68ef52ba6e39794f779f9fa56a77f8f992d9614d7362b1b13764bf5379e59"
+    },
+    {
+      "path": "reports/PAPER_WRITING_PLAN.md",
+      "sha256": "93c42487474a12679e954508d92eb1c1ea5e2628ed8d371e668f199245a58d2e"
+    },
+    {
+      "path": "paper/NPU_2025_A_revision3.pdf",
+      "sha256": "28eb3429c3bfe60d038d8a6383c07d721637044ff0a4a532ebe748d9aa66dbf7"
+    }
+  ]
+}

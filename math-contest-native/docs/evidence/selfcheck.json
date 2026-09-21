@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "two independent runs reproduce known result",
+    "duplicate run refused",
+    "failed command and missing output preserved",
+    "output path escape refused",
+    "input mutation detected despite zero exit",
+    "empty expected coverage refused"
+  ],
+  "scientific_validation": "UNVERIFIED"
+}

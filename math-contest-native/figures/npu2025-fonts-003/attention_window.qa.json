@@ -1,0 +1,121 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "native_zh_12pt_v1",
+  "profile_sha256": "b4ae4266adca9b3d48b3b32a5b4affec8c255199a7b33ed989cb77f7d756466f",
+  "kind": "attention_window",
+  "synthetic": false,
+  "provenance": {
+    "inputs_sha256": {
+      "results/runs/npu-paper-r3-analysis-001/conv_id_trajectory.json": "091bfd8f2e09bbdc24a86db8c87da8f00494ed0d4192ea06b501fd629f95a525",
+      "results/runs/npu-paper-r3-analysis-001/conv_selected_trajectory.json": "927218b78a8124c9f9545d38567d11e667c5fe537af093278392d8bd712d37ef",
+      "results/runs/npu-paper-r3-analysis-001/conv_memory_trajectory.json": "c329f11b6330d8d6cbc67183f61a6c2b640235cefce2a5577e3545c47f2dc25c",
+      "results/runs/npu-paper-r3-analysis-001/attention_p2_occupancy.json": "840aea60727cae563fd7f80c30b51cc206c15ab2285bbb2a502fa33cc240d265",
+      "results/runs/npu2025-a-005/summary.json": "2a19d425e9e08712575789bb1b83355904316223401efe06465ea3d7c6d8d3ba",
+      "results/runs/npu-paper-r2-analysis-001/analysis.json": "621573d3b6df101592244d8b9e97531b0eda23211c9fac0d221b44cb58b5794f",
+      "results/runs/npu-paper-r2-analysis-001/attention_p2_timeline.json": "a95c10b21257992093cb277b98487be02f1ba87ede4dd42d549e04a0ebb20b81",
+      "results/runs/npu-paper-r2-analysis-001/attention_p3_timeline.json": "4affbfc16eb69adc3e9bde3a5ba491cdb589f23d6bd6d80162826fd07cdc7c6b",
+      "results/runs/npu-paper-r3-analysis-001/attention_p2_detail.json": "42f0a13e5450a01762c97248f83763a13920ca4ceae2519b520995195bd3445a",
+      "results/runs/npu-paper-r3-analysis-001/attention_p3_detail.json": "74d3e85475bd58f642d092b29f5c5dd4148764c4e40a6656c8e486bc2d1bca8d"
+    },
+    "source_script": "scripts/redraw_npu_figures.py",
+    "source_sha256": "cbf75127dedaae5cd919623eee72bfe8456a7a160e15644b1b7dfce967b6790d",
+    "original_scripts": {
+      "scripts/figures_npu_revision2.py": "b7aa5f0f07e61f86eac82b20aba947d856f0e5935c44f49d502fc95f0c2258f9",
+      "scripts/figures_npu_revision3.py": "e631916800b5da946a3dfb867cd206c6cec760c934774c78c97f515c45bf7def"
+    },
+    "processing": "Same recorded arrays, windows, units and reduction formula as original scripts.",
+    "paper_width_mm": 165,
+    "embedding_scale": 1.0
+  },
+  "artist": {
+    "status": "FAIL",
+    "failures": [
+      {
+        "category": "legend",
+        "detail": "overlaps annotation text"
+      },
+      {
+        "category": "legend",
+        "detail": "overlaps annotation text"
+      }
+    ],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "(": "Times New Roman",
+      "a": "Times New Roman",
+      ")": "Times New Roman",
+      "1": "Times New Roman",
+      "3": "Times New Roman",
+      "6": "Times New Roman",
+      "7": "Times New Roman",
+      "2": "Times New Roman",
+      "执": "SimSun",
+      "行": "SimSun",
+      "时": "SimSun",
+      "间": "SimSun",
+      "（": "SimSun",
+      "周": "SimSun",
+      "期": "SimSun",
+      "）": "SimSun",
+      "8": "Times New Roman",
+      "0": "Times New Roman",
+      "9": "Times New Roman",
+      "输": "SimSun",
+      "入": "SimSun",
+      "搬": "SimSun",
+      "运": "SimSun",
+      "级": "SimSun",
+      "矩": "SimSun",
+      "阵": "SimSun",
+      "计": "SimSun",
+      "算": "SimSun",
+      "向": "SimSun",
+      "量": "SimSun",
+      "出": "SimSun",
+      "结": "SimSun",
+      "果": "SimSun",
+      "原": "SimSun",
+      "始": "SimSun",
+      "操": "SimSun",
+      "作": "SimSun",
+      "换": "SimSun",
+      "b": "Times New Roman"
+    },
+    "panel_count": 2,
+    "width_mm": 165.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.016870483846242817,
+      "svg_png_mean_absolute_error": 0.02261862750202995
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "FAIL",
+  "files": {
+    "attention_window.pdf": "7d8bdb0430e6a6e28dc4d9aa718d97b23775120c4c41b4e963e3f09f3385769b",
+    "attention_window.svg": "6297b79291ed33a827b3da7bc4a91c59119fa6abf51ac26d1f9d834b6d17659f",
+    "attention_window.png": "9a13c0314b2c1a58034aa4225de3da2f0ecc2702a7fea6707cc3043a80a80085",
+    "attention_window.gray.png": "787b58e340dab7edff27040f0e2f5ee458458db46bc59a96fd5f6a8b12bfdda1",
+    "attention_window.caption.txt": "68d88d3c56a7bd4753c51a5107d218c5afaf4ca441f82369bfde60787cfabde4"
+  }
+}

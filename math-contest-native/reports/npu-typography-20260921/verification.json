@@ -1,0 +1,894 @@
+{
+  "sha256": "ebfe4b6f2105ba070e75676e8aa059f880acc97e09394fbd87c89da6bcb7b6cf",
+  "pages": [
+    {
+      "page": 1,
+      "body_gaps_bp": [
+        [
+          19.87,
+          8
+        ],
+        [
+          19.88,
+          2
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimHei",
+          16.0,
+          1
+        ],
+        [
+          "SimSun",
+          12.0,
+          38
+        ]
+      ],
+      "outside": [],
+      "text_start": "      基于驻留段约束的缓存与流水协同优化\n\n                  摘 要\n\n\n针对通用神经网络处理器中拓扑依赖、有限连续缓存与多执行单元并行的耦合，建立以生\n\n命周期收缩、驻留段分配和固定驻留图重排为核心的调度方法。在六个题面计算图上，分\n",
+      "text_end": "力集中位置与地址链结构共同影响三问的优化收益。\n\n结果适用于六个题面计算图和本文采用的驻留段复用模型。\n\n关键词：有向无环图；生命周期；连续地址分配；换入换出；流水调度\n\n\n\n\n\n                                       1"
+    },
+    {
+      "page": 2,
+      "body_gaps_bp": [
+        [
+          19.87,
+          10
+        ],
+        [
+          19.88,
+          3
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimHei",
+          14.0,
+          2
+        ],
+        [
+          "SimSun",
+          12.0,
+          24
+        ]
+      ],
+      "outside": [],
+      "text_start": "              一、问题重述\n\n  题目将算子细化为由原子指令构成的有向无环图，节点包括指定执行单元上的操作，\n\n以及缓冲区申请和释放操作[1]。每个缓冲区只属于一种缓存，需占据长度确定的连续地\n\n址区间。不同执行单元可以并行工作，同一执行单元只能",
+      "text_end": "se0         4160     7104\n\n                      Matmul_Case1        30976    55040\n\n\n\n\n\n                                        2"
+    },
+    {
+      "page": 3,
+      "body_gaps_bp": [
+        [
+          19.87,
+          8
+        ],
+        [
+          19.88,
+          2
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          41
+        ]
+      ],
+      "outside": [],
+      "text_start": "2.2 操作规模与缓冲区共享\n\n  节点总数包含申请与释放。每个缓冲区恰有一对管理节点，因此操作数满足|Vo| =\nN −2|B|。表2 把真正占用执行单元的操作与缓冲区分别计数，其中“多使用者对象”表\n\n示被至少两个操作引用的缓冲区，使用者同时包括生产与消费",
+      "text_end": "由不同硬件单元承担，但后一阶段仍须等待所需数据及缓存地址同时就绪。后文选择\n\n注意力小图展示局部时间窗，是因为同一窗口能够观察矩阵计算、级间搬运和向量计算的\n\n先后关系。\n\n\n\n\n                                       3"
+    },
+    {
+      "page": 4,
+      "body_gaps_bp": [
+        [
+          19.87,
+          16
+        ],
+        [
+          19.88,
+          4
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          35
+        ],
+        [
+          "SimHei",
+          14.0,
+          1
+        ]
+      ],
+      "outside": [],
+      "text_start": "  六图具有不同的操作组成，求解过程仍统一读取节点的执行单元、周期和缓冲区属性。\n\n操作名称用于识别管理节点及题面规定的输入复制计费，其余排序与分配由图结构和资源\n\n状态确定。这样可以在同一组规则下比较不同计算图，避免将某一图的结果建立在专门编\n\n写的顺序上。",
+      "text_end": "命则持续\n\n到原始释放节点。本文将两者区分为逻辑生命周期与物理驻留段：申请或换入开启一段驻\n\n留，释放或换出结束该段。新驻留段必须等待所复用旧段的结束。若仍以最终释放节点约\n\n\n\n                                       4"
+    },
+    {
+      "page": 5,
+      "body_gaps_bp": [
+        [
+          19.87,
+          5
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          38
+        ],
+        [
+          "SimHei",
+          14.0,
+          2
+        ]
+      ],
+      "outside": [],
+      "text_start": "束换出期间的所有复用，可能人为形成依赖环，无法表达题面允许的换出机制。因此驻留\n\n段是本文对该情形的明确补充解释；与未提供的官方评测程序的一致性尚不能确证。\n\n  换出目标曾被任一输入复制节点引用时，按题面规定只计换入搬运量，换出时间为零；\n\n不自行判断数据是",
+      "text_end": "模型与下界\n\n  一个缓冲区在申请后持续占用逻辑缓存，直到全部使用结束并执行释放。调度的作用\n\n是改变这些区间的相互重叠：过早申请会延长区间，过晚释放会保留已经无用的数据，而\n\n\n                                       5"
+    },
+    {
+      "page": 6,
+      "body_gaps_bp": [
+        [
+          19.87,
+          9
+        ],
+        [
+          19.88,
+          1
+        ],
+        [
+          21.67,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          36
+        ]
+      ],
+      "outside": [],
+      "text_start": "不同计算分支的交错还会改变末次使用位置。因此本问先处理管理节点的可移动性，再搜\n\n索操作节点的相对顺序。\n\n  问题一只优化节点顺序，不给缓冲区设置物理偏移，也不加入换入换出。缓冲区从申\n\n请后到释放前始终计入驻留量。对一个节点置换π，定义处理完序列第k 个节",
+      "text_end": "6)\n\n释放发生在操作之后。即使env −drealv 很小，本步也可能先经历较大的申请峰值。这一区别\n是局部净增量与全局峰值不能直接等同的原因，也是保留完整重放评价的依据。\n\n\n                                       6"
+    },
+    {
+      "page": 7,
+      "body_gaps_bp": [
+        [
+          19.87,
+          10
+        ],
+        [
+          19.88,
+          2
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          40
+        ]
+      ],
+      "outside": [],
+      "text_start": "5.2 固定操作顺序下的生命周期收缩\n\n  题面规定申请节点为根、释放节点为叶，六图均满足这一结构。固定非管理操作的相\n\n对顺序后，一个申请必须早于其所有显式后继以及所有引用该缓冲区的操作。称其中最早\n\n出现的节点为首次需求节点。相应地，释放必须晚于全部显式前",
+      "text_end": "       Aa u Ab v Fa Ac w Fb  Fc\n\n                          4  4  7  7  3  8  8  5  0\n\n\n\n\n\n                                       7"
+    },
+    {
+      "page": 8,
+      "body_gaps_bp": [
+        [
+          19.87,
+          10
+        ],
+        [
+          19.88,
+          4
+        ],
+        [
+          18.07,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          50
+        ]
+      ],
+      "outside": [],
+      "text_start": "  操作w 同时需要大小为3 和5 的两个对象，所以LH = 8。表中峰值恰为8，因而这一\n构造例的最优值为8。对其全部合法拓扑序进行递归枚举，共得到126 个序列，其中120\n\n个峰值为12，6 个峰值为8，与下界及手算一致。枚举过程中每次只从全部前驱已输出",
+      "text_end": "止条件\n\n  算法的输入是图、窗口W 和释放权重α，输出是包含全部原节点的序列。状态由已输\n\n出节点集合、操作剩余入度、就绪集合、逻辑活跃对象和剩余使用次数组成。操作剩余入\n\n\n\n                                       8"
+    },
+    {
+      "page": 9,
+      "body_gaps_bp": [
+        [
+          19.87,
+          7
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          54
+        ]
+      ],
+      "outside": [],
+      "text_start": "度只统计操作间的边；管理依赖在输出申请和释放时单独检查。逆拓扑遍历预先计算下游\n\n周期长度，用于评分相同时优先处理后续链条较长的操作。\n\n  每次迭代先从就绪集合构造候选窗口，按所选评分确定操作v。随后插入v 尚缺的缓\n\n冲区申请，以及指向v 而尚未输出的其他",
+      "text_end": "价。\n\n5.6 六图峰值与解质量\n\n  表6 同时给出收缩后编号基准、选定峰值及式(5) 的下界。比值H1/LH 是相对一个可\n\n计算下界的比值，不是已知的最优性误差。\n\n\n\n\n\n                                       9"
+    },
+    {
+      "page": 10,
+      "body_gaps_bp": [
+        [
+          19.87,
+          3
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          27
+        ]
+      ],
+      "outside": [],
+      "text_start": "             表6: 驻留峰值与同时使用下界（题面容量单位）\n\n           计算图         Hid   H1  LH H1/LH\n\n           卷积小图    7560  6984 3144    2.22\n\n     ",
+      "text_end": "轴为已处理的原始节点位置，纵轴为所有类型容量之和。\n\n同一横坐标表示相同的已处理节点数量，两种序列在该位置的具体节点可以不同；因此比\n\n较首先围绕各自的峰值及组成展开。\n\n\n\n\n\n                                      10"
+    },
+    {
+      "page": 11,
+      "body_gaps_bp": [
+        [
+          19.87,
+          2
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          43
+        ]
+      ],
+      "outside": [],
+      "text_start": "    (a)\n                              编号基准          30000\n                              选定深度优先\n                              局部缓存贪",
+      "text_end": "是伴随另一缓存类型的大量逻辑对\n\n 象同时存续。问题一尚未进行物理分配，16384 表示该顺序要求的逻辑驻留量；后续引入\n\n 物理容量时，必须通过换入换出处理这种压力。\n\n\n                                         11"
+    },
+    {
+      "page": 12,
+      "body_gaps_bp": [
+        [
+          19.87,
+          10
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          37
+        ],
+        [
+          "SimHei",
+          14.0,
+          1
+        ]
+      ],
+      "outside": [],
+      "text_start": "  这与净增量评分的结构相吻合。评分针对当前就绪操作计算首次需求与释放潜力，未\n\n显式惩罚某一类型已积累的大量活跃对象。连续选择单步代价较低的操作，可能保留许多\n\n还需其他分支使用的中间缓冲区。图中的高峰和对象数量为这一风险提供了具体过程证\n\n据，因而候选筛选",
+      "text_end": "因此这些选择共同构成可行域。缓存\n\n容量分别为CL1 = 4096、CUB = 1024、CL0A = CL0B = 256、CL0C = 512，类型之间不能\n\n借用空间。\n\n\n                                      12"
+    },
+    {
+      "page": 13,
+      "body_gaps_bp": [
+        [
+          19.87,
+          3
+        ],
+        [
+          19.88,
+          2
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          56
+        ]
+      ],
+      "outside": [],
+      "text_start": "  每个缓冲区在任一序列位置处于四种状态之一：未申请、驻留、已换出、已释放。合\n\n法状态迁移为\n\n\n                                         SPILL_OUT\n       未申请 −−−−→驻留ALLOC    ⇄ ",
+      "text_end": "。两种情形都可能通过换出释放空间，但牺牲对象的位置决定释放后能\n\n否合并成足够长的区间。后文的距离评分按对象选牺牲者，连续区间扫描负责确认每次牺\n\n牲是否已经达到分配条件。\n\n\n                                       13"
+    },
+    {
+      "page": 14,
+      "body_gaps_bp": [
+        [
+          19.87,
+          13
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          42
+        ]
+      ],
+      "outside": [],
+      "text_start": "  最佳适配枚举所有长度不小于s 的空闲段，选择长度最小的一段，并从该段起始位置\n\n分配；长度相同再取较低地址。其直接效果是使本次分配在所选空闲段内留下的余量较小，\n\n较长空闲段可以暂时保留给后续较大对象。未来申请和释放可能改变区间结构，因此每次\n\n仍重新计算",
+      "text_end": "j 次从零编号时使用N + 2j, N + 2j + 1，并保持原始节点各出现一次。\n\n未来使用队列的预处理为O(N + Q)。计入容量扫描、牺牲对象扫描及恢复时的对象排序，\n\n\n                                      14"
+    },
+    {
+      "page": 15,
+      "body_gaps_bp": [
+        [
+          19.87,
+          11
+        ],
+        [
+          19.88,
+          2
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          66
+        ]
+      ],
+      "outside": [],
+      "text_start": "分配阶段的保守时间界为O((N + M)(C + |B| + K log(K + 1)) + Q)，其中C = maxt Ct；\n显式恢复增加的工作已包含在实际M 内，不将其当作常数开销。\n\n6.4 一次分配的决策计算与恢复示例\n\n  未来使用信息来自已经给定",
+      "text_end": "关类型后，大小递减装入的任一前缀总长不超过完整必\n\n需集合总长，故各次申请都可放在剩余连续后缀中。处理完本操作再进入下一节点，整个\n\n原始序列有限，从而输出完整有限方案。\n\n\n\n\n                                      15"
+    },
+    {
+      "page": 16,
+      "body_gaps_bp": [
+        [
+          19.87,
+          3
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          44
+        ]
+      ],
+      "outside": [],
+      "text_start": "6.5 搬运量结果及策略取舍\n\n  问题二在编号、三组缓存贪心及两种深度优先顺序上，各比较两种换出评分，共十二\n\n个候选。按D 最小选择，平局取较小执行时间。表8 的编号基准采用相同生命周期收缩、\n\n最佳适配和距离评分，使比较反映顺序与牺牲规则的组合变化，而不",
+      "text_end": "，重复事件数定义为M −Bs。\n这两个统计量分别反映空间类型和同一对象被反复移出的程度。表9 给出问题二方案的实\n\n际结果，其他零级缓存类型的额外搬运量在六图中均为零。\n\n\n\n\n\n                                      16"
+    },
+    {
+      "page": 17,
+      "body_gaps_bp": [
+        [
+          19.87,
+          4
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          52
+        ]
+      ],
+      "outside": [],
+      "text_start": "                 表9: 额外搬运的缓存类型与重复事件\n\n       计算图       DL1  DUB 不同对象重复事件最大次数\n\n       卷积小图    44766     0       28       28        5",
+      "text_end": "的占用量；虚线表示相应物理容量。每次申请或换入使占用上\n\n升，每次释放或换出使占用下降。此图用于观察逻辑序列中的空间状态，执行周期上的等\n\n待将在下一节通过流水图分析。\n\n\n\n\n\n                                      17"
+    },
+    {
+      "page": 18,
+      "body_gaps_bp": [],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          28
+        ]
+      ],
+      "outside": [],
+      "text_start": "  (a)\n         4000\n\n         3000\n\n         2000\n\n         1000                             驻留量（容量单位）\n            0\n             ",
+      "text_end": "648) 换出，占用降至780，再在同一区间申请对象87，占用回到908。节点\n\n1716 对应这次换出，节点171 对应对象87 的原始申请。具体位置与地址见表10。\n\n\n\n\n\n                                      18"
+    },
+    {
+      "page": 19,
+      "body_gaps_bp": [
+        [
+          19.87,
+          2
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          36
+        ],
+        [
+          "SimHei",
+          14.0,
+          1
+        ]
+      ],
+      "outside": [],
+      "text_start": "              表10: 注意力小图首个换出附近的统一缓存事件\n\n        位置节点操作对象大小偏移事后占用\n\n                    234  170 申请   86  128  648      908\n\n        ",
+      "text_end": "      (15)\n\n并保留问题二的全部拓扑、驻留和地址约束。本文将题面“不显著增加”具体化为零增量\n\n预算，以问题二选定方案的搬运量作为上限，在这一条件下优化完成时间。\n\n\n\n                                      19"
+    },
+    {
+      "page": 20,
+      "body_gaps_bp": [
+        [
+          19.87,
+          13
+        ],
+        [
+          18.07,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          43
+        ]
+      ],
+      "outside": [],
+      "text_start": "  构造驻留依赖图GR = (VR, ER)。除原始边外，段开始节点指向该段使用者，全部使用\n\n者指向段结束节点，换出指向配对换入。逐地址单元跟踪上次结束驻留的节点；再次占用\n\n时，添加从旧段结束到新段开始的边。若连续多个段使用同一地址，只需连接相邻段，前\n\n",
+      "text_end": "，式(12) 的每一项随之不变，故固定驻留图重排严格保\n\n持D。这一性质比事后观察搬运量相同更强，但只适用于固定事件集合的阶段；地址重分\n\n配本身仍须单独接受预算检查。\n\n\n\n\n\n                                      20"
+    },
+    {
+      "page": 21,
+      "body_gaps_bp": [
+        [
+          19.87,
+          12
+        ],
+        [
+          19.88,
+          3
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          57
+        ]
+      ],
+      "outside": [],
+      "text_start": " 7.3 驻留依赖的局部构造与时间小例\n\n   以问题二中对象78 到对象87 的地址复用为例。对象78 在偏移520 驻留，换出节点1716\n\n关闭其当前驻留段；对象87 的申请节点171 随后占用相同区间。因此构造边1716 →171。\n\n 对象78 在该",
+      "text_end": "\n\n无后继时最大项取零。每个执行单元维护以rv 降序排列的就绪队列，管理节点就绪后立\n即处理。比较两种选择：其一在各队首中选择估计可开始时间最早者，同分优先较大的rv；\n\n\n\n\n                                       21"
+    },
+    {
+      "page": 22,
+      "body_gaps_bp": [
+        [
+          19.87,
+          13
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          44
+        ]
+      ],
+      "outside": [],
+      "text_start": "其二直接优先较大的rv。新顺序必须再次通过完整依赖与地址重放，只有真实T 下降才替\n\n换原方案。\n\n  调度优先级借鉴HEFT 的向上秩思想[4]。本题将执行单元作为节点的给定属性，以\n固定节点时长和驻留依赖计算式(18)。较大的rv 表示从当前节点出发还有较",
+      "text_end": "搬运量需显式比较；第二层\n\n固定事件和地址链，在结构上保持搬运量。每次新时间表仍以独立重放检查地址使用、原\n\n始依赖和单元互斥，只有满足预算且时间更短时才更新当前方案。\n\n\n\n\n\n                                      22"
+    },
+    {
+      "page": 23,
+      "body_gaps_bp": [
+        [
+          19.88,
+          2
+        ],
+        [
+          19.87,
+          1
+        ],
+        [
+          21.68,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          51
+        ]
+      ],
+      "outside": [],
+      "text_start": "                   表11: 问题三候选生成与接受条件\n\n  阶段      可改变的决策         接受条件\n\n  扩展候选    操作顺序、地址起点及牺牲事件空间时间可行，D ≤D2\n\n  固定驻留重排  既定结构边下各单元相对顺序",
+      "text_end": "省21057，两条支路的最终时间\n\n相差13695 周期。矩阵乘大图也呈现扩展后再重排更优的次序，说明在这两个实例中，起\n\n点所保留的地址关系对后续列表调度具有实际影响。\n\n\n\n\n                                      23"
+    },
+    {
+      "page": 24,
+      "body_gaps_bp": [
+        [
+          19.87,
+          3
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          44
+        ]
+      ],
+      "outside": [],
+      "text_start": "   为比较各算例的相对优化收益，图3 统一以各图自己的T2 为分母，纵轴为100(T2 −\n T)/T2。相同百分比表示相对于各自基准节省的时间比例，绝对周期数由表12 给出。\n\n\n\n          扩展候选后\n          固定驻留图重排后   ",
+      "text_end": "= 100 (T3/LR −1) %.             (20)\n                                              p\n\n\n\n\n                                       24"
+    },
+    {
+      "page": 25,
+      "body_gaps_bp": [
+        [
+          19.87,
+          5
+        ],
+        [
+          21.67,
+          1
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          43
+        ]
+      ],
+      "outside": [],
+      "text_start": "证明只需注意两点：任一依赖路径必须串行完成，同一单元的全部工作也不能相互重叠。\n\n取二者最大值不超过任何合法总时间。加入已选单元排序边虽会得到更长路径，却把搜索\n\n决策固定成现有答案，不能再用来证明其他单元顺序也必须如此缓慢。\n\n   表13 列出三个层次。g",
+      "text_end": " MTE2  152438     78.44     87.98\n\n       矩阵乘大图        MTE2 1628000     90.44     93.04\n\n\n                                      25"
+    },
+    {
+      "page": 26,
+      "body_gaps_bp": [
+        [
+          19.87,
+          4
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          44
+        ]
+      ],
+      "outside": [],
+      "text_start": "  注意力大图的向量单元从46.46% 提升至69.74%，工作量仍为104960 周期，改善来自\n\n总时间窗口的收缩。矩阵乘大图的输入搬运单元由90.44% 升至93.04%，其1628000 周期\n\n的工作量形成较强限制。在保持这份搬运事件集合时，总时间至",
+      "text_end": "从47509 降至37744 周期，向量单元忙碌比例从\n\n53.88% 升至67.83%。完整流水反映多个阶段的重叠与最终完成窗口，局部依赖则在下一\n\n小节的放大图中展开。\n\n\n\n                                      26"
+    },
+    {
+      "page": 27,
+      "body_gaps_bp": [
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          54
+        ]
+      ],
+      "outside": [],
+      "text_start": "7.8 注意力局部窗口：依赖就绪如何传递\n\n   选择8500 至11500 周期的共同时间窗，图5 放大两份方案。横轴保持相同尺度，原\n\n始操作与新增搬运分色表示，并标注向量单元相关节点136、173 及节点173 的紧前依赖\n\n172。该窗口来自原时间表截",
+      "text_end": " 周期结束，节点172 所决定的结构就绪时刻提前到10054，\n\n节点173 随即执行至10364。该处空隙为10054 −8632 = 1422 周期，比原方案减少139。\n\n\n                                      27"
+    },
+    {
+      "page": 28,
+      "body_gaps_bp": [
+        [
+          19.87,
+          4
+        ],
+        [
+          19.88,
+          2
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          49
+        ],
+        [
+          "SimHei",
+          14.0,
+          1
+        ]
+      ],
+      "outside": [],
+      "text_start": "与此同时，节点173 本身开始时刻提前747 周期，这一提前量包括前序过程整体前移和局\n\n部空隙缩短两部分。由此，局部等待变化与累计完成提前量能够分别解释。\n\n                 表15: 向量节点的直接等待条件（周期）\n\n         节点",
+      "text_end": "数。为分离窗口影响，表\n\n16 只比较释放权重α = 1、距离换出、最佳适配都固定时的W = 32 和W = 128。HW 是\n原始序列峰值，DW 是随后分配的额外搬运量。\n\n\n\n                                      28"
+    },
+    {
+      "page": 29,
+      "body_gaps_bp": [
+        [
+          19.87,
+          11
+        ],
+        [
+          19.88,
+          2
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          55
+        ]
+      ],
+      "outside": [],
+      "text_start": "                   表16: 固定其他规则时的窗口对照\n\n       计算图        H32    H128    D32    D128 顺序相同\n\n       卷积小图    21762  21762  95564  95564",
+      "text_end": "4 的输入复制缓冲区，一次换出搬运量为4，换入耗时为2 × 4 + 150 = 158；\n\n按测试给定的其他操作和依赖，完整总时间为188。对应非输入复制对象，搬运量为8，两\n\n\n                                      29"
+    },
+    {
+      "page": 30,
+      "body_gaps_bp": [
+        [
+          19.87,
+          12
+        ],
+        [
+          19.88,
+          4
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          49
+        ],
+        [
+          "SimHei",
+          14.0,
+          1
+        ]
+      ],
+      "outside": [],
+      "text_start": "次搬运各耗时158，完整时间为346。这些手算测试覆盖零耗时换出和双向计费。再分别\n\n注入地址重叠、拓扑逆序、越界偏移及节点重复，检查程序均拒绝对应附件。拒绝非法输\n\n入只是验证的一部分，不替代对合法实例的数学建模判断。\n\n8.3 解释边界与尚未解决的问题\n\n",
+      "text_end": "  过程分析进一步给出这些方向的具体依据。卷积小图的选定峰值由一级缓存6912 与\n\n零级右输入缓存72 组成，局部缓存贪心却在零级右输入缓存积累了16384 的逻辑需求；矩\n\n\n                                      30"
+    },
+    {
+      "page": 31,
+      "body_gaps_bp": [
+        [
+          19.87,
+          5
+        ],
+        [
+          19.88,
+          1
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimSun",
+          12.0,
+          17
+        ],
+        [
+          "SimHei",
+          14.0,
+          1
+        ]
+      ],
+      "outside": [],
+      "text_start": "阵乘大图的3600 次换出涉及255 个不同对象，反复恢复是当前方案的重要开销；注意力\n\n小图在固定搬运量条件下，多处向量节点的依赖等待缩短并向后传播，最终完成窗口减少\n\n9765 周期。这些结果把汇总指标落实到实际对象、事件及时间窗口。\n\n  方法的主要价值",
+      "text_end": "/sysFile/downFile.do?fileId=\n\n    e3edba52b87c4bf7922f737c35c14b74. 访问日期：2026-09-21.\n\n\n\n\n\n                                      31"
+    },
+    {
+      "page": 32,
+      "body_gaps_bp": [
+        [
+          19.87,
+          6
+        ]
+      ],
+      "cjk_fonts": [
+        [
+          "SimHei",
+          14.0,
+          2
+        ],
+        [
+          "SimSun",
+          12.0,
+          14
+        ]
+      ],
+      "outside": [],
+      "text_start": "          附录A 复算与人工智能使用说明\n\n  支撑材料给出三问的完整调度文本。问题一只含原始节点顺序；问题二、三分别提供\n\n扩展节点顺序、初始地址偏移与按换出顺序列出的新偏移。新增节点每对由换出及换入组\n\n成，重新排列后也保持列表与节点编号一致。复",
+      "text_end": "识和版本发布日期未核实，参赛队员独立复核尚未完成。若用于\n\n参赛，队员需依据适用规定理解并核验相关内容，以自身语言形成最终文本，并补齐真实\n\n工具记录与使用声明[5]。\n\n\n\n\n\n                                      32"
+    }
+  ],
+  "unchanged_tex": {
+    "abstract.tex": true,
+    "references.tex": true,
+    "captions\\attention_compare.tex": true,
+    "captions\\attention_occupancy.tex": true,
+    "captions\\attention_window.tex": true,
+    "captions\\conv_trajectory.tex": true,
+    "captions\\stage_gain.tex": true,
+    "sections\\1_restatement.tex": true,
+    "sections\\2_analysis.tex": true,
+    "sections\\3_assumptions.tex": true,
+    "sections\\4_symbols.tex": true,
+    "sections\\5_problem1.tex": true,
+    "sections\\6_problem2.tex": true,
+    "sections\\7_problem3.tex": true,
+    "sections\\8_sensitivity.tex": true,
+    "sections\\9_evaluation.tex": true,
+    "sections\\A_code.tex": true,
+    "tables\\bounds.tex": true,
+    "tables\\peaks.tex": true,
+    "tables\\peak_composition.tex": true,
+    "tables\\sensitivity.tex": true,
+    "tables\\spill_types.tex": true,
+    "tables\\stages.tex": true,
+    "tables\\structure.tex": true,
+    "tables\\traffic.tex": true,
+    "tables\\utilization.tex": true
+  },
+  "warnings": [
+    "Package xeCJK Warning: Redefining CJKfamily `\\CJKrmdefault' (SimSun(0))."
+  ],
+  "all_fonts_embedded": true,
+  "fonts": [
+    "FZCOXY+SimHei",
+    "KAESKB+SimSun",
+    "LJJUGG+TimesNewRomanPSMT",
+    "WBYMLR+TimesNewRomanPS-BoldMT",
+    "AAOBEI+SimSun",
+    "DTGYVH+CMSY10",
+    "LSNTHS+CMMI12",
+    "QFAICK+CMMI8",
+    "TLTDUV+CMR12",
+    "DQURKC+CMR8",
+    "SBEJVQ+CMSY8",
+    "FFNCPF+CMEX10",
+    "EMWLRE+CMMI6",
+    "BHJLVU+SimSun",
+    "BHPGQY+TimesNewRomanPSMT",
+    "TESGVW+MSAM10",
+    "UGLWWJ+MSBM10",
+    "BHJLVU+SimSun",
+    "BHPGQY+TimesNewRomanPSMT",
+    "BHJLVU+SimSun",
+    "BHPGQY+TimesNewRomanPSMT",
+    "BHJLVU+SimSun",
+    "BHPGQY+TimesNewRomanPSMT",
+    "BHJLVU+SimSun",
+    "BHPGQY+TimesNewRomanPSMT"
+  ],
+  "figure_artifacts_unchanged": {
+    "attention_occupancy.caption.txt": true,
+    "attention_compare.gray.png": true,
+    "conv_trajectory.gray.png": true,
+    "stage_gain.pdf": true,
+    "attention_window.caption.txt": true,
+    "attention_occupancy.pdf": true,
+    "conv_trajectory.pdf": true,
+    "attention_compare.svg": true,
+    "conv_trajectory.qa.json": true,
+    "plotted-data.json": true,
+    "conv_trajectory.svg": true,
+    "attention_occupancy.png": true,
+    "stage_gain.svg": true,
+    "manifest.json": true,
+    "attention_compare.png": true,
+    "stage_gain.gray.png": true,
+    "conv_trajectory.caption.txt": true,
+    "attention_compare.pdf": true,
+    "attention_occupancy.qa.json": true,
+    "stage_gain.caption.txt": true,
+    "attention_window.svg": true,
+    "stage_gain.qa.json": true,
+    "attention_compare.caption.txt": true,
+    "attention_occupancy.svg": true,
+    "conv_trajectory.png": true,
+    "attention_window.qa.json": true,
+    "attention_compare.qa.json": true,
+    "attention_occupancy.gray.png": true,
+    "attention_window.png": true,
+    "attention_window.pdf": true,
+    "stage_gain.png": true,
+    "attention_window.gray.png": true
+  },
+  "source_tex_sha256": {
+    "paper\\typography-revision\\abstract.tex": "cb9514da9e4475b9306340323adb2f8eecb0591d2de69eb2f3c40e2bd4f3f16d",
+    "paper\\typography-revision\\main.tex": "4709e5e65dec1f95e614d01a72445bce040ca4f16122f2d56893053c79ec883f",
+    "paper\\typography-revision\\references.tex": "62a2f21358775f11749711b48ab150e73a01eb0e5084402c32c1f05874619de2",
+    "paper\\typography-revision\\captions\\attention_compare.tex": "702d9c8b71a38a4a0d337fc42990a18e388ce25e110badfc4567a25a46369f28",
+    "paper\\typography-revision\\captions\\attention_occupancy.tex": "b0b0aec27ae8a9074adcf6759977cbb7dc0532e85827e5536ccf245a4c576340",
+    "paper\\typography-revision\\captions\\attention_window.tex": "7556a26a86a1bb86ce34cc6885f03603df5b8c22f6a8166a0f154b5035816243",
+    "paper\\typography-revision\\captions\\conv_trajectory.tex": "3b6c02d3c728ee7c01e6d965adef8bb80b1fe2b590a34581191f24827f732a59",
+    "paper\\typography-revision\\captions\\stage_gain.tex": "25a0abdbace3f96542206746a87135220f20c830223d22a72710c858d01294dd",
+    "paper\\typography-revision\\sections\\1_restatement.tex": "b324675ee3802278c4e6199b267498bb9d7018bf764d06578c4697f10b9a1842",
+    "paper\\typography-revision\\sections\\2_analysis.tex": "428fed433b866e62e19e966da7e00932c26b50e0e0aba9a16f853c360b56ea5b",
+    "paper\\typography-revision\\sections\\3_assumptions.tex": "232bba7fa815da720d0e9b897723be92e57682d554319f3cce93954ee46431b7",
+    "paper\\typography-revision\\sections\\4_symbols.tex": "2eae376c9993b0f0fc647e833b9943466debbbab41d28dce49cb533459924fce",
+    "paper\\typography-revision\\sections\\5_problem1.tex": "87acc514b112bcea458b1a67c838f54d73420a777f9ad8445c0139c14715b920",
+    "paper\\typography-revision\\sections\\6_problem2.tex": "4b27c5f322a762c48b0dbe9b2f129fe052416c6ccdd3bb3a422a117b33ff6252",
+    "paper\\typography-revision\\sections\\7_problem3.tex": "3e5e5738934318e95fdaa43e5f4e06a2ae8f5877c8d76fe2a189c9195119db9d",
+    "paper\\typography-revision\\sections\\8_sensitivity.tex": "caa65a8f8dcda3869f70a29f14fac1f5d141d607284ac0f508a0945db4a00d4a",
+    "paper\\typography-revision\\sections\\9_evaluation.tex": "df7f0bfe28f850057d80872d1c525707acc66b264a2dd00c5fcfc9895c77edc4",
+    "paper\\typography-revision\\sections\\A_code.tex": "265d34ddf842b4ba0b10763c9efcdd5ee8f509949a6d6085f69a868134226411",
+    "paper\\typography-revision\\tables\\bounds.tex": "a7873f727ceafe30ff02d7cd07c9b35681b2b5e993f02337d7a17fdd33e27e62",
+    "paper\\typography-revision\\tables\\peaks.tex": "2ee0d71defb5a76f185e5573e0523d9e4228c54c6bb70943f7f28bbb53d3c92a",
+    "paper\\typography-revision\\tables\\peak_composition.tex": "14fc1ab21a4d233c6ccbf1ffc66c094ad15bcb49431a2e9224223631191e35e0",
+    "paper\\typography-revision\\tables\\sensitivity.tex": "766074fb27d4e74ba8c95f9e13e7d0015e6f81b671d588fcb6a9e2c3b11edd13",
+    "paper\\typography-revision\\tables\\spill_types.tex": "c4b07d4565ca6a330b448f2af8e2ddb9194dda49104eacb23a4807e49f12dd3b",
+    "paper\\typography-revision\\tables\\stages.tex": "f9fb24a2df8e7b617c1be0fd427531e000b5909b673134d2793bec8acddd3dbf",
+    "paper\\typography-revision\\tables\\structure.tex": "e44e82063f929d8bba2a85f2d6fa98a4d228861bc5fbddbe33ab3b77f116758d",
+    "paper\\typography-revision\\tables\\traffic.tex": "1acfb72572ceae6bc58ddd160e397b84471f74f23d96383f8ef749511d17b7f4",
+    "paper\\typography-revision\\tables\\utilization.tex": "d145267e5036feafcb6c195b01458da2799439a693fcb46384d905e7118d6d19"
+  },
+  "prior_pdf_sha256": "7a2fc174854f8eed9c091616d32149b4c1b57f81bc1750442e2672a230307eb7",
+  "delivered_pdf": "paper/NPU_2025_A_typography_revised.pdf"
+}

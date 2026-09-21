@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "project_id": "math-contest-native",
+  "revision": 1,
+  "status": "team_distribution_ready",
+  "active_contest": null,
+  "active_problem": null,
+  "deadline": null,
+  "rules_verified": false,
+  "submission_ready": false,
+  "next_action": {
+    "task_file": "team/tasks/team-mount.json",
+    "handoff_file": "team/handoffs/team-mount.json",
+    "instruction": "Mount and verify teammate environment; do not resume historical paper."
+  },
+  "historical_state": "provenance/SOURCE_PROJECT_STATE_20260921.json",
+  "example_paper_status": "REFERENCE_ONLY_NOT_EXCELLENT",
+  "teammate_device": "UNVERIFIED"
+}

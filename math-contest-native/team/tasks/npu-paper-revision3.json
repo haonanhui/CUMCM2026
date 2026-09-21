@@ -1,0 +1,35 @@
+{
+  "task_id": "npu-paper-revision3",
+  "revision": 2,
+  "owner": "codex-root-01a0c267-3b33-7452-9e63-cdd40a88c24d",
+  "status": "research_revision_delivered_with_limits",
+  "goal": "按writing-guide-1补足三问论证与实测过程分析，交付可局部润色的第三版及同PDF质量评审",
+  "concurrency_check": "2026-09-21：可见相关Codex任务idle；revision2及quality-native handoff均已交付；保留旧源、旧PDF和005实验",
+  "source": "paper/revision2/main.tex",
+  "target": "paper/revision3/main.tex",
+  "write_scope": [
+    "paper/revision3",
+    "paper/NPU_2025_A_revision3.pdf",
+    "figures/npu2025-r3",
+    "scripts/*npu_revision3*.py",
+    "results/runs/npu-paper-r3-analysis-001",
+    "reports/npu-r3-evidence",
+    "reports/NPU_REVISION3_RESULTS.md",
+    "reports/PAPER_WRITING_PLAN.md",
+    "reports/PAPER_QUALITY_REVIEW.md",
+    "reports/VERIFY_REPORT.md",
+    "PROJECT_STATE.json",
+    "team/tasks/npu-paper-revision3.json",
+    "team/handoffs/npu-paper-revision3.json",
+    "reports/RESULTS_REPORT.md"
+  ],
+  "constraints": [
+    "不改科学容量和阈值",
+    "不覆盖旧实验和旧论文",
+    "不自动提交或push",
+    "新分析实际执行后入文",
+    "最终PDF逐页检查"
+  ],
+  "deliverable": "paper/NPU_2025_A_revision3.pdf",
+  "pdf_sha256": "28eb3429c3bfe60d038d8a6383c07d721637044ff0a4a532ebe748d9aa66dbf7"
+}

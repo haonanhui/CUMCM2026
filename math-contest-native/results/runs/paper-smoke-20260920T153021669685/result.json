@@ -1,0 +1,48 @@
+{
+  "run_id": "paper-smoke-20260920T153021669685",
+  "status": "EXECUTED",
+  "scientific_validation": "UNVERIFIED",
+  "started_at": "2026-09-20T15:30:21.677686+00:00",
+  "argv": [
+    "D:\\A_Projects\\10_Research\\math-contest-native\\.venv\\Scripts\\python.exe",
+    "examples/mean/solve.py",
+    "--input",
+    "examples/mean/data.json",
+    "--output",
+    "D:\\A_Projects\\10_Research\\math-contest-native\\results\\runs\\paper-smoke-20260920T153021669685/numbers.json"
+  ],
+  "cwd": "D:\\A_Projects\\10_Research\\math-contest-native",
+  "python": "D:\\A_Projects\\10_Research\\math-contest-native\\.venv\\Scripts\\python.exe",
+  "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+  "inputs_and_sources": {
+    "examples/mean/config.json": {
+      "sha256": "726b7146c625135a95c5c6e6429eb3a7dfb520a7e1c55de1cb637b4cec304c70",
+      "bytes": 311
+    },
+    "examples/mean/data.json": {
+      "sha256": "9c3f2f6c216985fd5832648a198133cc8d0ea89532a18aa6c380b2462c9319f5",
+      "bytes": 13
+    },
+    "examples/mean/solve.py": {
+      "sha256": "ee6b6916aa751e21bb98d019fe72f5c9398938ee1ea7c1d54a676187e2fb0e44",
+      "bytes": 556
+    },
+    "scripts/run.py": {
+      "sha256": "8ceac9613a8e6a56b6d0f9198b4badbfce52530110d56ceea283b9afc9b5bdbc",
+      "bytes": 5313
+    }
+  },
+  "exit_code": 0,
+  "outputs": {
+    "numbers.json": {
+      "sha256": "2c7c33477d56f043a7614494436f0ac7c9a4796cb6eb18330b09fe66274beef1",
+      "bytes": 56
+    }
+  },
+  "expected": [
+    "numbers.json"
+  ],
+  "errors": [],
+  "environment_note": "Inherited process environment; credentials are not recorded. Freeze domain dependencies separately.",
+  "finished_at": "2026-09-20T15:30:21.891191+00:00"
+}

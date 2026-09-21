@@ -1,0 +1,67 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "jfs_zh_reference_v1",
+  "profile_sha256": "55d53b666e69492579c5dedd5e0ebef28c1c46d7b2d9fc3f9413a9719cc47e8f",
+  "kind": "dual_axis_frequency",
+  "synthetic": true,
+  "provenance": {
+    "input": "deterministic synthetic functions in regression.py",
+    "seed": null,
+    "generator_sha256": "d14586448e0af31e465be74852621fd65ce1428c9503c0fed46bcdd21b6d224c",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "约": "SimSun",
+      "化": "SimSun",
+      "速": "SimSun",
+      "度": "SimSun",
+      "频": "SimSun",
+      "率": "SimSun",
+      "幅": "SimSun",
+      "值": "SimSun",
+      "比": "SimSun"
+    },
+    "panel_count": 1,
+    "width_mm": 85.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHPGQY+TimesNewRomanPSMT",
+      "CZRBLR+STIXGeneral-Regular",
+      "FTXWZA+STIXGeneral-Italic"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.0371226668094337,
+      "svg_png_mean_absolute_error": 0.04717692249647263
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "F.pdf": "ce0891cac6e000a4fca4e7fc414be301414e337b1acc57496b9be82044144b2c",
+    "F.svg": "9f538c5a3fdb97e782af42a02ccca290102192f3f82d307ba13853f8bf1b6b6c",
+    "F.png": "c207c5c56429e9f8d630b22b6f962f0f820618097be3b5815693e2215041d4af",
+    "F.gray.png": "82989689cd376dbb2e2a35cf0e4e530069dc2e1e37d4c083347bc7854a1af26f",
+    "F.caption.txt": "3d9d2bb6db703608d27dee11b9a122dba2ca5b0c1c11a1d859a7ece8b14ae140"
+  }
+}

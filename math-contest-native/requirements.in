@@ -1,0 +1,10 @@
+# Core numerical, table, plotting and document tooling; freeze after install.
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+openpyxl
+PyYAML
+pypdf
+python-docx

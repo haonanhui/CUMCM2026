@@ -1,0 +1,37 @@
+{
+  "task_id": "scientific-figure-20260921",
+  "revision": 1,
+  "owner": "codex-root",
+  "status": "completed",
+  "branch": "codex/paper-quality-native-20260921",
+  "baseline_commit": "1d4fc98ee93d6971cb30d127cab4e9b2c791a359",
+  "uncommitted": true,
+  "pushed": false,
+  "spec_refs": [
+    "docs/PAPER_FIGURE_STYLE_SPEC_20260921.md",
+    "docs/FIGURES_ZH.md",
+    "docs/WORKSPACE_SPEC.md",
+    "provenance/UPSTREAM.md"
+  ],
+  "last_validation": "18 unittest tests OK; 14 regression figures PASS; both native loaders discover 10 skills; skill quick_validate PASS; source manifests match; protected tracked assets unchanged",
+  "evidence": [
+    "reports/scientific-figure/ACCEPTANCE.md",
+    "reports/scientific-figure/visual-review.json",
+    "reports/scientific-figure/tests-delivered.txt",
+    "reports/scientific-figure/codex-loader-final.json",
+    "reports/scientific-figure/dsh-loader-final.json"
+  ],
+  "failed_attempts": [
+    "Mixed Chinese/math missing glyph detected and fixed with actual glyph QA",
+    "12pt legend/annotation intersection corrected",
+    "Earlier panel placements superseded by user instructions; earlier samples retained but not accepted"
+  ],
+  "limitations": [
+    "Synthetic regressions only",
+    "Human review pending",
+    "Actual manuscript math font matching and embedding unverified",
+    "Native loader probes use no model turn"
+  ],
+  "next_action": "Use skill with real manuscript data and verify manuscript math font/finished embedding; no unfinished skill implementation",
+  "sync_state": "Local files only; global project next_action unchanged"
+}

@@ -1,0 +1,39 @@
+{
+  "task_id": "paper-quality-native",
+  "revision": 3,
+  "owner": "codex-root",
+  "status": "internal_v3_scoring_anchors_integrated",
+  "goal": "核查NPU首版质量及规范调用缺口，把用户已要求的质量标准接入原生5writing/6verity；分析同题正文组织与防御性语言，接入正向内容指南",
+  "spec_refs": [
+    "docs/WORKSPACE_SPEC.md",
+    "docs/PAPER_QUALITY_STANDARD.md",
+    "provenance/UPSTREAM.md",
+    "docs/PAPER_WRITING_GUIDE.md",
+    "docs/paper-quality/SCORING_ANCHORS.md"
+  ],
+  "write_scope": [
+    "AGENTS.md",
+    "docs/PAPER_QUALITY_STANDARD.md",
+    "docs/paper-quality",
+    "docs/SKILLS.md",
+    ".agents/skills/5writing/SKILL.md",
+    ".agents/skills/6verity/SKILL.md",
+    "agents/writer.md",
+    "provenance/UPSTREAM.md",
+    "reports/NPU_PAPER_QUALITY_DIAGNOSIS_20260921.md",
+    "team/tasks/paper-quality-native.json",
+    "team/handoffs/paper-quality-native.json",
+    "PROJECT_STATE.json",
+    "docs/PAPER_WRITING_GUIDE.md",
+    "reports/PAPER_ORGANIZATION_AND_LANGUAGE_20260921.md",
+    "reports/paper-organization-measurements-20260921.json",
+    "reports/SCORING_STANDARD_AUDIT_20260921.md"
+  ],
+  "constraints": [
+    "保留原PDF和实验",
+    "不替换上游六步流程",
+    "不引入app运行依赖",
+    "未知不算通过",
+    "规范接线不等于论文修订完成"
+  ]
+}

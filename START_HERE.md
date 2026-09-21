@@ -1,4 +1,10 @@
-﻿# 快速上手与智能体协作指南 (START_HERE.md)
+# 当前队友入口
+
+请直接读取 [docs/NATIVE_TEAM_SETUP.md](docs/NATIVE_TEAM_SETUP.md)，进入 math-contest-native/。下方部署方式仅作历史保留，不再执行。
+
+---
+
+# 快速上手与智能体协作指南 (START_HERE.md)
 
 欢迎参与 **复杂工程系统数学建模与数值仿真优化联合研究项目**！
 本项目通过 **GitHub 私有仓库**（源码版本与日常协作）与 **GitHub Release 精简包**（一键部署与备份）实现三人高效协同研发。无论使用何种操作系统（Windows / macOS / Linux）或哪种 AI 辅助工具，均可一键完成本地环境部署并立即投入任务。

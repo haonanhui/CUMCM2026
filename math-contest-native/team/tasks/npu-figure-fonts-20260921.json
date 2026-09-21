@@ -1,0 +1,25 @@
+{
+  "task_id": "npu-figure-fonts-20260921",
+  "revision": 2,
+  "owner": "codex-root",
+  "status": "completed_figure_and_font_scope",
+  "goal": "沿用测试A题数据与处理方法重绘5图，并按附件2修正全文字体",
+  "write_scope": [
+    "scripts/redraw_npu_figures.py",
+    "scripts/prepare_npu_font_revision.py",
+    "scripts/inspect_npu_font_revision.py",
+    "figures/npu2025-fonts-*",
+    "paper/figure-revision",
+    "paper/NPU_2025_A_figure_revision.pdf",
+    "reports/npu-figure-revision",
+    "team/tasks/npu-figure-fonts-20260921.json",
+    "team/handoffs/npu-figure-fonts-20260921.json",
+    "PROJECT_STATE.json",
+    "figures/npu2025-centered-*",
+    "paper/NPU_2025_A_figure_centered.pdf",
+    "reports/npu-figure-centering"
+  ],
+  "scientific_changes": false,
+  "full_language_revision": false,
+  "submission_ready": false
+}

@@ -1,0 +1,3842 @@
+[
+  {
+    "graph": "Conv_Case0",
+    "candidate": "id-w1-a0-distance",
+    "peak": {
+      "total": 7560,
+      "by_type": {
+        "L1": 7488,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 0.2532644,
+    "cycles": 571852,
+    "traffic": 87612,
+    "spills": 148,
+    "reuse_edges": 1334,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 215936,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 95396
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "id-w1-a0-cost",
+    "peak": {
+      "total": 7560,
+      "by_type": {
+        "L1": 7488,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 0.26663200000000004,
+    "cycles": 539931,
+    "traffic": 71204,
+    "spills": 150,
+    "reuse_edges": 1357,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 201844,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 75172
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w32-a1-distance",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.22677939999999996,
+    "cycles": 642017,
+    "traffic": 95564,
+    "spills": 336,
+    "reuse_edges": 1283,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 241288,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 153598
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w32-a1-cost",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.2541765,
+    "cycles": 678598,
+    "traffic": 105584,
+    "spills": 351,
+    "reuse_edges": 1291,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 253558,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 165868
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w128-a1-distance",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.22232790000000002,
+    "cycles": 640953,
+    "traffic": 95564,
+    "spills": 336,
+    "reuse_edges": 1265,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 241288,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 153598
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w128-a1-cost",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.22702849999999986,
+    "cycles": 678108,
+    "traffic": 105728,
+    "spills": 352,
+    "reuse_edges": 1276,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 253852,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 166162
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w64-a2-distance",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.22103359999999994,
+    "cycles": 642474,
+    "traffic": 96332,
+    "spills": 337,
+    "reuse_edges": 1272,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 242206,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 154516
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w64-a2-cost",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.2262982,
+    "cycles": 678908,
+    "traffic": 105584,
+    "spills": 348,
+    "reuse_edges": 1262,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 253108,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 165418
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "pipeline-w64-a0-distance",
+    "peak": {
+      "total": 14346,
+      "by_type": {
+        "L1": 12290,
+        "L0B": 6864
+      }
+    },
+    "allocation_seconds": 0.3054751999999996,
+    "cycles": 1080607,
+    "traffic": 319593,
+    "spills": 431,
+    "reuse_edges": 1605,
+    "lower_bound": 481968,
+    "pipe_work": {
+      "MTE2": 481968,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 388126
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "pipeline-w64-a0-cost",
+    "peak": {
+      "total": 14346,
+      "by_type": {
+        "L1": 12290,
+        "L0B": 6864
+      }
+    },
+    "allocation_seconds": 0.31389290000000036,
+    "cycles": 1008422,
+    "traffic": 292791,
+    "spills": 475,
+    "reuse_edges": 1655,
+    "lower_bound": 463190,
+    "pipe_work": {
+      "MTE2": 463190,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 364250
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "pipeline-w64-a1-distance",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 8448,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.24741079999999993,
+    "cycles": 663234,
+    "traffic": 104780,
+    "spills": 342,
+    "reuse_edges": 1288,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 251404,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 163714
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "pipeline-w64-a1-cost",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 8448,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.22869760000000028,
+    "cycles": 671867,
+    "traffic": 107120,
+    "spills": 353,
+    "reuse_edges": 1291,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 255394,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 167704
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "dfs-w1-a0-distance",
+    "peak": {
+      "total": 6984,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 0.23450710000000008,
+    "cycles": 474778,
+    "traffic": 45336,
+    "spills": 56,
+    "reuse_edges": 1151,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 150596,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 59534
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "dfs-w1-a0-cost",
+    "peak": {
+      "total": 6984,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 0.2447208999999999,
+    "cycles": 472038,
+    "traffic": 44766,
+    "spills": 56,
+    "reuse_edges": 1149,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 150026,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 58964
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "dfs_reverse-w1-a0-distance",
+    "peak": {
+      "total": 9096,
+      "by_type": {
+        "L1": 8448,
+        "L0B": 2872
+      }
+    },
+    "allocation_seconds": 0.28252390000000016,
+    "cycles": 706970,
+    "traffic": 140520,
+    "spills": 202,
+    "reuse_edges": 1305,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 267680,
+      "MTE1": 23098,
+      "MTE3": 176618,
+      "CUBE": 348677
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "dfs_reverse-w1-a0-cost",
+    "peak": {
+      "total": 9096,
+      "by_type": {
+        "L1": 8448,
+        "L0B": 2872
+      }
+    },
+    "allocation_seconds": 0.2769743,
+    "cycles": 728055,
+    "traffic": 150710,
+    "spills": 233,
+    "reuse_edges": 1377,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 282520,
+      "MTE1": 23098,
+      "MTE3": 191458,
+      "CUBE": 348677
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "id-w1-a0-distance-rotate",
+    "peak": {
+      "total": 7560,
+      "by_type": {
+        "L1": 7488,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 0.26231820000000017,
+    "cycles": 546732,
+    "traffic": 82100,
+    "spills": 147,
+    "reuse_edges": 1477,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 210130,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 90028
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w32-a1-distance-rotate",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.3026660999999997,
+    "cycles": 600682,
+    "traffic": 107884,
+    "spills": 347,
+    "reuse_edges": 1488,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 255258,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 167568
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w128-a1-distance-rotate",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.25915909999999975,
+    "cycles": 600848,
+    "traffic": 107884,
+    "spills": 347,
+    "reuse_edges": 1403,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 255258,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 167568
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "memory-w64-a2-distance-rotate",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.2671254000000003,
+    "cycles": 564808,
+    "traffic": 98096,
+    "spills": 344,
+    "reuse_edges": 1440,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 245020,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 157330
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "pipeline-w64-a0-distance-rotate",
+    "peak": {
+      "total": 14346,
+      "by_type": {
+        "L1": 12290,
+        "L0B": 6864
+      }
+    },
+    "allocation_seconds": 0.31703179999999964,
+    "cycles": 1054780,
+    "traffic": 317051,
+    "spills": 452,
+    "reuse_edges": 1805,
+    "lower_bound": 483152,
+    "pipe_work": {
+      "MTE2": 483152,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 387558
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "pipeline-w64-a1-distance-rotate",
+    "peak": {
+      "total": 21762,
+      "by_type": {
+        "L1": 8448,
+        "L0B": 17696
+      }
+    },
+    "allocation_seconds": 0.24852879999999988,
+    "cycles": 598424,
+    "traffic": 110332,
+    "spills": 349,
+    "reuse_edges": 1452,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 258006,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 170316
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "dfs-w1-a0-distance-rotate",
+    "peak": {
+      "total": 6984,
+      "by_type": {
+        "L1": 6912,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 0.22996309999999998,
+    "cycles": 447497,
+    "traffic": 52248,
+    "spills": 63,
+    "reuse_edges": 1296,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 158558,
+      "MTE1": 23098,
+      "CUBE": 348677,
+      "MTE3": 67496
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case0",
+    "candidate": "dfs_reverse-w1-a0-distance-rotate",
+    "peak": {
+      "total": 9096,
+      "by_type": {
+        "L1": 8448,
+        "L0B": 2872
+      }
+    },
+    "allocation_seconds": 0.28861839999999983,
+    "cycles": 672378,
+    "traffic": 153712,
+    "spills": 206,
+    "reuse_edges": 1533,
+    "lower_bound": 348677,
+    "pipe_work": {
+      "MTE2": 283008,
+      "MTE1": 23098,
+      "MTE3": 188574,
+      "CUBE": 348677
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "id-w1-a0-distance",
+    "peak": {
+      "total": 14048,
+      "by_type": {
+        "L1": 14040,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 2.9763808000000003,
+    "cycles": 1240023,
+    "traffic": 76636,
+    "spills": 2173,
+    "reuse_edges": 15989,
+    "lower_bound": 773378,
+    "pipe_work": {
+      "MTE2": 773378,
+      "MTE1": 235026,
+      "CUBE": 409566,
+      "MTE3": 97254
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "id-w1-a0-cost",
+    "peak": {
+      "total": 14048,
+      "by_type": {
+        "L1": 14040,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 3.3716167000000006,
+    "cycles": 1408594,
+    "traffic": 82402,
+    "spills": 3463,
+    "reuse_edges": 17604,
+    "lower_bound": 970192,
+    "pipe_work": {
+      "MTE2": 970192,
+      "MTE1": 235026,
+      "CUBE": 409566,
+      "MTE3": 151672
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w32-a1-distance",
+    "peak": {
+      "total": 157630,
+      "by_type": {
+        "L1": 18394,
+        "L0B": 150076
+      }
+    },
+    "allocation_seconds": 2.826041199999999,
+    "cycles": 3198687,
+    "traffic": 407112,
+    "spills": 6579,
+    "reuse_edges": 20617,
+    "lower_bound": 1760394,
+    "pipe_work": {
+      "MTE2": 1760394,
+      "MTE1": 235026,
+      "MTE3": 1135740,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w32-a1-cost",
+    "peak": {
+      "total": 157630,
+      "by_type": {
+        "L1": 18394,
+        "L0B": 150076
+      }
+    },
+    "allocation_seconds": 3.3669951000000005,
+    "cycles": 3304418,
+    "traffic": 410866,
+    "spills": 7742,
+    "reuse_edges": 21609,
+    "lower_bound": 1941054,
+    "pipe_work": {
+      "MTE2": 1941054,
+      "MTE1": 235026,
+      "MTE3": 1158938,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w128-a1-distance",
+    "peak": {
+      "total": 180030,
+      "by_type": {
+        "L1": 21002,
+        "L0B": 169500
+      }
+    },
+    "allocation_seconds": 3.0076141000000014,
+    "cycles": 3364628,
+    "traffic": 439760,
+    "spills": 6801,
+    "reuse_edges": 20419,
+    "lower_bound": 1828726,
+    "pipe_work": {
+      "MTE2": 1828726,
+      "MTE1": 235026,
+      "MTE3": 1199754,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w128-a1-cost",
+    "peak": {
+      "total": 180030,
+      "by_type": {
+        "L1": 21002,
+        "L0B": 169500
+      }
+    },
+    "allocation_seconds": 3.424086299999999,
+    "cycles": 3549120,
+    "traffic": 446288,
+    "spills": 8220,
+    "reuse_edges": 22005,
+    "lower_bound": 2050856,
+    "pipe_work": {
+      "MTE2": 2050856,
+      "MTE1": 235026,
+      "MTE3": 1249430,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w64-a2-distance",
+    "peak": {
+      "total": 164302,
+      "by_type": {
+        "L1": 18778,
+        "L0B": 155836
+      }
+    },
+    "allocation_seconds": 2.9219498000000037,
+    "cycles": 3266312,
+    "traffic": 421688,
+    "spills": 6659,
+    "reuse_edges": 20618,
+    "lower_bound": 1790714,
+    "pipe_work": {
+      "MTE2": 1790714,
+      "MTE1": 235026,
+      "MTE3": 1159772,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w64-a2-cost",
+    "peak": {
+      "total": 164302,
+      "by_type": {
+        "L1": 18778,
+        "L0B": 155836
+      }
+    },
+    "allocation_seconds": 3.394776499999999,
+    "cycles": 3386645,
+    "traffic": 426244,
+    "spills": 7874,
+    "reuse_edges": 21794,
+    "lower_bound": 1978876,
+    "pipe_work": {
+      "MTE2": 1978876,
+      "MTE1": 235026,
+      "MTE3": 1200172,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "pipeline-w64-a0-distance",
+    "peak": {
+      "total": 74848,
+      "by_type": {
+        "L1": 30664,
+        "L0B": 69768
+      }
+    },
+    "allocation_seconds": 3.784806500000002,
+    "cycles": 3151416,
+    "traffic": 478966,
+    "spills": 7765,
+    "reuse_edges": 23370,
+    "lower_bound": 2058608,
+    "pipe_work": {
+      "MTE2": 2058608,
+      "MTE3": 1116534,
+      "MTE1": 235026,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "pipeline-w64-a0-cost",
+    "peak": {
+      "total": 74848,
+      "by_type": {
+        "L1": 30664,
+        "L0B": 69768
+      }
+    },
+    "allocation_seconds": 4.096037500000001,
+    "cycles": 3237997,
+    "traffic": 477208,
+    "spills": 8493,
+    "reuse_edges": 24024,
+    "lower_bound": 2174798,
+    "pipe_work": {
+      "MTE2": 2174798,
+      "MTE3": 1151328,
+      "MTE1": 235026,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "pipeline-w64-a1-distance",
+    "peak": {
+      "total": 89888,
+      "by_type": {
+        "L1": 18776,
+        "L0B": 83664
+      }
+    },
+    "allocation_seconds": 3.6617926999999995,
+    "cycles": 3471992,
+    "traffic": 486368,
+    "spills": 8320,
+    "reuse_edges": 23919,
+    "lower_bound": 2122672,
+    "pipe_work": {
+      "MTE2": 2122672,
+      "MTE1": 235026,
+      "MTE3": 1278174,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "pipeline-w64-a1-cost",
+    "peak": {
+      "total": 89888,
+      "by_type": {
+        "L1": 18776,
+        "L0B": 83664
+      }
+    },
+    "allocation_seconds": 4.015043299999995,
+    "cycles": 3557397,
+    "traffic": 488312,
+    "spills": 9096,
+    "reuse_edges": 24955,
+    "lower_bound": 2242760,
+    "pipe_work": {
+      "MTE2": 2242760,
+      "MTE1": 235026,
+      "MTE3": 1328474,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "dfs-w1-a0-distance",
+    "peak": {
+      "total": 14048,
+      "by_type": {
+        "L1": 14040,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 2.9061093000000042,
+    "cycles": 1210619,
+    "traffic": 75546,
+    "spills": 2116,
+    "reuse_edges": 15849,
+    "lower_bound": 761650,
+    "pipe_work": {
+      "MTE2": 761650,
+      "MTE1": 235026,
+      "CUBE": 409566,
+      "MTE3": 97652
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "dfs-w1-a0-cost",
+    "peak": {
+      "total": 14048,
+      "by_type": {
+        "L1": 14040,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 3.3971473000000003,
+    "cycles": 1387432,
+    "traffic": 81538,
+    "spills": 3349,
+    "reuse_edges": 17551,
+    "lower_bound": 951428,
+    "pipe_work": {
+      "MTE2": 951428,
+      "MTE1": 235026,
+      "CUBE": 409566,
+      "MTE3": 150708
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "dfs_reverse-w1-a0-distance",
+    "peak": {
+      "total": 16320,
+      "by_type": {
+        "L1": 14144,
+        "L0B": 3216
+      }
+    },
+    "allocation_seconds": 3.065880199999995,
+    "cycles": 1742407,
+    "traffic": 235930,
+    "spills": 3762,
+    "reuse_edges": 18510,
+    "lower_bound": 1187846,
+    "pipe_work": {
+      "MTE2": 1187846,
+      "MTE1": 235026,
+      "MTE3": 403824,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "dfs_reverse-w1-a0-cost",
+    "peak": {
+      "total": 16320,
+      "by_type": {
+        "L1": 14144,
+        "L0B": 3216
+      }
+    },
+    "allocation_seconds": 3.5667746999999963,
+    "cycles": 2019579,
+    "traffic": 245096,
+    "spills": 5263,
+    "reuse_edges": 20622,
+    "lower_bound": 1414010,
+    "pipe_work": {
+      "MTE2": 1414010,
+      "MTE1": 235026,
+      "MTE3": 530192,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "id-w1-a0-distance-rotate",
+    "peak": {
+      "total": 14048,
+      "by_type": {
+        "L1": 14040,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 3.321887600000011,
+    "cycles": 1132461,
+    "traffic": 85130,
+    "spills": 2574,
+    "reuse_edges": 18611,
+    "lower_bound": 848990,
+    "pipe_work": {
+      "MTE2": 848990,
+      "MTE1": 235026,
+      "CUBE": 409566,
+      "MTE3": 108680
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w32-a1-distance-rotate",
+    "peak": {
+      "total": 157630,
+      "by_type": {
+        "L1": 18394,
+        "L0B": 150076
+      }
+    },
+    "allocation_seconds": 2.8990024999999946,
+    "cycles": 2867051,
+    "traffic": 412890,
+    "spills": 6661,
+    "reuse_edges": 22699,
+    "lower_bound": 1782584,
+    "pipe_work": {
+      "MTE2": 1782584,
+      "MTE1": 235026,
+      "MTE3": 1142206,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w128-a1-distance-rotate",
+    "peak": {
+      "total": 180030,
+      "by_type": {
+        "L1": 21002,
+        "L0B": 169500
+      }
+    },
+    "allocation_seconds": 2.946278399999997,
+    "cycles": 3014890,
+    "traffic": 446404,
+    "spills": 6935,
+    "reuse_edges": 22787,
+    "lower_bound": 1856718,
+    "pipe_work": {
+      "MTE2": 1856718,
+      "MTE1": 235026,
+      "MTE3": 1223450,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "memory-w64-a2-distance-rotate",
+    "peak": {
+      "total": 164302,
+      "by_type": {
+        "L1": 18778,
+        "L0B": 155836
+      }
+    },
+    "allocation_seconds": 3.321431000000004,
+    "cycles": 2927453,
+    "traffic": 427076,
+    "spills": 6764,
+    "reuse_edges": 22805,
+    "lower_bound": 1813300,
+    "pipe_work": {
+      "MTE2": 1813300,
+      "MTE1": 235026,
+      "MTE3": 1176612,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "pipeline-w64-a0-distance-rotate",
+    "peak": {
+      "total": 74848,
+      "by_type": {
+        "L1": 30664,
+        "L0B": 69768
+      }
+    },
+    "allocation_seconds": 3.9312426999999985,
+    "cycles": 3047326,
+    "traffic": 491468,
+    "spills": 7957,
+    "reuse_edges": 25476,
+    "lower_bound": 2103138,
+    "pipe_work": {
+      "MTE2": 2103138,
+      "MTE3": 1145008,
+      "MTE1": 235026,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "pipeline-w64-a1-distance-rotate",
+    "peak": {
+      "total": 89888,
+      "by_type": {
+        "L1": 18776,
+        "L0B": 83664
+      }
+    },
+    "allocation_seconds": 3.8809942999999976,
+    "cycles": 3254068,
+    "traffic": 499280,
+    "spills": 8566,
+    "reuse_edges": 26121,
+    "lower_bound": 2179052,
+    "pipe_work": {
+      "MTE2": 2179052,
+      "MTE1": 235026,
+      "MTE3": 1296668,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "dfs-w1-a0-distance-rotate",
+    "peak": {
+      "total": 14048,
+      "by_type": {
+        "L1": 14040,
+        "L0B": 96
+      }
+    },
+    "allocation_seconds": 3.1915774,
+    "cycles": 1094165,
+    "traffic": 82600,
+    "spills": 2470,
+    "reuse_edges": 18407,
+    "lower_bound": 829020,
+    "pipe_work": {
+      "MTE2": 829020,
+      "MTE1": 235026,
+      "CUBE": 409566,
+      "MTE3": 100490
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Conv_Case1",
+    "candidate": "dfs_reverse-w1-a0-distance-rotate",
+    "peak": {
+      "total": 16320,
+      "by_type": {
+        "L1": 14144,
+        "L0B": 3216
+      }
+    },
+    "allocation_seconds": 3.2544432999999913,
+    "cycles": 1668189,
+    "traffic": 243238,
+    "spills": 4164,
+    "reuse_edges": 20349,
+    "lower_bound": 1260710,
+    "pipe_work": {
+      "MTE2": 1260710,
+      "MTE1": 235026,
+      "MTE3": 415626,
+      "CUBE": 409566
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "id-w1-a0-distance",
+    "peak": {
+      "total": 4884,
+      "by_type": {
+        "L1": 3328,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 512,
+        "UB": 1428
+      }
+    },
+    "allocation_seconds": 0.08265210000000422,
+    "cycles": 47509,
+    "traffic": 3620,
+    "spills": 23,
+    "reuse_edges": 616,
+    "lower_bound": 25600,
+    "pipe_work": {
+      "MTE2": 21014,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 14134
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "id-w1-a0-cost",
+    "peak": {
+      "total": 4884,
+      "by_type": {
+        "L1": 3328,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 512,
+        "UB": 1428
+      }
+    },
+    "allocation_seconds": 0.08012159999999824,
+    "cycles": 53060,
+    "traffic": 3692,
+    "spills": 41,
+    "reuse_edges": 700,
+    "lower_bound": 25600,
+    "pipe_work": {
+      "MTE2": 23786,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 16906
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w32-a1-distance",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 256,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1328
+      }
+    },
+    "allocation_seconds": 0.08393870000000447,
+    "cycles": 92535,
+    "traffic": 24896,
+    "spills": 98,
+    "reuse_edges": 759,
+    "lower_bound": 53540,
+    "pipe_work": {
+      "MTE2": 53540,
+      "MTE1": 5440,
+      "MTE3": 46660,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w32-a1-cost",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 256,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1328
+      }
+    },
+    "allocation_seconds": 0.08918549999999925,
+    "cycles": 97257,
+    "traffic": 24996,
+    "spills": 123,
+    "reuse_edges": 793,
+    "lower_bound": 57390,
+    "pipe_work": {
+      "MTE2": 57390,
+      "MTE1": 5440,
+      "MTE3": 50510,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w128-a1-distance",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 256,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1328
+      }
+    },
+    "allocation_seconds": 0.08464630000000284,
+    "cycles": 92535,
+    "traffic": 24896,
+    "spills": 98,
+    "reuse_edges": 759,
+    "lower_bound": 53540,
+    "pipe_work": {
+      "MTE2": 53540,
+      "MTE1": 5440,
+      "MTE3": 46660,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w128-a1-cost",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 256,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1328
+      }
+    },
+    "allocation_seconds": 0.08576270000000363,
+    "cycles": 97257,
+    "traffic": 24996,
+    "spills": 123,
+    "reuse_edges": 793,
+    "lower_bound": 57390,
+    "pipe_work": {
+      "MTE2": 57390,
+      "MTE1": 5440,
+      "MTE3": 50510,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w64-a2-distance",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 1024,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1456
+      }
+    },
+    "allocation_seconds": 0.09764789999999834,
+    "cycles": 89266,
+    "traffic": 25416,
+    "spills": 102,
+    "reuse_edges": 760,
+    "lower_bound": 54660,
+    "pipe_work": {
+      "MTE2": 54660,
+      "MTE1": 5440,
+      "MTE3": 47780,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w64-a2-cost",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 1024,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1456
+      }
+    },
+    "allocation_seconds": 0.09309129999999755,
+    "cycles": 93319,
+    "traffic": 25512,
+    "spills": 126,
+    "reuse_edges": 785,
+    "lower_bound": 58356,
+    "pipe_work": {
+      "MTE2": 58356,
+      "MTE1": 5440,
+      "MTE3": 51476,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "pipeline-w64-a0-distance",
+    "peak": {
+      "total": 9088,
+      "by_type": {
+        "L1": 512,
+        "L0B": 4096,
+        "L0A": 1152,
+        "L0C": 4096,
+        "UB": 8320
+      }
+    },
+    "allocation_seconds": 0.12584119999999643,
+    "cycles": 191134,
+    "traffic": 61876,
+    "spills": 271,
+    "reuse_edges": 915,
+    "lower_bound": 116470,
+    "pipe_work": {
+      "MTE2": 116470,
+      "MTE1": 5440,
+      "MTE3": 109590,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "pipeline-w64-a0-cost",
+    "peak": {
+      "total": 9088,
+      "by_type": {
+        "L1": 512,
+        "L0B": 4096,
+        "L0A": 1152,
+        "L0C": 4096,
+        "UB": 8320
+      }
+    },
+    "allocation_seconds": 0.12049319999999852,
+    "cycles": 212486,
+    "traffic": 62212,
+    "spills": 355,
+    "reuse_edges": 1072,
+    "lower_bound": 129406,
+    "pipe_work": {
+      "MTE2": 129406,
+      "MTE1": 5440,
+      "MTE3": 122526,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "pipeline-w64-a1-distance",
+    "peak": {
+      "total": 8368,
+      "by_type": {
+        "L1": 512,
+        "L0B": 4096,
+        "L0A": 1280,
+        "L0C": 4096,
+        "UB": 5942
+      }
+    },
+    "allocation_seconds": 0.1041967000000028,
+    "cycles": 189956,
+    "traffic": 59060,
+    "spills": 256,
+    "reuse_edges": 893,
+    "lower_bound": 111404,
+    "pipe_work": {
+      "MTE2": 111404,
+      "MTE1": 5440,
+      "MTE3": 104524,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "pipeline-w64-a1-cost",
+    "peak": {
+      "total": 8368,
+      "by_type": {
+        "L1": 512,
+        "L0B": 4096,
+        "L0A": 1280,
+        "L0C": 4096,
+        "UB": 5942
+      }
+    },
+    "allocation_seconds": 0.11008400000000051,
+    "cycles": 192192,
+    "traffic": 58128,
+    "spills": 275,
+    "reuse_edges": 965,
+    "lower_bound": 113322,
+    "pipe_work": {
+      "MTE2": 113322,
+      "MTE1": 5440,
+      "MTE3": 106442,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "dfs-w1-a0-distance",
+    "peak": {
+      "total": 6542,
+      "by_type": {
+        "L1": 5120,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256,
+        "UB": 1166
+      }
+    },
+    "allocation_seconds": 0.0943524999999994,
+    "cycles": 63936,
+    "traffic": 6208,
+    "spills": 40,
+    "reuse_edges": 667,
+    "lower_bound": 28200,
+    "pipe_work": {
+      "MTE2": 28200,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 16024
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "dfs-w1-a0-cost",
+    "peak": {
+      "total": 6542,
+      "by_type": {
+        "L1": 5120,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256,
+        "UB": 1166
+      }
+    },
+    "allocation_seconds": 0.0990025999999915,
+    "cycles": 69522,
+    "traffic": 6368,
+    "spills": 80,
+    "reuse_edges": 711,
+    "lower_bound": 34360,
+    "pipe_work": {
+      "MTE2": 34360,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 22184
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "dfs_reverse-w1-a0-distance",
+    "peak": {
+      "total": 5892,
+      "by_type": {
+        "L1": 5120,
+        "L0B": 256,
+        "L0A": 256,
+        "L0C": 256,
+        "UB": 1170
+      }
+    },
+    "allocation_seconds": 0.09533469999999511,
+    "cycles": 48400,
+    "traffic": 4352,
+    "spills": 17,
+    "reuse_edges": 596,
+    "lower_bound": 25600,
+    "pipe_work": {
+      "MTE2": 23150,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 10312
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "dfs_reverse-w1-a0-cost",
+    "peak": {
+      "total": 5892,
+      "by_type": {
+        "L1": 5120,
+        "L0B": 256,
+        "L0A": 256,
+        "L0C": 256,
+        "UB": 1170
+      }
+    },
+    "allocation_seconds": 0.1001917999999904,
+    "cycles": 62593,
+    "traffic": 4544,
+    "spills": 65,
+    "reuse_edges": 738,
+    "lower_bound": 30542,
+    "pipe_work": {
+      "MTE2": 30542,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 17704
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "id-w1-a0-distance-rotate",
+    "peak": {
+      "total": 4884,
+      "by_type": {
+        "L1": 3328,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 512,
+        "UB": 1428
+      }
+    },
+    "allocation_seconds": 0.09755780000000414,
+    "cycles": 46722,
+    "traffic": 4412,
+    "spills": 32,
+    "reuse_edges": 733,
+    "lower_bound": 25600,
+    "pipe_work": {
+      "MTE2": 23156,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 16276
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w32-a1-distance-rotate",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 256,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1328
+      }
+    },
+    "allocation_seconds": 0.11295419999999012,
+    "cycles": 83734,
+    "traffic": 25408,
+    "spills": 100,
+    "reuse_edges": 761,
+    "lower_bound": 54352,
+    "pipe_work": {
+      "MTE2": 54352,
+      "MTE1": 5440,
+      "MTE3": 47472,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w128-a1-distance-rotate",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 256,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1328
+      }
+    },
+    "allocation_seconds": 0.08946360000000197,
+    "cycles": 83734,
+    "traffic": 25408,
+    "spills": 100,
+    "reuse_edges": 761,
+    "lower_bound": 54352,
+    "pipe_work": {
+      "MTE2": 54352,
+      "MTE1": 5440,
+      "MTE3": 47472,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "memory-w64-a2-distance-rotate",
+    "peak": {
+      "total": 5536,
+      "by_type": {
+        "L1": 1024,
+        "L0B": 1280,
+        "L0A": 4096,
+        "L0C": 4096,
+        "UB": 1456
+      }
+    },
+    "allocation_seconds": 0.10153870000000609,
+    "cycles": 90997,
+    "traffic": 26236,
+    "spills": 118,
+    "reuse_edges": 827,
+    "lower_bound": 57880,
+    "pipe_work": {
+      "MTE2": 57880,
+      "MTE1": 5440,
+      "MTE3": 51000,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "pipeline-w64-a0-distance-rotate",
+    "peak": {
+      "total": 9088,
+      "by_type": {
+        "L1": 512,
+        "L0B": 4096,
+        "L0A": 1152,
+        "L0C": 4096,
+        "UB": 8320
+      }
+    },
+    "allocation_seconds": 0.12092250000000604,
+    "cycles": 185715,
+    "traffic": 62828,
+    "spills": 257,
+    "reuse_edges": 946,
+    "lower_bound": 115322,
+    "pipe_work": {
+      "MTE2": 115322,
+      "MTE1": 5440,
+      "MTE3": 108442,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "pipeline-w64-a1-distance-rotate",
+    "peak": {
+      "total": 8368,
+      "by_type": {
+        "L1": 512,
+        "L0B": 4096,
+        "L0A": 1280,
+        "L0C": 4096,
+        "UB": 5942
+      }
+    },
+    "allocation_seconds": 0.11994409999999789,
+    "cycles": 180845,
+    "traffic": 59060,
+    "spills": 256,
+    "reuse_edges": 904,
+    "lower_bound": 111404,
+    "pipe_work": {
+      "MTE2": 111404,
+      "MTE1": 5440,
+      "MTE3": 104524,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "dfs-w1-a0-distance-rotate",
+    "peak": {
+      "total": 6542,
+      "by_type": {
+        "L1": 5120,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256,
+        "UB": 1166
+      }
+    },
+    "allocation_seconds": 0.09719030000000828,
+    "cycles": 58295,
+    "traffic": 7232,
+    "spills": 44,
+    "reuse_edges": 730,
+    "lower_bound": 29824,
+    "pipe_work": {
+      "MTE2": 29824,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 17648
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "candidate": "dfs_reverse-w1-a0-distance-rotate",
+    "peak": {
+      "total": 5892,
+      "by_type": {
+        "L1": 5120,
+        "L0B": 256,
+        "L0A": 256,
+        "L0C": 256,
+        "UB": 1170
+      }
+    },
+    "allocation_seconds": 0.0931090999999924,
+    "cycles": 45398,
+    "traffic": 4620,
+    "spills": 21,
+    "reuse_edges": 723,
+    "lower_bound": 25600,
+    "pipe_work": {
+      "MTE2": 24018,
+      "MTE1": 5440,
+      "CUBE": 8192,
+      "FIXP": 1968,
+      "VECTOR": 25600,
+      "MTE3": 11180
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "id-w1-a0-distance",
+    "peak": {
+      "total": 7972,
+      "by_type": {
+        "L1": 5376,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 512,
+        "UB": 2468
+      }
+    },
+    "allocation_seconds": 0.31896489999999744,
+    "cycles": 225902,
+    "traffic": 32852,
+    "spills": 212,
+    "reuse_edges": 2736,
+    "lower_bound": 104960,
+    "pipe_work": {
+      "MTE2": 100988,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 74054
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "id-w1-a0-cost",
+    "peak": {
+      "total": 7972,
+      "by_type": {
+        "L1": 5376,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 512,
+        "UB": 2468
+      }
+    },
+    "allocation_seconds": 0.2963601000000011,
+    "cycles": 235182,
+    "traffic": 33236,
+    "spills": 245,
+    "reuse_edges": 3175,
+    "lower_bound": 106322,
+    "pipe_work": {
+      "MTE2": 106322,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 79388
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w32-a1-distance",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 2560,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2528
+      }
+    },
+    "allocation_seconds": 0.357832099999996,
+    "cycles": 485807,
+    "traffic": 129512,
+    "spills": 689,
+    "reuse_edges": 3373,
+    "lower_bound": 260750,
+    "pipe_work": {
+      "MTE2": 260750,
+      "MTE1": 21760,
+      "MTE3": 255662,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w32-a1-cost",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 2560,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2528
+      }
+    },
+    "allocation_seconds": 0.3613371000000001,
+    "cycles": 543562,
+    "traffic": 128676,
+    "spills": 858,
+    "reuse_edges": 3924,
+    "lower_bound": 285264,
+    "pipe_work": {
+      "MTE2": 285264,
+      "MTE1": 21760,
+      "MTE3": 280176,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w128-a1-distance",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 256,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2528
+      }
+    },
+    "allocation_seconds": 0.3666891000000021,
+    "cycles": 486988,
+    "traffic": 129512,
+    "spills": 689,
+    "reuse_edges": 3379,
+    "lower_bound": 260750,
+    "pipe_work": {
+      "MTE2": 260750,
+      "MTE1": 21760,
+      "MTE3": 255662,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w128-a1-cost",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 256,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2528
+      }
+    },
+    "allocation_seconds": 0.4435237000000001,
+    "cycles": 544672,
+    "traffic": 128676,
+    "spills": 858,
+    "reuse_edges": 3933,
+    "lower_bound": 285264,
+    "pipe_work": {
+      "MTE2": 285264,
+      "MTE1": 21760,
+      "MTE3": 280176,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w64-a2-distance",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 2048,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2656
+      }
+    },
+    "allocation_seconds": 0.33976910000001226,
+    "cycles": 457974,
+    "traffic": 127588,
+    "spills": 649,
+    "reuse_edges": 3270,
+    "lower_bound": 252826,
+    "pipe_work": {
+      "MTE2": 252826,
+      "MTE1": 21760,
+      "MTE3": 247738,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w64-a2-cost",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 2048,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2656
+      }
+    },
+    "allocation_seconds": 0.39642450000000906,
+    "cycles": 508337,
+    "traffic": 126544,
+    "spills": 829,
+    "reuse_edges": 3908,
+    "lower_bound": 278782,
+    "pipe_work": {
+      "MTE2": 278782,
+      "MTE1": 21760,
+      "MTE3": 273694,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "pipeline-w64-a0-distance",
+    "peak": {
+      "total": 26752,
+      "by_type": {
+        "L1": 1536,
+        "L0B": 8320,
+        "L0A": 10240,
+        "L0C": 7424,
+        "UB": 16906
+      }
+    },
+    "allocation_seconds": 0.457594499999999,
+    "cycles": 856191,
+    "traffic": 267884,
+    "spills": 1395,
+    "reuse_edges": 4184,
+    "lower_bound": 505022,
+    "pipe_work": {
+      "MTE2": 505022,
+      "MTE1": 21760,
+      "MTE3": 499934,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "pipeline-w64-a0-cost",
+    "peak": {
+      "total": 26752,
+      "by_type": {
+        "L1": 1536,
+        "L0B": 8320,
+        "L0A": 10240,
+        "L0C": 7424,
+        "UB": 16906
+      }
+    },
+    "allocation_seconds": 0.5416103000000021,
+    "cycles": 950395,
+    "traffic": 267852,
+    "spills": 1765,
+    "reuse_edges": 4987,
+    "lower_bound": 560490,
+    "pipe_work": {
+      "MTE2": 560490,
+      "MTE1": 21760,
+      "MTE3": 555402,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "pipeline-w64-a1-distance",
+    "peak": {
+      "total": 31280,
+      "by_type": {
+        "L1": 1024,
+        "L0B": 16256,
+        "L0A": 10240,
+        "L0C": 7168,
+        "UB": 17526
+      }
+    },
+    "allocation_seconds": 0.4309753999999941,
+    "cycles": 816825,
+    "traffic": 261904,
+    "spills": 1233,
+    "reuse_edges": 3898,
+    "lower_bound": 474742,
+    "pipe_work": {
+      "MTE2": 474742,
+      "MTE1": 21760,
+      "MTE3": 469654,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "pipeline-w64-a1-cost",
+    "peak": {
+      "total": 31280,
+      "by_type": {
+        "L1": 1024,
+        "L0B": 16256,
+        "L0A": 10240,
+        "L0C": 7168,
+        "UB": 17526
+      }
+    },
+    "allocation_seconds": 0.43915739999999914,
+    "cycles": 858818,
+    "traffic": 261896,
+    "spills": 1357,
+    "reuse_edges": 4454,
+    "lower_bound": 493334,
+    "pipe_work": {
+      "MTE2": 493334,
+      "MTE1": 21760,
+      "MTE3": 488246,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "dfs-w1-a0-distance",
+    "peak": {
+      "total": 12702,
+      "by_type": {
+        "L1": 10240,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256,
+        "UB": 2206
+      }
+    },
+    "allocation_seconds": 0.41971680000000333,
+    "cycles": 374660,
+    "traffic": 86912,
+    "spills": 497,
+    "reuse_edges": 3164,
+    "lower_bound": 230566,
+    "pipe_work": {
+      "MTE2": 230566,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 118896
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "dfs-w1-a0-cost",
+    "peak": {
+      "total": 12702,
+      "by_type": {
+        "L1": 10240,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256,
+        "UB": 2206
+      }
+    },
+    "allocation_seconds": 0.41377520000000345,
+    "cycles": 423235,
+    "traffic": 85760,
+    "spills": 713,
+    "reuse_edges": 3783,
+    "lower_bound": 261814,
+    "pipe_work": {
+      "MTE2": 261814,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 150144
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "dfs_reverse-w1-a0-distance",
+    "peak": {
+      "total": 11020,
+      "by_type": {
+        "L1": 10240,
+        "L0B": 256,
+        "L0A": 256,
+        "L0C": 256,
+        "UB": 2218
+      }
+    },
+    "allocation_seconds": 0.3636273999999986,
+    "cycles": 308996,
+    "traffic": 68448,
+    "spills": 417,
+    "reuse_edges": 2998,
+    "lower_bound": 200102,
+    "pipe_work": {
+      "MTE2": 200102,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 88432
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "dfs_reverse-w1-a0-cost",
+    "peak": {
+      "total": 11020,
+      "by_type": {
+        "L1": 10240,
+        "L0B": 256,
+        "L0A": 256,
+        "L0C": 256,
+        "UB": 2218
+      }
+    },
+    "allocation_seconds": 0.39140510000000006,
+    "cycles": 366856,
+    "traffic": 65280,
+    "spills": 633,
+    "reuse_edges": 3625,
+    "lower_bound": 229334,
+    "pipe_work": {
+      "MTE2": 229334,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 117664
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "id-w1-a0-distance-rotate",
+    "peak": {
+      "total": 7972,
+      "by_type": {
+        "L1": 5376,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 512,
+        "UB": 2468
+      }
+    },
+    "allocation_seconds": 0.3088537999999943,
+    "cycles": 217676,
+    "traffic": 33424,
+    "spills": 229,
+    "reuse_edges": 3364,
+    "lower_bound": 104960,
+    "pipe_work": {
+      "MTE2": 104110,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 77176
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w32-a1-distance-rotate",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 2560,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2528
+      }
+    },
+    "allocation_seconds": 0.4445560000000057,
+    "cycles": 486418,
+    "traffic": 133696,
+    "spills": 727,
+    "reuse_edges": 3734,
+    "lower_bound": 270634,
+    "pipe_work": {
+      "MTE2": 270634,
+      "MTE1": 21760,
+      "MTE3": 265546,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w128-a1-distance-rotate",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 256,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2528
+      }
+    },
+    "allocation_seconds": 0.39267580000000635,
+    "cycles": 486480,
+    "traffic": 133696,
+    "spills": 727,
+    "reuse_edges": 3734,
+    "lower_bound": 270634,
+    "pipe_work": {
+      "MTE2": 270634,
+      "MTE1": 21760,
+      "MTE3": 265546,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "memory-w64-a2-distance-rotate",
+    "peak": {
+      "total": 19008,
+      "by_type": {
+        "L1": 2048,
+        "L0B": 2304,
+        "L0A": 16384,
+        "L0C": 8192,
+        "UB": 2656
+      }
+    },
+    "allocation_seconds": 0.36251090000000374,
+    "cycles": 459804,
+    "traffic": 130816,
+    "spills": 700,
+    "reuse_edges": 3800,
+    "lower_bound": 263704,
+    "pipe_work": {
+      "MTE2": 263704,
+      "MTE1": 21760,
+      "MTE3": 258616,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "pipeline-w64-a0-distance-rotate",
+    "peak": {
+      "total": 26752,
+      "by_type": {
+        "L1": 1536,
+        "L0B": 8320,
+        "L0A": 10240,
+        "L0C": 7424,
+        "UB": 16906
+      }
+    },
+    "allocation_seconds": 0.47932050000000004,
+    "cycles": 868202,
+    "traffic": 268588,
+    "spills": 1445,
+    "reuse_edges": 4678,
+    "lower_bound": 513226,
+    "pipe_work": {
+      "MTE2": 513226,
+      "MTE1": 21760,
+      "MTE3": 508138,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "pipeline-w64-a1-distance-rotate",
+    "peak": {
+      "total": 31280,
+      "by_type": {
+        "L1": 1024,
+        "L0B": 16256,
+        "L0A": 10240,
+        "L0C": 7168,
+        "UB": 17526
+      }
+    },
+    "allocation_seconds": 0.4601657999999986,
+    "cycles": 796743,
+    "traffic": 262672,
+    "spills": 1236,
+    "reuse_edges": 4064,
+    "lower_bound": 475960,
+    "pipe_work": {
+      "MTE2": 475960,
+      "MTE1": 21760,
+      "MTE3": 470872,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "dfs-w1-a0-distance-rotate",
+    "peak": {
+      "total": 12702,
+      "by_type": {
+        "L1": 10240,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256,
+        "UB": 2206
+      }
+    },
+    "allocation_seconds": 0.42116889999999785,
+    "cycles": 363503,
+    "traffic": 90832,
+    "spills": 532,
+    "reuse_edges": 3540,
+    "lower_bound": 239736,
+    "pipe_work": {
+      "MTE2": 239736,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 128066
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "candidate": "dfs_reverse-w1-a0-distance-rotate",
+    "peak": {
+      "total": 11020,
+      "by_type": {
+        "L1": 10240,
+        "L0B": 256,
+        "L0A": 256,
+        "L0C": 256,
+        "UB": 2218
+      }
+    },
+    "allocation_seconds": 0.3794518999999923,
+    "cycles": 296858,
+    "traffic": 69976,
+    "spills": 421,
+    "reuse_edges": 3359,
+    "lower_bound": 202230,
+    "pipe_work": {
+      "MTE2": 202230,
+      "MTE1": 21760,
+      "CUBE": 32768,
+      "FIXP": 7872,
+      "VECTOR": 104960,
+      "MTE3": 90560
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "id-w1-a0-distance",
+    "peak": {
+      "total": 9728,
+      "by_type": {
+        "L1": 9216,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.25492319999999324,
+    "cycles": 194331,
+    "traffic": 34944,
+    "spills": 273,
+    "reuse_edges": 1454,
+    "lower_bound": 152438,
+    "pipe_work": {
+      "MTE2": 152438,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "id-w1-a0-cost",
+    "peak": {
+      "total": 9728,
+      "by_type": {
+        "L1": 9216,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.2610659999999996,
+    "cycles": 194331,
+    "traffic": 34944,
+    "spills": 273,
+    "reuse_edges": 1454,
+    "lower_bound": 152438,
+    "pipe_work": {
+      "MTE2": 152438,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w32-a1-distance",
+    "peak": {
+      "total": 14208,
+      "by_type": {
+        "L1": 9472,
+        "L0A": 384,
+        "L0B": 1024,
+        "L0C": 4352
+      }
+    },
+    "allocation_seconds": 0.2897873000000004,
+    "cycles": 309812,
+    "traffic": 85632,
+    "spills": 383,
+    "reuse_edges": 1561,
+    "lower_bound": 220394,
+    "pipe_work": {
+      "MTE2": 220394,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "MTE3": 65520,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w32-a1-cost",
+    "peak": {
+      "total": 14208,
+      "by_type": {
+        "L1": 9472,
+        "L0A": 384,
+        "L0B": 1024,
+        "L0C": 4352
+      }
+    },
+    "allocation_seconds": 0.29096799999999234,
+    "cycles": 309812,
+    "traffic": 85632,
+    "spills": 383,
+    "reuse_edges": 1561,
+    "lower_bound": 220394,
+    "pipe_work": {
+      "MTE2": 220394,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "MTE3": 65520,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w128-a1-distance",
+    "peak": {
+      "total": 24704,
+      "by_type": {
+        "L1": 10240,
+        "L0A": 512,
+        "L0B": 1024,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 0.26392419999999106,
+    "cycles": 477623,
+    "traffic": 152832,
+    "spills": 447,
+    "reuse_edges": 1625,
+    "lower_bound": 285034,
+    "pipe_work": {
+      "MTE2": 285034,
+      "MTE3": 168730,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w128-a1-cost",
+    "peak": {
+      "total": 24704,
+      "by_type": {
+        "L1": 10240,
+        "L0A": 512,
+        "L0B": 1024,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 0.27178599999999165,
+    "cycles": 477623,
+    "traffic": 152832,
+    "spills": 447,
+    "reuse_edges": 1625,
+    "lower_bound": 285034,
+    "pipe_work": {
+      "MTE2": 285034,
+      "MTE3": 168730,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w64-a2-distance",
+    "peak": {
+      "total": 18560,
+      "by_type": {
+        "L1": 9728,
+        "L0A": 512,
+        "L0B": 1024,
+        "L0C": 8448
+      }
+    },
+    "allocation_seconds": 0.3129940000000033,
+    "cycles": 360776,
+    "traffic": 106240,
+    "spills": 407,
+    "reuse_edges": 1585,
+    "lower_bound": 241658,
+    "pipe_work": {
+      "MTE2": 241658,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "MTE3": 96122,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w64-a2-cost",
+    "peak": {
+      "total": 18560,
+      "by_type": {
+        "L1": 9728,
+        "L0A": 512,
+        "L0B": 1024,
+        "L0C": 8448
+      }
+    },
+    "allocation_seconds": 0.2820727999999946,
+    "cycles": 360776,
+    "traffic": 106240,
+    "spills": 407,
+    "reuse_edges": 1585,
+    "lower_bound": 241658,
+    "pipe_work": {
+      "MTE2": 241658,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "MTE3": 96122,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "pipeline-w64-a0-distance",
+    "peak": {
+      "total": 67456,
+      "by_type": {
+        "L1": 9472,
+        "L0A": 24704,
+        "L0B": 24576,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 0.3542992999999939,
+    "cycles": 1147225,
+    "traffic": 407808,
+    "spills": 1260,
+    "reuse_edges": 2438,
+    "lower_bound": 653768,
+    "pipe_work": {
+      "MTE2": 653768,
+      "MTE1": 31744,
+      "MTE3": 563448,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "pipeline-w64-a0-cost",
+    "peak": {
+      "total": 67456,
+      "by_type": {
+        "L1": 9472,
+        "L0A": 24704,
+        "L0B": 24576,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 0.37055790000000854,
+    "cycles": 1147225,
+    "traffic": 407808,
+    "spills": 1260,
+    "reuse_edges": 2438,
+    "lower_bound": 653768,
+    "pipe_work": {
+      "MTE2": 653768,
+      "MTE1": 31744,
+      "MTE3": 563448,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "pipeline-w64-a1-distance",
+    "peak": {
+      "total": 64896,
+      "by_type": {
+        "L1": 7424,
+        "L0A": 29184,
+        "L0B": 30336,
+        "L0C": 9472
+      }
+    },
+    "allocation_seconds": 0.2965998999999897,
+    "cycles": 1016439,
+    "traffic": 351744,
+    "spills": 1192,
+    "reuse_edges": 2370,
+    "lower_bound": 580336,
+    "pipe_work": {
+      "MTE2": 580336,
+      "MTE1": 31744,
+      "MTE3": 512752,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "pipeline-w64-a1-cost",
+    "peak": {
+      "total": 64896,
+      "by_type": {
+        "L1": 7424,
+        "L0A": 29184,
+        "L0B": 30336,
+        "L0C": 9472
+      }
+    },
+    "allocation_seconds": 0.29344890000000134,
+    "cycles": 1016439,
+    "traffic": 351744,
+    "spills": 1192,
+    "reuse_edges": 2370,
+    "lower_bound": 580336,
+    "pipe_work": {
+      "MTE2": 580336,
+      "MTE1": 31744,
+      "MTE3": 512752,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "dfs-w1-a0-distance",
+    "peak": {
+      "total": 9728,
+      "by_type": {
+        "L1": 9216,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.2658235999999903,
+    "cycles": 198183,
+    "traffic": 34944,
+    "spills": 273,
+    "reuse_edges": 1454,
+    "lower_bound": 152438,
+    "pipe_work": {
+      "MTE2": 152438,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "dfs-w1-a0-cost",
+    "peak": {
+      "total": 9728,
+      "by_type": {
+        "L1": 9216,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.27032669999999825,
+    "cycles": 198183,
+    "traffic": 34944,
+    "spills": 273,
+    "reuse_edges": 1454,
+    "lower_bound": 152438,
+    "pipe_work": {
+      "MTE2": 152438,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "dfs_reverse-w1-a0-distance",
+    "peak": {
+      "total": 11520,
+      "by_type": {
+        "L1": 9216,
+        "L0B": 1024,
+        "L0A": 1024,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.33367539999998996,
+    "cycles": 717400,
+    "traffic": 231552,
+    "spills": 1041,
+    "reuse_edges": 2220,
+    "lower_bound": 464246,
+    "pipe_work": {
+      "MTE2": 464246,
+      "MTE1": 31744,
+      "MTE3": 311808,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "dfs_reverse-w1-a0-cost",
+    "peak": {
+      "total": 11520,
+      "by_type": {
+        "L1": 9216,
+        "L0B": 1024,
+        "L0A": 1024,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.33509639999999763,
+    "cycles": 717400,
+    "traffic": 231552,
+    "spills": 1041,
+    "reuse_edges": 2220,
+    "lower_bound": 464246,
+    "pipe_work": {
+      "MTE2": 464246,
+      "MTE1": 31744,
+      "MTE3": 311808,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "id-w1-a0-distance-rotate",
+    "peak": {
+      "total": 9728,
+      "by_type": {
+        "L1": 9216,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.26902719999999647,
+    "cycles": 177625,
+    "traffic": 34944,
+    "spills": 273,
+    "reuse_edges": 1451,
+    "lower_bound": 152438,
+    "pipe_work": {
+      "MTE2": 152438,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w32-a1-distance-rotate",
+    "peak": {
+      "total": 14208,
+      "by_type": {
+        "L1": 9472,
+        "L0A": 384,
+        "L0B": 1024,
+        "L0C": 4352
+      }
+    },
+    "allocation_seconds": 0.28365200000000357,
+    "cycles": 304180,
+    "traffic": 85632,
+    "spills": 383,
+    "reuse_edges": 1561,
+    "lower_bound": 220394,
+    "pipe_work": {
+      "MTE2": 220394,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "MTE3": 65520,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w128-a1-distance-rotate",
+    "peak": {
+      "total": 24704,
+      "by_type": {
+        "L1": 10240,
+        "L0A": 512,
+        "L0B": 1024,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 0.26574839999999256,
+    "cycles": 470639,
+    "traffic": 152832,
+    "spills": 447,
+    "reuse_edges": 1625,
+    "lower_bound": 285034,
+    "pipe_work": {
+      "MTE2": 285034,
+      "MTE3": 168730,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "memory-w64-a2-distance-rotate",
+    "peak": {
+      "total": 18560,
+      "by_type": {
+        "L1": 9728,
+        "L0A": 512,
+        "L0B": 1024,
+        "L0C": 8448
+      }
+    },
+    "allocation_seconds": 0.29570480000001,
+    "cycles": 354342,
+    "traffic": 106240,
+    "spills": 407,
+    "reuse_edges": 1585,
+    "lower_bound": 241658,
+    "pipe_work": {
+      "MTE2": 241658,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "MTE3": 96122,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "pipeline-w64-a0-distance-rotate",
+    "peak": {
+      "total": 67456,
+      "by_type": {
+        "L1": 9472,
+        "L0A": 24704,
+        "L0B": 24576,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 0.36098160000000235,
+    "cycles": 1147445,
+    "traffic": 407808,
+    "spills": 1260,
+    "reuse_edges": 2438,
+    "lower_bound": 653768,
+    "pipe_work": {
+      "MTE2": 653768,
+      "MTE1": 31744,
+      "MTE3": 563448,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "pipeline-w64-a1-distance-rotate",
+    "peak": {
+      "total": 64896,
+      "by_type": {
+        "L1": 7424,
+        "L0A": 29184,
+        "L0B": 30336,
+        "L0C": 9472
+      }
+    },
+    "allocation_seconds": 0.32601199999999153,
+    "cycles": 1005494,
+    "traffic": 351744,
+    "spills": 1192,
+    "reuse_edges": 2370,
+    "lower_bound": 580336,
+    "pipe_work": {
+      "MTE2": 580336,
+      "MTE1": 31744,
+      "MTE3": 512752,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "dfs-w1-a0-distance-rotate",
+    "peak": {
+      "total": 9728,
+      "by_type": {
+        "L1": 9216,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.27436070000000257,
+    "cycles": 180081,
+    "traffic": 34944,
+    "spills": 273,
+    "reuse_edges": 1451,
+    "lower_bound": 152438,
+    "pipe_work": {
+      "MTE2": 152438,
+      "MTE1": 31744,
+      "CUBE": 65536,
+      "FIXP": 16832,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case0",
+    "candidate": "dfs_reverse-w1-a0-distance-rotate",
+    "peak": {
+      "total": 11520,
+      "by_type": {
+        "L1": 9216,
+        "L0B": 1024,
+        "L0A": 1024,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 0.40158170000000837,
+    "cycles": 659696,
+    "traffic": 231552,
+    "spills": 1041,
+    "reuse_edges": 2219,
+    "lower_bound": 464246,
+    "pipe_work": {
+      "MTE2": 464246,
+      "MTE1": 31744,
+      "MTE3": 311808,
+      "CUBE": 65536,
+      "FIXP": 16832
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "id-w1-a0-distance",
+    "peak": {
+      "total": 35328,
+      "by_type": {
+        "L1": 34816,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 2.3882461000000035,
+    "cycles": 1800001,
+    "traffic": 460800,
+    "spills": 3600,
+    "reuse_edges": 12525,
+    "lower_bound": 1628000,
+    "pipe_work": {
+      "MTE2": 1628000,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "FIXP": 67328,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "id-w1-a0-cost",
+    "peak": {
+      "total": 35328,
+      "by_type": {
+        "L1": 34816,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 2.4715393000000034,
+    "cycles": 1800001,
+    "traffic": 460800,
+    "spills": 3600,
+    "reuse_edges": 12525,
+    "lower_bound": 1628000,
+    "pipe_work": {
+      "MTE2": 1628000,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "FIXP": 67328,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w32-a1-distance",
+    "peak": {
+      "total": 39680,
+      "by_type": {
+        "L1": 34944,
+        "L0A": 384,
+        "L0B": 2048,
+        "L0C": 5632
+      }
+    },
+    "allocation_seconds": 2.6628082000000006,
+    "cycles": 2133829,
+    "traffic": 611968,
+    "spills": 3928,
+    "reuse_edges": 12850,
+    "lower_bound": 1831568,
+    "pipe_work": {
+      "MTE2": 1831568,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 193418,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w32-a1-cost",
+    "peak": {
+      "total": 39680,
+      "by_type": {
+        "L1": 34944,
+        "L0A": 384,
+        "L0B": 2048,
+        "L0C": 5632
+      }
+    },
+    "allocation_seconds": 2.4965574000000004,
+    "cycles": 2133829,
+    "traffic": 611968,
+    "spills": 3928,
+    "reuse_edges": 12850,
+    "lower_bound": 1831568,
+    "pipe_work": {
+      "MTE2": 1831568,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 193418,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w128-a1-distance",
+    "peak": {
+      "total": 52352,
+      "by_type": {
+        "L1": 35328,
+        "L0A": 512,
+        "L0B": 2048,
+        "L0C": 16640
+      }
+    },
+    "allocation_seconds": 2.5324165999999764,
+    "cycles": 2395462,
+    "traffic": 719488,
+    "spills": 4127,
+    "reuse_edges": 13049,
+    "lower_bound": 1966634,
+    "pipe_work": {
+      "MTE2": 1966634,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 335792,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w128-a1-cost",
+    "peak": {
+      "total": 52352,
+      "by_type": {
+        "L1": 35328,
+        "L0A": 512,
+        "L0B": 2048,
+        "L0C": 16640
+      }
+    },
+    "allocation_seconds": 2.7178343999999868,
+    "cycles": 2395462,
+    "traffic": 719488,
+    "spills": 4127,
+    "reuse_edges": 13049,
+    "lower_bound": 1966634,
+    "pipe_work": {
+      "MTE2": 1966634,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 335792,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w64-a2-distance",
+    "peak": {
+      "total": 43904,
+      "by_type": {
+        "L1": 35072,
+        "L0A": 384,
+        "L0B": 2048,
+        "L0C": 8448
+      }
+    },
+    "allocation_seconds": 2.4487809000000027,
+    "cycles": 2224433,
+    "traffic": 650624,
+    "spills": 4004,
+    "reuse_edges": 12926,
+    "lower_bound": 1881624,
+    "pipe_work": {
+      "MTE2": 1881624,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 243474,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w64-a2-cost",
+    "peak": {
+      "total": 43904,
+      "by_type": {
+        "L1": 35072,
+        "L0A": 384,
+        "L0B": 2048,
+        "L0C": 8448
+      }
+    },
+    "allocation_seconds": 2.5784387999999865,
+    "cycles": 2224433,
+    "traffic": 650624,
+    "spills": 4004,
+    "reuse_edges": 12926,
+    "lower_bound": 1881624,
+    "pipe_work": {
+      "MTE2": 1881624,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 243474,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "pipeline-w64-a0-distance",
+    "peak": {
+      "total": 152704,
+      "by_type": {
+        "L1": 34944,
+        "L0A": 50816,
+        "L0B": 50816,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 2.7722776999999894,
+    "cycles": 5185102,
+    "traffic": 1867008,
+    "spills": 8298,
+    "reuse_edges": 17220,
+    "lower_bound": 3733020,
+    "pipe_work": {
+      "MTE2": 3733020,
+      "MTE1": 253952,
+      "MTE3": 2123696,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "pipeline-w64-a0-cost",
+    "peak": {
+      "total": 152704,
+      "by_type": {
+        "L1": 34944,
+        "L0A": 50816,
+        "L0B": 50816,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 2.9456295999999895,
+    "cycles": 5185102,
+    "traffic": 1867008,
+    "spills": 8298,
+    "reuse_edges": 17220,
+    "lower_bound": 3733020,
+    "pipe_work": {
+      "MTE2": 3733020,
+      "MTE1": 253952,
+      "MTE3": 2123696,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "pipeline-w64-a1-distance",
+    "peak": {
+      "total": 293376,
+      "by_type": {
+        "L1": 35072,
+        "L0A": 129152,
+        "L0B": 129152,
+        "L0C": 6656
+      }
+    },
+    "allocation_seconds": 3.3049646999999993,
+    "cycles": 6994013,
+    "traffic": 2534144,
+    "spills": 11503,
+    "reuse_edges": 20425,
+    "lower_bound": 4881674,
+    "pipe_work": {
+      "MTE2": 4881674,
+      "MTE1": 253952,
+      "MTE3": 3269914,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "pipeline-w64-a1-cost",
+    "peak": {
+      "total": 293376,
+      "by_type": {
+        "L1": 35072,
+        "L0A": 129152,
+        "L0B": 129152,
+        "L0C": 6656
+      }
+    },
+    "allocation_seconds": 3.033752700000008,
+    "cycles": 6994013,
+    "traffic": 2534144,
+    "spills": 11503,
+    "reuse_edges": 20425,
+    "lower_bound": 4881674,
+    "pipe_work": {
+      "MTE2": 4881674,
+      "MTE1": 253952,
+      "MTE3": 3269914,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "dfs-w1-a0-distance",
+    "peak": {
+      "total": 35328,
+      "by_type": {
+        "L1": 34816,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 2.734663999999981,
+    "cycles": 1805422,
+    "traffic": 460800,
+    "spills": 3600,
+    "reuse_edges": 12525,
+    "lower_bound": 1628000,
+    "pipe_work": {
+      "MTE2": 1628000,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "FIXP": 67328,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "dfs-w1-a0-cost",
+    "peak": {
+      "total": 35328,
+      "by_type": {
+        "L1": 34816,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 2.408193600000004,
+    "cycles": 1805422,
+    "traffic": 460800,
+    "spills": 3600,
+    "reuse_edges": 12525,
+    "lower_bound": 1628000,
+    "pipe_work": {
+      "MTE2": 1628000,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "FIXP": 67328,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "dfs_reverse-w1-a0-distance",
+    "peak": {
+      "total": 39168,
+      "by_type": {
+        "L1": 34816,
+        "L0B": 2048,
+        "L0A": 2048,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 2.9624551999999937,
+    "cycles": 6516732,
+    "traffic": 2295808,
+    "spills": 10768,
+    "reuse_edges": 19691,
+    "lower_bound": 4538208,
+    "pipe_work": {
+      "MTE2": 4538208,
+      "MTE1": 253952,
+      "MTE3": 2910208,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "dfs_reverse-w1-a0-cost",
+    "peak": {
+      "total": 39168,
+      "by_type": {
+        "L1": 34816,
+        "L0B": 2048,
+        "L0A": 2048,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 3.15051170000001,
+    "cycles": 6516732,
+    "traffic": 2295808,
+    "spills": 10768,
+    "reuse_edges": 19691,
+    "lower_bound": 4538208,
+    "pipe_work": {
+      "MTE2": 4538208,
+      "MTE1": 253952,
+      "MTE3": 2910208,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "id-w1-a0-distance-rotate",
+    "peak": {
+      "total": 35328,
+      "by_type": {
+        "L1": 34816,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 2.5703519999999855,
+    "cycles": 1766343,
+    "traffic": 460800,
+    "spills": 3600,
+    "reuse_edges": 12522,
+    "lower_bound": 1628000,
+    "pipe_work": {
+      "MTE2": 1628000,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "FIXP": 67328,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w32-a1-distance-rotate",
+    "peak": {
+      "total": 39680,
+      "by_type": {
+        "L1": 34944,
+        "L0A": 384,
+        "L0B": 2048,
+        "L0C": 5632
+      }
+    },
+    "allocation_seconds": 2.4823539999999866,
+    "cycles": 2091788,
+    "traffic": 611968,
+    "spills": 3928,
+    "reuse_edges": 12850,
+    "lower_bound": 1831568,
+    "pipe_work": {
+      "MTE2": 1831568,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 193418,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w128-a1-distance-rotate",
+    "peak": {
+      "total": 52352,
+      "by_type": {
+        "L1": 35328,
+        "L0A": 512,
+        "L0B": 2048,
+        "L0C": 16640
+      }
+    },
+    "allocation_seconds": 2.7319630000000075,
+    "cycles": 2368173,
+    "traffic": 719488,
+    "spills": 4127,
+    "reuse_edges": 13049,
+    "lower_bound": 1966634,
+    "pipe_work": {
+      "MTE2": 1966634,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 335792,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "memory-w64-a2-distance-rotate",
+    "peak": {
+      "total": 43904,
+      "by_type": {
+        "L1": 35072,
+        "L0A": 384,
+        "L0B": 2048,
+        "L0C": 8448
+      }
+    },
+    "allocation_seconds": 2.599638199999987,
+    "cycles": 2194023,
+    "traffic": 650624,
+    "spills": 4004,
+    "reuse_edges": 12926,
+    "lower_bound": 1881624,
+    "pipe_work": {
+      "MTE2": 1881624,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "MTE3": 243474,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "pipeline-w64-a0-distance-rotate",
+    "peak": {
+      "total": 152704,
+      "by_type": {
+        "L1": 34944,
+        "L0A": 50816,
+        "L0B": 50816,
+        "L0C": 16384
+      }
+    },
+    "allocation_seconds": 2.8402030999999965,
+    "cycles": 5176463,
+    "traffic": 1867008,
+    "spills": 8298,
+    "reuse_edges": 17220,
+    "lower_bound": 3733020,
+    "pipe_work": {
+      "MTE2": 3733020,
+      "MTE1": 253952,
+      "MTE3": 2123696,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "pipeline-w64-a1-distance-rotate",
+    "peak": {
+      "total": 293376,
+      "by_type": {
+        "L1": 35072,
+        "L0A": 129152,
+        "L0B": 129152,
+        "L0C": 6656
+      }
+    },
+    "allocation_seconds": 3.382462800000013,
+    "cycles": 6902334,
+    "traffic": 2534144,
+    "spills": 11503,
+    "reuse_edges": 20425,
+    "lower_bound": 4881674,
+    "pipe_work": {
+      "MTE2": 4881674,
+      "MTE1": 253952,
+      "MTE3": 3269914,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "dfs-w1-a0-distance-rotate",
+    "peak": {
+      "total": 35328,
+      "by_type": {
+        "L1": 34816,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 2.3284412000000145,
+    "cycles": 1765989,
+    "traffic": 460800,
+    "spills": 3600,
+    "reuse_edges": 12522,
+    "lower_bound": 1628000,
+    "pipe_work": {
+      "MTE2": 1628000,
+      "MTE1": 253952,
+      "CUBE": 524288,
+      "FIXP": 67328,
+      "MTE3": 0
+    },
+    "validation": "PASS"
+  },
+  {
+    "graph": "Matmul_Case1",
+    "candidate": "dfs_reverse-w1-a0-distance-rotate",
+    "peak": {
+      "total": 39168,
+      "by_type": {
+        "L1": 34816,
+        "L0B": 2048,
+        "L0A": 2048,
+        "L0C": 256
+      }
+    },
+    "allocation_seconds": 3.037916700000011,
+    "cycles": 6078815,
+    "traffic": 2295808,
+    "spills": 10768,
+    "reuse_edges": 19690,
+    "lower_bound": 4538208,
+    "pipe_work": {
+      "MTE2": 4538208,
+      "MTE1": 253952,
+      "MTE3": 2910208,
+      "CUBE": 524288,
+      "FIXP": 67328
+    },
+    "validation": "PASS"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "project_skills": [
+    {
+      "name": "1start-mathmodel",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\1start-mathmodel\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "2analysis-modeling",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\2analysis-modeling\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "3coding-visual",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\3coding-visual\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "4drawio",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\4drawio\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "5writing",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\5writing\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "6verity",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\6verity\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "cumcm-scientific-figure",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\cumcm-scientific-figure\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "doctor",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\doctor\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "mathmodel-figure-templates",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\mathmodel-figure-templates\\SKILL.md",
+      "enabled": true
+    },
+    {
+      "name": "typst-author",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\typst-author\\SKILL.md",
+      "enabled": true
+    }
+  ],
+  "errors": [],
+  "model_turns": 0
+}

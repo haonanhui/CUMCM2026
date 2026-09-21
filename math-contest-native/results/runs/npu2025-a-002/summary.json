@@ -1,0 +1,672 @@
+[
+  {
+    "graph": "Conv_Case0",
+    "baseline": {
+      "graph": "Conv_Case0",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 7560,
+        "by_type": {
+          "L1": 7488,
+          "L0B": 96
+        }
+      },
+      "allocation_seconds": 0.26695100000000005,
+      "cycles": 571852,
+      "traffic": 87612,
+      "spills": 148,
+      "reuse_edges": 1334,
+      "lower_bound": 348677,
+      "pipe_work": {
+        "MTE2": 215936,
+        "MTE1": 23098,
+        "CUBE": 348677,
+        "MTE3": 95396
+      },
+      "validation": "PASS"
+    },
+    "problem1": {
+      "graph": "Conv_Case0",
+      "candidate": "id-w1-a0-cost",
+      "peak": {
+        "total": 7560,
+        "by_type": {
+          "L1": 7488,
+          "L0B": 96
+        }
+      },
+      "allocation_seconds": 0.259718,
+      "cycles": 539931,
+      "traffic": 71204,
+      "spills": 150,
+      "reuse_edges": 1357,
+      "lower_bound": 348677,
+      "pipe_work": {
+        "MTE2": 201844,
+        "MTE1": 23098,
+        "CUBE": 348677,
+        "MTE3": 75172
+      },
+      "validation": "PASS"
+    },
+    "problem2": {
+      "graph": "Conv_Case0",
+      "candidate": "id-w1-a0-cost",
+      "peak": {
+        "total": 7560,
+        "by_type": {
+          "L1": 7488,
+          "L0B": 96
+        }
+      },
+      "allocation_seconds": 0.259718,
+      "cycles": 539931,
+      "traffic": 71204,
+      "spills": 150,
+      "reuse_edges": 1357,
+      "lower_bound": 348677,
+      "pipe_work": {
+        "MTE2": 201844,
+        "MTE1": 23098,
+        "CUBE": 348677,
+        "MTE3": 75172
+      },
+      "validation": "PASS"
+    },
+    "problem3": {
+      "graph": "Conv_Case0",
+      "candidate": "id-w1-a0-cost",
+      "peak": {
+        "total": 7560,
+        "by_type": {
+          "L1": 7488,
+          "L0B": 96
+        }
+      },
+      "allocation_seconds": 0.259718,
+      "cycles": 539931,
+      "traffic": 71204,
+      "spills": 150,
+      "reuse_edges": 1357,
+      "lower_bound": 348677,
+      "pipe_work": {
+        "MTE2": 201844,
+        "MTE1": 23098,
+        "CUBE": 348677,
+        "MTE3": 75172
+      },
+      "validation": "PASS"
+    },
+    "cycle_improvement_pct": 0.0,
+    "elapsed_seconds": 3.5363407
+  },
+  {
+    "graph": "Conv_Case1",
+    "baseline": {
+      "graph": "Conv_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 14048,
+        "by_type": {
+          "L1": 14040,
+          "L0B": 96
+        }
+      },
+      "allocation_seconds": 2.8104962,
+      "cycles": 1240023,
+      "traffic": 76636,
+      "spills": 2173,
+      "reuse_edges": 15989,
+      "lower_bound": 773378,
+      "pipe_work": {
+        "MTE2": 773378,
+        "MTE1": 235026,
+        "CUBE": 409566,
+        "MTE3": 97254
+      },
+      "validation": "PASS"
+    },
+    "problem1": {
+      "graph": "Conv_Case1",
+      "candidate": "id-w1-a0-cost",
+      "peak": {
+        "total": 14048,
+        "by_type": {
+          "L1": 14040,
+          "L0B": 96
+        }
+      },
+      "allocation_seconds": 3.3382241000000006,
+      "cycles": 1408594,
+      "traffic": 82402,
+      "spills": 3463,
+      "reuse_edges": 17604,
+      "lower_bound": 970192,
+      "pipe_work": {
+        "MTE2": 970192,
+        "MTE1": 235026,
+        "CUBE": 409566,
+        "MTE3": 151672
+      },
+      "validation": "PASS"
+    },
+    "problem2": {
+      "graph": "Conv_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 14048,
+        "by_type": {
+          "L1": 14040,
+          "L0B": 96
+        }
+      },
+      "allocation_seconds": 2.8104962,
+      "cycles": 1240023,
+      "traffic": 76636,
+      "spills": 2173,
+      "reuse_edges": 15989,
+      "lower_bound": 773378,
+      "pipe_work": {
+        "MTE2": 773378,
+        "MTE1": 235026,
+        "CUBE": 409566,
+        "MTE3": 97254
+      },
+      "validation": "PASS"
+    },
+    "problem3": {
+      "graph": "Conv_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 14048,
+        "by_type": {
+          "L1": 14040,
+          "L0B": 96
+        }
+      },
+      "allocation_seconds": 2.8104962,
+      "cycles": 1240023,
+      "traffic": 76636,
+      "spills": 2173,
+      "reuse_edges": 15989,
+      "lower_bound": 773378,
+      "pipe_work": {
+        "MTE2": 773378,
+        "MTE1": 235026,
+        "CUBE": 409566,
+        "MTE3": 97254
+      },
+      "validation": "PASS"
+    },
+    "cycle_improvement_pct": 0.0,
+    "elapsed_seconds": 51.2748294
+  },
+  {
+    "graph": "FlashAttention_Case0",
+    "baseline": {
+      "graph": "FlashAttention_Case0",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 4884,
+        "by_type": {
+          "L1": 3328,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 512,
+          "UB": 1428
+        }
+      },
+      "allocation_seconds": 0.104652999999999,
+      "cycles": 47509,
+      "traffic": 3620,
+      "spills": 23,
+      "reuse_edges": 616,
+      "lower_bound": 25600,
+      "pipe_work": {
+        "MTE2": 21014,
+        "MTE1": 5440,
+        "CUBE": 8192,
+        "FIXP": 1968,
+        "VECTOR": 25600,
+        "MTE3": 14134
+      },
+      "validation": "PASS"
+    },
+    "problem1": {
+      "graph": "FlashAttention_Case0",
+      "candidate": "id-w1-a0-cost",
+      "peak": {
+        "total": 4884,
+        "by_type": {
+          "L1": 3328,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 512,
+          "UB": 1428
+        }
+      },
+      "allocation_seconds": 0.103612499999997,
+      "cycles": 53060,
+      "traffic": 3692,
+      "spills": 41,
+      "reuse_edges": 700,
+      "lower_bound": 25600,
+      "pipe_work": {
+        "MTE2": 23786,
+        "MTE1": 5440,
+        "CUBE": 8192,
+        "FIXP": 1968,
+        "VECTOR": 25600,
+        "MTE3": 16906
+      },
+      "validation": "PASS"
+    },
+    "problem2": {
+      "graph": "FlashAttention_Case0",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 4884,
+        "by_type": {
+          "L1": 3328,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 512,
+          "UB": 1428
+        }
+      },
+      "allocation_seconds": 0.104652999999999,
+      "cycles": 47509,
+      "traffic": 3620,
+      "spills": 23,
+      "reuse_edges": 616,
+      "lower_bound": 25600,
+      "pipe_work": {
+        "MTE2": 21014,
+        "MTE1": 5440,
+        "CUBE": 8192,
+        "FIXP": 1968,
+        "VECTOR": 25600,
+        "MTE3": 14134
+      },
+      "validation": "PASS"
+    },
+    "problem3": {
+      "graph": "FlashAttention_Case0",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 4884,
+        "by_type": {
+          "L1": 3328,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 512,
+          "UB": 1428
+        }
+      },
+      "allocation_seconds": 0.104652999999999,
+      "cycles": 47509,
+      "traffic": 3620,
+      "spills": 23,
+      "reuse_edges": 616,
+      "lower_bound": 25600,
+      "pipe_work": {
+        "MTE2": 21014,
+        "MTE1": 5440,
+        "CUBE": 8192,
+        "FIXP": 1968,
+        "VECTOR": 25600,
+        "MTE3": 14134
+      },
+      "validation": "PASS"
+    },
+    "cycle_improvement_pct": 0.0,
+    "elapsed_seconds": 1.6899773999999965
+  },
+  {
+    "graph": "FlashAttention_Case1",
+    "baseline": {
+      "graph": "FlashAttention_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 7972,
+        "by_type": {
+          "L1": 5376,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 512,
+          "UB": 2468
+        }
+      },
+      "allocation_seconds": 0.32006200000000007,
+      "cycles": 225902,
+      "traffic": 32852,
+      "spills": 212,
+      "reuse_edges": 2736,
+      "lower_bound": 104960,
+      "pipe_work": {
+        "MTE2": 100988,
+        "MTE1": 21760,
+        "CUBE": 32768,
+        "FIXP": 7872,
+        "VECTOR": 104960,
+        "MTE3": 74054
+      },
+      "validation": "PASS"
+    },
+    "problem1": {
+      "graph": "FlashAttention_Case1",
+      "candidate": "id-w1-a0-cost",
+      "peak": {
+        "total": 7972,
+        "by_type": {
+          "L1": 5376,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 512,
+          "UB": 2468
+        }
+      },
+      "allocation_seconds": 0.32264789999999977,
+      "cycles": 235182,
+      "traffic": 33236,
+      "spills": 245,
+      "reuse_edges": 3175,
+      "lower_bound": 106322,
+      "pipe_work": {
+        "MTE2": 106322,
+        "MTE1": 21760,
+        "CUBE": 32768,
+        "FIXP": 7872,
+        "VECTOR": 104960,
+        "MTE3": 79388
+      },
+      "validation": "PASS"
+    },
+    "problem2": {
+      "graph": "FlashAttention_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 7972,
+        "by_type": {
+          "L1": 5376,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 512,
+          "UB": 2468
+        }
+      },
+      "allocation_seconds": 0.32006200000000007,
+      "cycles": 225902,
+      "traffic": 32852,
+      "spills": 212,
+      "reuse_edges": 2736,
+      "lower_bound": 104960,
+      "pipe_work": {
+        "MTE2": 100988,
+        "MTE1": 21760,
+        "CUBE": 32768,
+        "FIXP": 7872,
+        "VECTOR": 104960,
+        "MTE3": 74054
+      },
+      "validation": "PASS"
+    },
+    "problem3": {
+      "graph": "FlashAttention_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 7972,
+        "by_type": {
+          "L1": 5376,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 512,
+          "UB": 2468
+        }
+      },
+      "allocation_seconds": 0.32006200000000007,
+      "cycles": 225902,
+      "traffic": 32852,
+      "spills": 212,
+      "reuse_edges": 2736,
+      "lower_bound": 104960,
+      "pipe_work": {
+        "MTE2": 100988,
+        "MTE1": 21760,
+        "CUBE": 32768,
+        "FIXP": 7872,
+        "VECTOR": 104960,
+        "MTE3": 74054
+      },
+      "validation": "PASS"
+    },
+    "cycle_improvement_pct": 0.0,
+    "elapsed_seconds": 6.068173300000005
+  },
+  {
+    "graph": "Matmul_Case0",
+    "baseline": {
+      "graph": "Matmul_Case0",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 9728,
+        "by_type": {
+          "L1": 9216,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 256
+        }
+      },
+      "allocation_seconds": 0.2709037000000052,
+      "cycles": 194331,
+      "traffic": 34944,
+      "spills": 273,
+      "reuse_edges": 1454,
+      "lower_bound": 152438,
+      "pipe_work": {
+        "MTE2": 152438,
+        "MTE1": 31744,
+        "CUBE": 65536,
+        "FIXP": 16832,
+        "MTE3": 0
+      },
+      "validation": "PASS"
+    },
+    "problem1": {
+      "graph": "Matmul_Case0",
+      "candidate": "id-w1-a0-cost",
+      "peak": {
+        "total": 9728,
+        "by_type": {
+          "L1": 9216,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 256
+        }
+      },
+      "allocation_seconds": 0.25811350000000033,
+      "cycles": 194331,
+      "traffic": 34944,
+      "spills": 273,
+      "reuse_edges": 1454,
+      "lower_bound": 152438,
+      "pipe_work": {
+        "MTE2": 152438,
+        "MTE1": 31744,
+        "CUBE": 65536,
+        "FIXP": 16832,
+        "MTE3": 0
+      },
+      "validation": "PASS"
+    },
+    "problem2": {
+      "graph": "Matmul_Case0",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 9728,
+        "by_type": {
+          "L1": 9216,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 256
+        }
+      },
+      "allocation_seconds": 0.2709037000000052,
+      "cycles": 194331,
+      "traffic": 34944,
+      "spills": 273,
+      "reuse_edges": 1454,
+      "lower_bound": 152438,
+      "pipe_work": {
+        "MTE2": 152438,
+        "MTE1": 31744,
+        "CUBE": 65536,
+        "FIXP": 16832,
+        "MTE3": 0
+      },
+      "validation": "PASS"
+    },
+    "problem3": {
+      "graph": "Matmul_Case0",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 9728,
+        "by_type": {
+          "L1": 9216,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 256
+        }
+      },
+      "allocation_seconds": 0.2709037000000052,
+      "cycles": 194331,
+      "traffic": 34944,
+      "spills": 273,
+      "reuse_edges": 1454,
+      "lower_bound": 152438,
+      "pipe_work": {
+        "MTE2": 152438,
+        "MTE1": 31744,
+        "CUBE": 65536,
+        "FIXP": 16832,
+        "MTE3": 0
+      },
+      "validation": "PASS"
+    },
+    "cycle_improvement_pct": 0.0,
+    "elapsed_seconds": 4.987992800000008
+  },
+  {
+    "graph": "Matmul_Case1",
+    "baseline": {
+      "graph": "Matmul_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 35328,
+        "by_type": {
+          "L1": 34816,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 256
+        }
+      },
+      "allocation_seconds": 2.561075400000007,
+      "cycles": 1800001,
+      "traffic": 460800,
+      "spills": 3600,
+      "reuse_edges": 12525,
+      "lower_bound": 1628000,
+      "pipe_work": {
+        "MTE2": 1628000,
+        "MTE1": 253952,
+        "CUBE": 524288,
+        "FIXP": 67328,
+        "MTE3": 0
+      },
+      "validation": "PASS"
+    },
+    "problem1": {
+      "graph": "Matmul_Case1",
+      "candidate": "id-w1-a0-cost",
+      "peak": {
+        "total": 35328,
+        "by_type": {
+          "L1": 34816,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 256
+        }
+      },
+      "allocation_seconds": 2.358027899999996,
+      "cycles": 1800001,
+      "traffic": 460800,
+      "spills": 3600,
+      "reuse_edges": 12525,
+      "lower_bound": 1628000,
+      "pipe_work": {
+        "MTE2": 1628000,
+        "MTE1": 253952,
+        "CUBE": 524288,
+        "FIXP": 67328,
+        "MTE3": 0
+      },
+      "validation": "PASS"
+    },
+    "problem2": {
+      "graph": "Matmul_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 35328,
+        "by_type": {
+          "L1": 34816,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 256
+        }
+      },
+      "allocation_seconds": 2.561075400000007,
+      "cycles": 1800001,
+      "traffic": 460800,
+      "spills": 3600,
+      "reuse_edges": 12525,
+      "lower_bound": 1628000,
+      "pipe_work": {
+        "MTE2": 1628000,
+        "MTE1": 253952,
+        "CUBE": 524288,
+        "FIXP": 67328,
+        "MTE3": 0
+      },
+      "validation": "PASS"
+    },
+    "problem3": {
+      "graph": "Matmul_Case1",
+      "candidate": "id-w1-a0-distance",
+      "peak": {
+        "total": 35328,
+        "by_type": {
+          "L1": 34816,
+          "L0A": 128,
+          "L0B": 128,
+          "L0C": 256
+        }
+      },
+      "allocation_seconds": 2.561075400000007,
+      "cycles": 1800001,
+      "traffic": 460800,
+      "spills": 3600,
+      "reuse_edges": 12525,
+      "lower_bound": 1628000,
+      "pipe_work": {
+        "MTE2": 1628000,
+        "MTE1": 253952,
+        "CUBE": 524288,
+        "FIXP": 67328,
+        "MTE3": 0
+      },
+      "validation": "PASS"
+    },
+    "cycle_improvement_pct": 0.0,
+    "elapsed_seconds": 47.314393100000004
+  }
+]

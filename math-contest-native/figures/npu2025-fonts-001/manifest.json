@@ -1,0 +1,86 @@
+{
+  "inputs_sha256": {
+    "results/runs/npu-paper-r3-analysis-001/conv_id_trajectory.json": "091bfd8f2e09bbdc24a86db8c87da8f00494ed0d4192ea06b501fd629f95a525",
+    "results/runs/npu-paper-r3-analysis-001/conv_selected_trajectory.json": "927218b78a8124c9f9545d38567d11e667c5fe537af093278392d8bd712d37ef",
+    "results/runs/npu-paper-r3-analysis-001/conv_memory_trajectory.json": "c329f11b6330d8d6cbc67183f61a6c2b640235cefce2a5577e3545c47f2dc25c",
+    "results/runs/npu-paper-r3-analysis-001/attention_p2_occupancy.json": "840aea60727cae563fd7f80c30b51cc206c15ab2285bbb2a502fa33cc240d265",
+    "results/runs/npu2025-a-005/summary.json": "2a19d425e9e08712575789bb1b83355904316223401efe06465ea3d7c6d8d3ba",
+    "results/runs/npu-paper-r2-analysis-001/analysis.json": "621573d3b6df101592244d8b9e97531b0eda23211c9fac0d221b44cb58b5794f",
+    "results/runs/npu-paper-r2-analysis-001/attention_p2_timeline.json": "a95c10b21257992093cb277b98487be02f1ba87ede4dd42d549e04a0ebb20b81",
+    "results/runs/npu-paper-r2-analysis-001/attention_p3_timeline.json": "4affbfc16eb69adc3e9bde3a5ba491cdb589f23d6bd6d80162826fd07cdc7c6b",
+    "results/runs/npu-paper-r3-analysis-001/attention_p2_detail.json": "42f0a13e5450a01762c97248f83763a13920ca4ceae2519b520995195bd3445a",
+    "results/runs/npu-paper-r3-analysis-001/attention_p3_detail.json": "74d3e85475bd58f642d092b29f5c5dd4148764c4e40a6656c8e486bc2d1bca8d"
+  },
+  "results": {
+    "conv_trajectory": {
+      "status": "FAIL",
+      "failures": [
+        {
+          "category": "clipping",
+          "detail": "(a)"
+        },
+        {
+          "category": "clipping",
+          "detail": "(b)"
+        }
+      ],
+      "export_failures": []
+    },
+    "attention_occupancy": {
+      "status": "FAIL",
+      "failures": [
+        {
+          "category": "clipping",
+          "detail": "(a)"
+        },
+        {
+          "category": "clipping",
+          "detail": "(b)"
+        }
+      ],
+      "export_failures": []
+    },
+    "stage_gain": {
+      "status": "PASS",
+      "failures": [],
+      "export_failures": []
+    },
+    "attention_compare": {
+      "status": "FAIL",
+      "failures": [
+        {
+          "category": "clipping",
+          "detail": "(a)"
+        },
+        {
+          "category": "clipping",
+          "detail": "(b)"
+        }
+      ],
+      "export_failures": []
+    },
+    "attention_window": {
+      "status": "FAIL",
+      "failures": [
+        {
+          "category": "clipping",
+          "detail": "(a)"
+        },
+        {
+          "category": "clipping",
+          "detail": "(b)"
+        },
+        {
+          "category": "legend",
+          "detail": "overlaps annotation text"
+        },
+        {
+          "category": "legend",
+          "detail": "overlaps annotation text"
+        }
+      ],
+      "export_failures": []
+    }
+  },
+  "plotted_data_sha256": "f6a302d3007e2766ffdba492647260efe55b59c70fe2b775513d881bad11a072"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "kind": "synthetic_infrastructure",
+  "run_id": "paper-smoke-20260920T153524148148",
+  "pdf": "D:\\A_Projects\\10_Research\\math-contest-native\\.local\\paper-smoke-20260920T153524148148\\main.pdf",
+  "pdf_fingerprint": {
+    "sha256": "220a359098fded9a8f5abef0aca37e1868236e4a85c69080b9e98f511444026a",
+    "bytes": 30497
+  },
+  "pages": 1,
+  "visual_review": "PASS: rendered page 1 inspected; Chinese axes and legend readable, mathematical x-bar preserved, no clipping or overlap",
+  "official_template": "NOT_TESTED",
+  "figure_font": "Microsoft YaHei",
+  "missing_glyph_warnings": [],
+  "plot_script_sha256": "dacd64eda038dd9870203c2f6a9f9ead9729f037f2983de7ffa0a6786679022e"
+}

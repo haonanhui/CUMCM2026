@@ -1,0 +1,14 @@
+{
+  "requirements.txt": "e74f362f3bb6b97e4eaac76613203fafa59da5e42bb3f59ca398f470651ee128",
+  "SKILL.md": "48391ebb0b42911780588bef87911bad5e04bc8ed8aa4707adb7ed280159e496",
+  "references/api.md": "e7aa8951269ae74ea3fc2054aac0dbcd222993f1d88d421db931c8c94d8041ee",
+  "references/profile.json": "c3feacc10025cc65443fdb78da0aa0f52dee9c83f1c2d44de05fdb826636b351",
+  "scripts/regression.py": "7b669dfb6c8c3ce6245318ec4148727273450566e5311a75376c182a18052ded",
+  "scripts/scientific_figure/export.py": "ab09025b7a5f37994103f4e7dec02b9953e471f2168a5014326839a54b059401",
+  "scripts/scientific_figure/qa.py": "79a57f6bf796b5e4ce0f3f46a7c1d94e9f95619e19859e38786ea7acb84a8806",
+  "scripts/scientific_figure/style.py": "995563d6e7360d81e530f9aa3242a623ec11ad408db5d6261dda718213e7092e",
+  "scripts/scientific_figure/templates.py": "7257485df81bc6e0cdcb3d26511a9c842ac03d1cd6317692e18fb95f5e008490",
+  "scripts/scientific_figure/typography.py": "1a1da63b1725d3bb254ef1527f1c3a414c6bc7d2469f88f2dc868c5adf523cb7",
+  "scripts/scientific_figure/__init__.py": "44160d0e917ac0c150d192bd44a99e4309dc629354451e9921d9ee71170a3693",
+  "tests/test_figures.py": "2c87a906589769147499f9819aa88643ede2d19aca5f59549f2c0564eb674df2"
+}

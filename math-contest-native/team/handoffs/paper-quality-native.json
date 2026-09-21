@@ -1,0 +1,67 @@
+{
+  "task_id": "paper-quality-native",
+  "revision": 3,
+  "owner": "codex-root",
+  "date": "2026-09-21",
+  "branch": "codex/paper-quality-native-20260921",
+  "committed": false,
+  "pushed": false,
+  "status": "internal_v3_scoring_anchors_integrated",
+  "inputs_read": [
+    "AGENTS.md",
+    "PROJECT_STATE.json",
+    "WORKSPACE_SPEC",
+    "SKILLS",
+    "agents/README",
+    "npu2025-a task/handoff",
+    "UPSTREAM",
+    "5writing",
+    "6verity",
+    "paper main and three problem chapters",
+    "writing check and VERIFY_REPORT",
+    "official2025/format.pdf"
+  ],
+  "findings": [
+    "此前internal-v2配置在math-contest-workspace，非实际生成稿件的math-contest-native",
+    "模板倍率由1.68改1.0，PDF实际正文约12pt、基线14.44pt",
+    "原文存在目标与约束但推导、方法依据、结果解释压缩",
+    "短章节和图多解释少只记WARN，工程PASS未区分质量"
+  ],
+  "changes": [
+    "独立质量规范及参考摘要、18条表达模板",
+    "根入口、5writing、6verity、writer、索引显式必读接线",
+    "来源适配记录",
+    "原稿质量诊断",
+    "同题四稿正文边界与汉字量测量",
+    "独立正向写作指南和12条功能示例",
+    "根入口、writer、5writing、6verity、质量规范、索引接入",
+    "internal-v3：24项锚点、逐问矩阵与分数缺陷一致性检查，原权重保留"
+  ],
+  "verified": [
+    "原PDF和build/main.pdf哈希一致",
+    "查看11页联系图，读取相关正文源",
+    "5writing与6verity quick_validate通过",
+    "git diff --check通过",
+    "Codex原生skills/list实测9技能enabled、errors空，未创建模型回合",
+    "5份文稿测量记录与12条JSONL解析通过",
+    "6个入口指向指南",
+    "2份skill头字段保留",
+    "当前返修PDF哈希与分析快照一致",
+    "24个唯一ID、权重总和100和3处必读链接通过",
+    "当前入口含internal-v3，旧报告保留internal-v2",
+    "首次版本检查误将历史v2说明视为错误，修正断言后通过"
+  ],
+  "not_done": [
+    "未覆盖paper/revision2与当前PDF",
+    "未开展扩展计划中的新实验、轨迹图或新成稿",
+    "未证明正在运行的另一个写作任务已读取writing-guide-1"
+  ],
+  "next_action": "revision3完成后以6verity按internal-v3逐问和24项重新评分；未执行新稿完整重评，未证明运行中任务已重读。",
+  "current_snapshot_sha256": "b4429e1cfb1893832627336df215c499133b754183f8fdd324aa5b4ec3c0f0f5",
+  "evidence": [
+    "reports/PAPER_ORGANIZATION_AND_LANGUAGE_20260921.md",
+    "reports/paper-organization-measurements-20260921.json",
+    "docs/paper-quality/positive-language-examples.jsonl",
+    "reports/SCORING_STANDARD_AUDIT_20260921.md"
+  ]
+}

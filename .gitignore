@@ -56,3 +56,8 @@ Desktop.ini
 
 # 本地部署回执
 bootstrap_receipt.json
+
+# Native team local downloads and caches
+references/library/
+references/downloads/
+.mypy_cache/

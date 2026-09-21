@@ -1,0 +1,1 @@
+Three figures and three tables generated from recorded traces.

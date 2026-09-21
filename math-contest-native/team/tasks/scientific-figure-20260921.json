@@ -1,0 +1,34 @@
+{
+  "task_id": "scientific-figure-20260921",
+  "revision": 2,
+  "owner": "codex-root",
+  "status": "completed",
+  "spec_version": "PAPER_FIGURE_STYLE_SPEC_20260921 v1.0 native adaptation",
+  "spec_refs": [
+    "docs/PAPER_FIGURE_STYLE_SPEC_20260921.md",
+    "docs/FIGURES_ZH.md",
+    "docs/WORKSPACE_SPEC.md",
+    "provenance/UPSTREAM.md"
+  ],
+  "write_scope": [
+    ".agents/skills/cumcm-scientific-figure",
+    "docs/SKILLS.md",
+    "docs/FIGURES_ZH.md",
+    "docs/PAPER_FIGURE_STYLE_SPEC_20260921.md",
+    "scripts/probe_codex_skills.py",
+    "scripts/probe_dsh_skills.mjs",
+    "reports/scientific-figure",
+    "provenance/UPSTREAM.md",
+    "team/tasks/scientific-figure-20260921.json",
+    "team/handoffs/scientific-figure-20260921.json",
+    "AI_USAGE.md"
+  ],
+  "constraints": [
+    "Upstream assets and existing paper/results read-only",
+    "No app integration, packaging, shared process restart or global config changes",
+    "Synthetic examples are not scientific validation"
+  ],
+  "baseline_commit": "1d4fc98ee93d6971cb30d127cab4e9b2c791a359",
+  "acceptance_report": "reports/scientific-figure/ACCEPTANCE.md",
+  "human_review": "pending"
+}

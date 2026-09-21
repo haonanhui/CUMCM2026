@@ -1,0 +1,78 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "jfs_zh_reference_v1",
+  "profile_sha256": "55d53b666e69492579c5dedd5e0ebef28c1c46d7b2d9fc3f9413a9719cc47e8f",
+  "kind": "parametric_curve",
+  "synthetic": true,
+  "provenance": {
+    "input": "deterministic synthetic functions in regression.py",
+    "seed": null,
+    "generator_sha256": "d14586448e0af31e465be74852621fd65ce1428c9503c0fed46bcdd21b6d224c",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "模": "SimSun",
+      "态": "SimSun",
+      "I": "Times New Roman",
+      "弯": "SimSun",
+      "曲": "SimSun",
+      "刚": "SimSun",
+      "度": "SimSun",
+      "平": "SimSun",
+      "均": "SimSun",
+      "倾": "SimSun",
+      "角": "SimSun",
+      "(": "Times New Roman",
+      "°": "Times New Roman",
+      ")": "Times New Roman",
+      "第": "SimSun",
+      "一": "SimSun",
+      "响": "SimSun",
+      "应": "SimSun",
+      "二": "SimSun"
+    },
+    "panel_count": 1,
+    "width_mm": 85.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT",
+      "CZRBLR+STIXGeneral-Regular",
+      "FTXWZA+STIXGeneral-Italic"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.045301081755343114,
+      "svg_png_mean_absolute_error": 0.04142218164041285
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "A.pdf": "459194ae0196372e580df3ea63e42251c2d9986ba8f10dba46b02134ecc6b534",
+    "A.svg": "58bb2956ed2e099b5d44fcdc3ead57bb839e3add19ad36879fb052c37d9bcd06",
+    "A.png": "858b576c445d438b43348ab5334f515e64b5e28bdfd2d31036256c9d008a54db",
+    "A.gray.png": "8d58326e2d3bb00b92573f787f7c3573cdb4110d96375465b7259307b65481fa",
+    "A.caption.txt": "d5859109a6adf0a4e7b70aa22538895bfaddcba475231f0de96167553af0bd76"
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "command": "python -B scripts/analyze_npu_revision3.py",
+  "python": "3.9.13",
+  "seed": null,
+  "deterministic": true,
+  "capacity": {
+    "L1": 4096,
+    "UB": 1024,
+    "L0A": 256,
+    "L0B": 256,
+    "L0C": 512
+  },
+  "rows": [
+    {
+      "graph": "Conv_Case0",
+      "nodes": 2580,
+      "edges": 3869,
+      "operations": 918,
+      "buffers": 831,
+      "op_counts": {
+        "ALLOC": 831,
+        "COPY_IN": 303,
+        "MOVE": 300,
+        "CONV": 274,
+        "CONV_ADD": 26,
+        "COPY_OUT": 7,
+        "D2S": 8,
+        "FREE": 831
+      },
+      "buffer_types": {
+        "L1": 531,
+        "L0B": 300
+      },
+      "max_users": 16,
+      "reused_buffers": 823,
+      "q1": {
+        "id": {
+          "peak": 7560,
+          "position": 2286,
+          "node": 1485,
+          "types_at_peak": {
+            "L1": 7488,
+            "L0B": 72
+          },
+          "active_count": 13
+        },
+        "selected": {
+          "peak": 6984,
+          "position": 2278,
+          "node": 1483,
+          "types_at_peak": {
+            "L1": 6912,
+            "L0B": 72
+          },
+          "active_count": 9
+        },
+        "memory": {
+          "peak": 21762,
+          "position": 1618,
+          "node": 141,
+          "types_at_peak": {
+            "L1": 5378,
+            "L0B": 16384
+          },
+          "active_count": 283
+        }
+      },
+      "stages": {
+        "2": {
+          "cycles": 472038,
+          "traffic": 44766,
+          "count_by_type": {
+            "L1": 56
+          },
+          "traffic_by_type": {
+            "L1": 44766
+          },
+          "distinct_spilled": 28,
+          "max_repeats": 5,
+          "repeat_events": 28,
+          "reuse_edges": 1149
+        },
+        "3": {
+          "cycles": 465892,
+          "traffic": 44766,
+          "count_by_type": {
+            "L1": 56
+          },
+          "traffic_by_type": {
+            "L1": 44766
+          },
+          "distinct_spilled": 28,
+          "max_repeats": 5,
+          "repeat_events": 28,
+          "reuse_edges": 1149
+        }
+      }
+    },
+    {
+      "graph": "Conv_Case1",
+      "nodes": 36086,
+      "edges": 85653,
+      "operations": 12060,
+      "buffers": 12013,
+      "op_counts": {
+        "ALLOC": 12013,
+        "COPY_IN": 1353,
+        "MOVE": 5330,
+        "CONV": 4744,
+        "CONV_ADD": 586,
+        "COPY_OUT": 47,
+        "FREE": 12013
+      },
+      "buffer_types": {
+        "L1": 6683,
+        "L0B": 5330
+      },
+      "max_users": 97,
+      "reused_buffers": 12013,
+      "q1": {
+        "id": {
+          "peak": 14048,
+          "position": 23155,
+          "node": 15750,
+          "types_at_peak": {
+            "L1": 14040,
+            "L0B": 8
+          },
+          "active_count": 466
+        },
+        "selected": {
+          "peak": 14048,
+          "position": 23155,
+          "node": 15750,
+          "types_at_peak": {
+            "L1": 14040,
+            "L0B": 8
+          },
+          "active_count": 466
+        }
+      },
+      "stages": {
+        "2": {
+          "cycles": 1210619,
+          "traffic": 75546,
+          "count_by_type": {
+            "L1": 2116
+          },
+          "traffic_by_type": {
+            "L1": 75546
+          },
+          "distinct_spilled": 690,
+          "max_repeats": 9,
+          "repeat_events": 1426,
+          "reuse_edges": 15849
+        },
+        "3": {
+          "cycles": 1044075,
+          "traffic": 75546,
+          "count_by_type": {
+            "L1": 2116
+          },
+          "traffic_by_type": {
+            "L1": 75546
+          },
+          "distinct_spilled": 690,
+          "max_repeats": 9,
+          "repeat_events": 1426,
+          "reuse_edges": 15849
+        }
+      }
+    },
+    {
+      "graph": "FlashAttention_Case0",
+      "nodes": 1716,
+      "edges": 2712,
+      "operations": 572,
+      "buffers": 572,
+      "op_counts": {
+        "ALLOC": 572,
+        "COPY_IN": 24,
+        "MOVE": 128,
+        "MATMUL": 64,
+        "COPY": 64,
+        "ROWMAX": 16,
+        "COMPACT": 32,
+        "SUB": 40,
+        "EXP": 40,
+        "ROWSUM": 16,
+        "MAX": 12,
+        "MUL": 80,
+        "ADD": 36,
+        "REC": 4,
+        "COPY_OUT": 16,
+        "FREE": 572
+      },
+      "buffer_types": {
+        "L0C": 48,
+        "L1": 40,
+        "L0A": 64,
+        "L0B": 64,
+        "UB": 356
+      },
+      "max_users": 5,
+      "reused_buffers": 540,
+      "q1": {
+        "id": {
+          "peak": 4884,
+          "position": 371,
+          "node": 261,
+          "types_at_peak": {
+            "L1": 3072,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 512,
+            "UB": 1044
+          },
+          "active_count": 34
+        },
+        "selected": {
+          "peak": 4884,
+          "position": 371,
+          "node": 261,
+          "types_at_peak": {
+            "L1": 3072,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 512,
+            "UB": 1044
+          },
+          "active_count": 34
+        }
+      },
+      "stages": {
+        "2": {
+          "cycles": 47509,
+          "traffic": 3620,
+          "count_by_type": {
+            "UB": 23
+          },
+          "traffic_by_type": {
+            "UB": 3620
+          },
+          "distinct_spilled": 23,
+          "max_repeats": 1,
+          "repeat_events": 0,
+          "reuse_edges": 616,
+          "largest_vector_gap": {
+            "id": 22,
+            "pipe": "VECTOR",
+            "op": "ROWMAX",
+            "start": 2547,
+            "end": 2857,
+            "previous": null,
+            "pipe_ready": 0,
+            "dependency_ready": 2547,
+            "binding_predecessors": [
+              21
+            ],
+            "gap": 2547
+          }
+        },
+        "3": {
+          "cycles": 37744,
+          "traffic": 3620,
+          "count_by_type": {
+            "UB": 23
+          },
+          "traffic_by_type": {
+            "UB": 3620
+          },
+          "distinct_spilled": 23,
+          "max_repeats": 1,
+          "repeat_events": 0,
+          "reuse_edges": 616,
+          "largest_vector_gap": {
+            "id": 22,
+            "pipe": "VECTOR",
+            "op": "ROWMAX",
+            "start": 2524,
+            "end": 2834,
+            "previous": null,
+            "pipe_ready": 0,
+            "dependency_ready": 2524,
+            "binding_predecessors": [
+              21
+            ],
+            "gap": 2524
+          }
+        }
+      }
+    },
+    {
+      "graph": "FlashAttention_Case1",
+      "nodes": 6952,
+      "edges": 11184,
+      "operations": 2296,
+      "buffers": 2328,
+      "op_counts": {
+        "ALLOC": 2328,
+        "COPY_IN": 48,
+        "MOVE": 512,
+        "MATMUL": 256,
+        "COPY": 256,
+        "ROWMAX": 64,
+        "COMPACT": 128,
+        "SUB": 176,
+        "EXP": 176,
+        "ROWSUM": 64,
+        "MAX": 56,
+        "MUL": 352,
+        "ADD": 168,
+        "REC": 8,
+        "COPY_OUT": 32,
+        "FREE": 2328
+      },
+      "buffer_types": {
+        "L0C": 192,
+        "L1": 112,
+        "L0A": 256,
+        "L0B": 256,
+        "UB": 1512
+      },
+      "max_users": 9,
+      "reused_buffers": 2200,
+      "q1": {
+        "id": {
+          "peak": 7972,
+          "position": 643,
+          "node": 457,
+          "types_at_peak": {
+            "L1": 5120,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 512,
+            "UB": 2084
+          },
+          "active_count": 58
+        },
+        "selected": {
+          "peak": 7972,
+          "position": 643,
+          "node": 457,
+          "types_at_peak": {
+            "L1": 5120,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 512,
+            "UB": 2084
+          },
+          "active_count": 58
+        }
+      },
+      "stages": {
+        "2": {
+          "cycles": 225902,
+          "traffic": 32852,
+          "count_by_type": {
+            "UB": 179,
+            "L1": 33
+          },
+          "traffic_by_type": {
+            "UB": 24404,
+            "L1": 8448
+          },
+          "distinct_spilled": 184,
+          "max_repeats": 7,
+          "repeat_events": 28,
+          "reuse_edges": 2736
+        },
+        "3": {
+          "cycles": 150499,
+          "traffic": 32852,
+          "count_by_type": {
+            "UB": 179,
+            "L1": 33
+          },
+          "traffic_by_type": {
+            "UB": 24404,
+            "L1": 8448
+          },
+          "distinct_spilled": 184,
+          "max_repeats": 7,
+          "repeat_events": 28,
+          "reuse_edges": 2736
+        }
+      }
+    },
+    {
+      "graph": "Matmul_Case0",
+      "nodes": 4160,
+      "edges": 7104,
+      "operations": 1728,
+      "buffers": 1216,
+      "op_counts": {
+        "ALLOC": 1216,
+        "COPY_IN": 128,
+        "MOVE": 1024,
+        "MATMUL": 512,
+        "COPY_OUT": 64,
+        "FREE": 1216
+      },
+      "buffer_types": {
+        "L0C": 64,
+        "L1": 128,
+        "L0A": 512,
+        "L0B": 512
+      },
+      "max_users": 9,
+      "reused_buffers": 1216,
+      "q1": {
+        "id": {
+          "peak": 9728,
+          "position": 693,
+          "node": 533,
+          "types_at_peak": {
+            "L1": 9216,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 256
+          },
+          "active_count": 75
+        },
+        "selected": {
+          "peak": 9728,
+          "position": 693,
+          "node": 533,
+          "types_at_peak": {
+            "L1": 9216,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 256
+          },
+          "active_count": 75
+        }
+      },
+      "stages": {
+        "2": {
+          "cycles": 194331,
+          "traffic": 34944,
+          "count_by_type": {
+            "L1": 273
+          },
+          "traffic_by_type": {
+            "L1": 34944
+          },
+          "distinct_spilled": 46,
+          "max_repeats": 7,
+          "repeat_events": 227,
+          "reuse_edges": 1454
+        },
+        "3": {
+          "cycles": 173274,
+          "traffic": 34944,
+          "count_by_type": {
+            "L1": 273
+          },
+          "traffic_by_type": {
+            "L1": 34944
+          },
+          "distinct_spilled": 46,
+          "max_repeats": 7,
+          "repeat_events": 227,
+          "reuse_edges": 1451
+        }
+      }
+    },
+    {
+      "graph": "Matmul_Case1",
+      "nodes": 30976,
+      "edges": 55040,
+      "operations": 13056,
+      "buffers": 8960,
+      "op_counts": {
+        "ALLOC": 8960,
+        "COPY_IN": 512,
+        "MOVE": 8192,
+        "MATMUL": 4096,
+        "COPY_OUT": 256,
+        "FREE": 8960
+      },
+      "buffer_types": {
+        "L0C": 256,
+        "L1": 512,
+        "L0A": 4096,
+        "L0B": 4096
+      },
+      "max_users": 17,
+      "reused_buffers": 8960,
+      "q1": {
+        "id": {
+          "peak": 35328,
+          "position": 2541,
+          "node": 1965,
+          "types_at_peak": {
+            "L1": 34816,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 256
+          },
+          "active_count": 275
+        },
+        "selected": {
+          "peak": 35328,
+          "position": 2541,
+          "node": 1965,
+          "types_at_peak": {
+            "L1": 34816,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 256
+          },
+          "active_count": 275
+        }
+      },
+      "stages": {
+        "2": {
+          "cycles": 1800001,
+          "traffic": 460800,
+          "count_by_type": {
+            "L1": 3600
+          },
+          "traffic_by_type": {
+            "L1": 460800
+          },
+          "distinct_spilled": 255,
+          "max_repeats": 15,
+          "repeat_events": 3345,
+          "reuse_edges": 12525
+        },
+        "3": {
+          "cycles": 1749773,
+          "traffic": 460800,
+          "count_by_type": {
+            "L1": 3600
+          },
+          "traffic_by_type": {
+            "L1": 460800
+          },
+          "distinct_spilled": 255,
+          "max_repeats": 15,
+          "repeat_events": 3345,
+          "reuse_edges": 12522
+        }
+      }
+    }
+  ],
+  "toy": {
+    "sizes": {
+      "a": 4,
+      "b": 3,
+      "c": 5
+    },
+    "edges": [
+      [
+        "Aa",
+        "u"
+      ],
+      [
+        "Aa",
+        "v"
+      ],
+      [
+        "Ab",
+        "v"
+      ],
+      [
+        "Ab",
+        "w"
+      ],
+      [
+        "Ac",
+        "w"
+      ],
+      [
+        "u",
+        "v"
+      ],
+      [
+        "v",
+        "w"
+      ],
+      [
+        "v",
+        "Fa"
+      ],
+      [
+        "w",
+        "Fb"
+      ],
+      [
+        "w",
+        "Fc"
+      ],
+      [
+        "u",
+        "Fa"
+      ]
+    ],
+    "topological_orders": 126,
+    "peak_histogram": {
+      "12": 120,
+      "8": 6
+    },
+    "minimum": 8
+  },
+  "sha256": {
+    "code\\interfaces\\npu.py": "927c1ad2772fa29b3a191925ca9cb4a0678652cd3ce2b64a3991b4c63d60c823",
+    "code\\refine_npu.py": "823dc4d57903b0a18cd0330bbb717ba3331192a65b0c8b303a7465639b07e8bd",
+    "code\\reporting\\npu_report.py": "0cf43fd24721c7a8e16af59336fa92cf5f4771ba87f21a294146f68dd6fc1751",
+    "code\\run_npu.py": "504f0ccc77af64449af84a974627ed1213bf4e4b6ed8adfbe9fb861a836b05af",
+    "code\\solvers\\npu_memory.py": "df6af691775d4eac9f7a789371a6295654fb6136a9fcca606080fe0dbc9252bf",
+    "code\\solvers\\npu_pipeline.py": "dd8e61bf6d3f6a84b618be1ee9b2f1ac7f36864b9f103d3a55e6600997564a61",
+    "code\\solvers\\npu_schedule.py": "4265c993a113885ebdd7c5f32cbeb6b08b1023d93b270a24bc98dcd6054220b2",
+    "code\\validation\\check_npu.py": "e81d420f8ba34db09c21258fb439fb34158751615b1bddafde8eb4c52d12600b",
+    "code\\validation\\npu_replay.py": "ed595405e1af560baa858dd651b97713431b2967335ee6fa48a94ba98e4f1010",
+    "data\\raw\\npu2025\\通用神经网络处理器下的核内调度问题附件\\Json版本\\Conv_Case0.json": "5d6452bb9d9484080523fd9c4784aa787cced24983f9576d98532d43af1f8952",
+    "data\\raw\\npu2025\\通用神经网络处理器下的核内调度问题附件\\Json版本\\Conv_Case1.json": "7aa9fe00a997ecbf7b8d23395a85c30ad448c0c22138c00eb26fb342e54121ab",
+    "data\\raw\\npu2025\\通用神经网络处理器下的核内调度问题附件\\Json版本\\FlashAttention_Case0.json": "8ae6afffbc381599a4f0b14f129c47ab872146b6de4e5d4b573c2be86d5b135a",
+    "data\\raw\\npu2025\\通用神经网络处理器下的核内调度问题附件\\Json版本\\FlashAttention_Case1.json": "de2221eec5c6252ec0edea88bf65e5fb558eb7167ea87228ac96a92a2e46c77f",
+    "data\\raw\\npu2025\\通用神经网络处理器下的核内调度问题附件\\Json版本\\Matmul_Case0.json": "f978856c7a99fb23aa6eccf9bab32530bce3b4361387fd432f2e76d3ea9d293e",
+    "data\\raw\\npu2025\\通用神经网络处理器下的核内调度问题附件\\Json版本\\Matmul_Case1.json": "87f2f6cc1020f9d247f305ab7ea8fbfe7ee6776c83a7e6b0e8207042d8f7bdb9",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem1\\Conv_Case0_schedule.txt": "5aa980230742bb33970a9c965732cccf3e6f22224fbe9b890a4fcebe6e29b24e",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem1\\Conv_Case1_schedule.txt": "b241d709d696533409400b8321f596a011dba98674d7d8d5c73ee1f1e28081a2",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem1\\FlashAttention_Case0_schedule.txt": "03dcefd59aeefe689c7cbd70bc3b3d3b76001e06f77524bf8961953d5902935c",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem1\\FlashAttention_Case1_schedule.txt": "ecdee9318e98f81a318545e6326e2e0aed562baa1b28a528ba2d1d74eb052334",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem1\\Matmul_Case0_schedule.txt": "d4d864d9ceebd43fe3ce05bf631b5a302892e4682da1d07843d259f760b84075",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem1\\Matmul_Case1_schedule.txt": "8f9c2df2cbfd94a1af99d3d55aeb79bcdcce3fe2601a7ab5b36c01522531458e",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Conv_Case0_memory.txt": "9a7432cf6770659f6916571ca1782e28c13d8952dc1b4c33d2c29fce0629f4b8",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Conv_Case0_schedule.txt": "ebc7f88dbaa55d3ef0006ed905d6788daf78ab1ed568148a99ec4479cbdeff4a",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Conv_Case0_spill.txt": "40f7f5590f1cbf8474203ead45291391deccc1d0f90e82f2af5fb946b870bf79",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Conv_Case1_memory.txt": "d6bbada898ed67db23c52e8cb7272384a7df8f190b93b9714ef3d310abb252b4",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Conv_Case1_schedule.txt": "1454ffafb3a31529ab98507315125bb7907f769f316ef97e24ad1744236c2913",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Conv_Case1_spill.txt": "b2fd16ef05a56c42cfb7a1af2a136c81ef6288b0b605e9c22739ccf4163f4054",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\FlashAttention_Case0_memory.txt": "feae97fd5653ecbb121fa7594048e5be17bbac50a19c143eb6614801349bbdd1",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\FlashAttention_Case0_schedule.txt": "aa8282c4e08431b69519f11b6b5ccdcd599bedd7b91b0088451de427dd68728a",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\FlashAttention_Case0_spill.txt": "a4f9d1cee2853db9fc1756cf226aab8e6894150274c9772347b32011f65cc6ac",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\FlashAttention_Case1_memory.txt": "67876fb534b243ef85fb43ce6750857ebe4e5220ab10999e2c2c4dd2a303eb97",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\FlashAttention_Case1_schedule.txt": "5d3a85af256104d621e8554356a7cef2d9476cfd830c39df8bb32421d0bd075e",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\FlashAttention_Case1_spill.txt": "b66ce82dc80a9bb9c65285047b60c23b55f680a6b828460313dc8c727047ee93",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Matmul_Case0_memory.txt": "1c9e00b502efca3256941a5da1a4b65003e611988cfab7a482c73a7d88fdd935",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Matmul_Case0_schedule.txt": "14537d4f9580f4de5101dd26981b81e6e24f7da007ff3aab0cf4d847839f334d",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Matmul_Case0_spill.txt": "d729ad41c41dbb25fcef38f5149c6e50afc88463a27eff9aaba9599d592e5d20",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Matmul_Case1_memory.txt": "7edc8e39afaaac3806e725e052af82338832ccc5a3d676c76ea768666eba4198",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Matmul_Case1_schedule.txt": "6e6549cecd9269ccc51d702f989da068b838bd789562afea4a000bc84c024082",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem2\\Matmul_Case1_spill.txt": "b1bccac9ec7c6131ee36004c99df94059a6618b287202c749e2f4bd30821a39f",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Conv_Case0_memory.txt": "9a7432cf6770659f6916571ca1782e28c13d8952dc1b4c33d2c29fce0629f4b8",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Conv_Case0_schedule.txt": "163023cf11c5005e0bfbcd05b9791933a9bd7c8c15e9b4fffa311c32b2ba1a9c",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Conv_Case0_spill.txt": "5a8bc2eed704bfb764949846e960044b606fe6a46fb8149372cc3e6d9857d88e",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Conv_Case1_memory.txt": "d6bbada898ed67db23c52e8cb7272384a7df8f190b93b9714ef3d310abb252b4",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Conv_Case1_schedule.txt": "3aff20393c0df109821d188c41b147c2f7ab321a262ce7b4cbc2079d1a680421",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Conv_Case1_spill.txt": "6685abeabe57d71b328e6103e5cd06850c1761a3324f717cbd81afcb1f7f3676",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\FlashAttention_Case0_memory.txt": "feae97fd5653ecbb121fa7594048e5be17bbac50a19c143eb6614801349bbdd1",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\FlashAttention_Case0_schedule.txt": "ce7d141807f3f813d6b4699427dd9aa42d7f2a9ba75b0ddd740b36b68905c800",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\FlashAttention_Case0_spill.txt": "fee11c2b702a8ee4aabe6a67ec89b8a1a941a02727311b836827a5680bacc73a",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\FlashAttention_Case1_memory.txt": "67876fb534b243ef85fb43ce6750857ebe4e5220ab10999e2c2c4dd2a303eb97",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\FlashAttention_Case1_schedule.txt": "d7d333cf06acc6d34b97e08ad4cf59f95cc2e697cb9718743c7dd522f9e3b410",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\FlashAttention_Case1_spill.txt": "20df6c5b87bfbdafe50de017dea98719d3f3c5798335545280b75144cf9b54d5",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Matmul_Case0_memory.txt": "6ec49c460a28fa119d946a89766aaa1e85470bad35a1c2c4e917c5555b669421",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Matmul_Case0_schedule.txt": "f608dcb52d4e138301b98640c35fb03b7643402bd43da3e627f75128ecb730f2",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Matmul_Case0_spill.txt": "d407a0a454eef28715101b1c639ef787748f1283c644b00f5e3718e95dd6c661",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Matmul_Case1_memory.txt": "91383a1ee2a9fa406d0f3ac734e9ffd9fe919c84ed48c530b5ecb8cb5de094f0",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Matmul_Case1_schedule.txt": "c6cc3326d689262b400ab6de6b4a4947f8f968acc67f5e71fcdba899291a4d7c",
+    "results\\runs\\npu2025-a-005\\Attachment\\Problem3\\Matmul_Case1_spill.txt": "8c8f5059ced025e5535e9f343f76c78d448c3b101ac31fb44ea6e8f025d03fd4",
+    "results\\runs\\npu2025-a-005\\audit.json": "4d728a096f855b79752e927c1c307867c599fa80856ab9b3b6b92421a592b8ad",
+    "results\\runs\\npu2025-a-005\\candidates.json": "2337a5c51b906468afc8f4813f392b5a88b002de6ea2e16ce9c62b88d0ba8cf8",
+    "results\\runs\\npu2025-a-005\\config.json": "2062132abfe0ef6ad3fdb20631221e4e8c9c09092983ebf754a5657426049ba1",
+    "results\\runs\\npu2025-a-005\\Conv_Case0_timeline.json": "bdd49cc04be321a23bc81c08d8b3899fbec15b400b428ddc3ba6dc346c54d111",
+    "results\\runs\\npu2025-a-005\\Conv_Case1_timeline.json": "8b190339fbfe845087aabd29650756b5a0d2c0df94bf8ed621166aa389e6c68b",
+    "results\\runs\\npu2025-a-005\\environment.json": "74ec7a4768f8b5063e11a476bfc438d6df95c09999d202bf90e1b443d98e6829",
+    "results\\runs\\npu2025-a-005\\FlashAttention_Case0_timeline.json": "4affbfc16eb69adc3e9bde3a5ba491cdb589f23d6bd6d80162826fd07cdc7c6b",
+    "results\\runs\\npu2025-a-005\\FlashAttention_Case1_timeline.json": "4df20dee153cbca32b3d71f35ccdd11aa2c9783b57e003f7004aa3f2d3381735",
+    "results\\runs\\npu2025-a-005\\Matmul_Case0_timeline.json": "b7b72f9e65771dc179b6b9b3e7d1f688b635418f3680bbf7ed8eb93a6343f97f",
+    "results\\runs\\npu2025-a-005\\Matmul_Case1_timeline.json": "a75e546d81e3759cf8b7f35ce6794033ed269922b8e6e5ae62891f0c3db18427",
+    "results\\runs\\npu2025-a-005\\refinements.json": "6075fc8d79acf53659780c7c504e26192c82451b3ceec118a49f560d894718c0",
+    "results\\runs\\npu2025-a-005\\result.json": "bd6461f1e2db7b13db5de91f7a0988c5eb666c8afe6f8b650495917dae070866",
+    "results\\runs\\npu2025-a-005\\summary.json": "2a19d425e9e08712575789bb1b83355904316223401efe06465ea3d7c6d8d3ba",
+    "results\\runs\\npu2025-a-005\\validation.json": "262fdd7a26df88de54767726fb8636a8afec8116d1fc16ee38d17c339b05009d",
+    "scripts\\analyze_npu_revision3.py": "4ded3855b27480b4faf48082307d1c28c4966afbd4aa9f0ad514cd1dac1b781e"
+  }
+}

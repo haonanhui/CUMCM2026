@@ -1,0 +1,44 @@
+{
+  "timeout_seconds": 1800,
+  "argv": [
+    "{python}",
+    "-B",
+    "code/run_npu.py",
+    "--run",
+    "{run}"
+  ],
+  "inputs": [
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题.docx",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case0_Edges.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case0_Nodes.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case1_Edges.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case1_Nodes.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case0_Edges.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case0_Nodes.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case1_Edges.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case1_Nodes.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case0_Edges.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case0_Nodes.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case1_Edges.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case1_Nodes.csv",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Conv_Case0.json",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Conv_Case1.json",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/FlashAttention_Case0.json",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/FlashAttention_Case1.json",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Matmul_Case0.json",
+    "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Matmul_Case1.json"
+  ],
+  "expect": [
+    "summary.json",
+    "audit.json",
+    "candidates.json",
+    "environment.json"
+  ],
+  "sources": [
+    "code/run_npu.py",
+    "code/interfaces/npu.py",
+    "code/solvers/npu_memory.py",
+    "code/solvers/npu_schedule.py",
+    "code/validation/npu_replay.py"
+  ]
+}

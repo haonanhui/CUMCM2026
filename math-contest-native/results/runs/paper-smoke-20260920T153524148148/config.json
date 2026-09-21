@@ -1,0 +1,8 @@
+{
+  "kind": "synthetic_example",
+  "argv": ["{python}", "examples/mean/solve.py", "--input", "examples/mean/data.json", "--output", "{run}/numbers.json"],
+  "inputs": ["examples/mean/data.json"],
+  "sources": ["examples/mean/solve.py", "scripts/run.py"],
+  "expect": ["numbers.json"],
+  "timeout_seconds": 30
+}

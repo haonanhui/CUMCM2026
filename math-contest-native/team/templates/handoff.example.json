@@ -1,0 +1,18 @@
+{
+  "is_template": true,
+  "status": "example_not_executed",
+  "task_id": null,
+  "revision": 0,
+  "owner": null,
+  "branch": null,
+  "commit": null,
+  "uncommitted_changes": [],
+  "inputs_read": [],
+  "verification": [],
+  "evidence": [],
+  "failed_attempts": [],
+  "next_action": null,
+  "blockers": [],
+  "human_review": "pending",
+  "sync": {"pushed": false}
+}

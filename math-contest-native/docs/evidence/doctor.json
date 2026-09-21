@@ -1,0 +1,42 @@
+{
+  "root": "D:\\A_Projects\\10_Research\\math-contest-native",
+  "python": "D:\\A_Projects\\10_Research\\math-contest-native\\.venv\\Scripts\\python.exe",
+  "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+  "project_writable": true,
+  "git_root_present": true,
+  "skills_on_disk": [
+    "1start-mathmodel",
+    "2analysis-modeling",
+    "3coding-visual",
+    "4drawio",
+    "5writing",
+    "6verity",
+    "doctor",
+    "mathmodel-figure-templates",
+    "typst-author"
+  ],
+  "tools_on_path": {
+    "git": "D:\\Git\\cmd\\git.EXE",
+    "codex": "C:\\Users\\62470\\AppData\\Local\\OpenAI\\Codex\\bin\\codex.EXE",
+    "dsh": "C:\\Users\\62470\\AppData\\Roaming\\npm\\dsh.CMD",
+    "typst": null,
+    "xelatex": "D:/texlive/2026/bin/windows\\xelatex.EXE",
+    "latexmk": "D:/texlive/2026/bin/windows\\latexmk.EXE",
+    "drawio": null,
+    "pdftoppm": "C:\\Users\\62470\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE",
+    "mutool": null
+  },
+  "python_packages": {
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.9.4",
+    "scikit-learn": "1.6.1",
+    "openpyxl": "3.1.5",
+    "PyYAML": "6.0.3"
+  },
+  "paper_compiler_on_path": true,
+  "native_model_read_write": "UNVERIFIED",
+  "teammate_device": "UNVERIFIED",
+  "note": "PATH inventory is not a complete installation search; tool presence is not runtime or model verification."
+}

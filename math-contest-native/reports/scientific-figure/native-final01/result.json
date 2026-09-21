@@ -1,0 +1,14 @@
+{
+  "status": "FAIL",
+  "synthetic": true,
+  "figures": {
+    "A": "FAIL",
+    "B": "PASS",
+    "C": "PASS",
+    "D": "PASS",
+    "E": "PASS",
+    "F": "PASS",
+    "schematic": "PASS"
+  },
+  "human_review": "pending"
+}

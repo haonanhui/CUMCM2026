@@ -1,0 +1,79 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "jfs_zh_reference_v1",
+  "profile_sha256": "cfc95c825322218ff81bebe86146efa7eeaa80578a060004d8d35660fe556477",
+  "kind": "schematic",
+  "synthetic": true,
+  "provenance": {
+    "input": "deterministic synthetic functions in regression.py",
+    "seed": null,
+    "generator_sha256": "849e37555223db0ee03aaa37027c413265cfae465fffb79e69fc0ca783bc904a",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "来": "SimSun",
+      "流": "SimSun",
+      " ": "SimSun",
+      "U": "STIXGeneral",
+      "长": "SimSun",
+      "度": "SimSun",
+      "L": "STIXGeneral",
+      "位": "SimSun",
+      "置": "SimSun",
+      "x": "STIXGeneral",
+      "/": "Times New Roman",
+      "D": "STIXGeneral",
+      "−": "Times New Roman",
+      "1": "Times New Roman",
+      "0": "Times New Roman",
+      "2": "Times New Roman",
+      "3": "Times New Roman",
+      "4": "Times New Roman",
+      "5": "Times New Roman",
+      "y": "STIXGeneral",
+      ".": "Times New Roman"
+    },
+    "panel_count": 1,
+    "width_mm": 85.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT",
+      "FTXWZA+STIXGeneral-Italic"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.020651040140721076,
+      "svg_png_mean_absolute_error": 0.017255369888156926
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "schematic.pdf": "04c1da17bd648c224f213b503bf4743bb5e19b341ce37acfa7a816198e27c4bb",
+    "schematic.svg": "eb613a895f8b434b26c6b48d771a0328513d86ac25e37c8f9f343c48976cd89b",
+    "schematic.png": "d0abb5696bb3d7f875c304f620672d89704fb7c54af36e937bda0e4ecb59e5ba",
+    "schematic.gray.png": "36b5c5e8015aaf802efb7d18b88636ad6086f4542fbfd4fea907fbb3eb888f96",
+    "schematic.caption.txt": "f824b308d1d3aa66263dbc04e1edd25f53009eb3066267333272522062c88bad"
+  }
+}

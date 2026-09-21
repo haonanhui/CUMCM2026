@@ -1,0 +1,40 @@
+INFO: paper dir: D:\A_Projects\10_Research\math-contest-native\paper
+INFO: root dir: D:\A_Projects\10_Research\math-contest-native
+INFO: main file: D:\A_Projects\10_Research\math-contest-native\paper\main.tex
+INFO: sections dir: D:\A_Projects\10_Research\math-contest-native\paper\sections
+INFO: figures dir: D:\A_Projects\10_Research\math-contest-native\figures\npu2025
+INFO: results file: D:\A_Projects\10_Research\math-contest-native\reports\RESULTS_REPORT.md
+INFO: detected engine: LaTeX (main suffix: .tex)
+INFO: section file count: 10
+INFO: main include count: 12
+INFO: section length: 1_restatement.tex 442 chars
+WARN: section is short: 1_restatement.tex (442 chars)
+INFO: section length: 2_analysis.tex 837 chars
+INFO: section length: 3_assumptions.tex 542 chars
+WARN: section is short: 3_assumptions.tex (542 chars)
+INFO: section length: 4_symbols.tex 447 chars
+WARN: section is short: 4_symbols.tex (447 chars)
+INFO: section length: 5_problem1.tex 1442 chars
+WARN: problem section title may not match filename: 5_problem1.tex -> 最小缓存驻留调度
+INFO: section length: 6_problem2.tex 1537 chars
+WARN: problem section title may not match filename: 6_problem2.tex -> 连续缓存分配与换入换出
+INFO: section length: 7_problem3.tex 1653 chars
+WARN: problem section title may not match filename: 7_problem3.tex -> 搬运量约束下的流水优化
+WARN: many figures but little surrounding prose: 7_problem3.tex
+INFO: section length: 8_sensitivity.tex 922 chars
+INFO: section length: 9_evaluation.tex 537 chars
+WARN: section is short: 9_evaluation.tex (537 chars)
+INFO: section length: A_code.tex 788 chars
+INFO: section title order:
+INFO:   1. 1_restatement.tex -> 问题重述
+INFO:   2. 2_analysis.tex -> 数据理解与总体分析
+INFO:   3. 3_assumptions.tex -> 模型假设与歧义处理
+INFO:   4. 4_symbols.tex -> 符号说明
+INFO:   5. 5_problem1.tex -> 最小缓存驻留调度
+INFO:   6. 6_problem2.tex -> 连续缓存分配与换入换出
+INFO:   7. 7_problem3.tex -> 搬运量约束下的流水优化
+INFO:   8. 8_sensitivity.tex -> 候选敏感性与验证
+INFO:   9. 9_evaluation.tex -> 模型评价与结论
+INFO:   10. A_code.tex -> 计算流程与附件说明
+INFO: citation markers detected
+PASS: writing text gate passed

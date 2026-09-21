@@ -1,0 +1,11 @@
+{
+  "task_id": "team-mount",
+  "revision": 1,
+  "status": "ready_for_teammate",
+  "owner": "receiving_teammate",
+  "spec_version": "docs/WORKSPACE_SPEC.md",
+  "spec_refs": ["docs/WORKSPACE_SPEC.md", "docs/TEAM_MOUNT.md", "AGENTS.md"],
+  "goal": "Mount the native workspace on the teammate device and report actual verification.",
+  "write_scope": [".venv", ".local", "../references/library"],
+  "auto_resume_historical_paper": false
+}

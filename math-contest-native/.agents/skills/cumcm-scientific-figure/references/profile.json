@@ -1,0 +1,15 @@
+{
+  "id": "jfs_zh_reference_v1",
+  "fonts": {"latin": "Times New Roman", "cjk": ["SimSun", "Source Han Serif SC", "Noto Serif CJK SC"], "math": "stix"},
+  "sizes": {"tick": 8.5, "legend": 8.0, "label": 10.0, "panel": 10.5, "annotation": 8.5},
+  "stroke": {"axes": 0.8, "data": 1.45, "helper": 1.0, "marker_edge": 0.9, "marker_size": 5.0, "stream": 0.55, "mesh": 0.35},
+  "colors": {"primary": "#B80000", "secondary": "#004890", "third": "#33A02C", "reference": "#404040", "black": "#000000"},
+  "series": {"primary": ["-", "o", "none"], "secondary": ["--", "s", "full"], "third": ["-.", "^", "none"], "reference": [":", "D", "full"]},
+  "validation_roles": {"coarse": "secondary", "baseline": "reference", "refined": "primary"},
+  "bands": {"color": "#BCD9E8", "alpha": 0.2},
+  "field": {"cmap": "RdBu_r", "symmetric": true},
+  "layout": {"single_mm": 85, "double_mm": 180, "panel_x": -0.18, "panel_y": 1.0, "w_pad_in": 0.045, "h_pad_in": 0.05, "wspace": 0.08, "hspace": 0.08},
+  "native_override": {"id": "native_zh_12pt_v1", "font_pt": 12.0},
+  "export": {"dpi": 600, "pdf_fonttype": 42, "svg_fonttype": "path"},
+  "qa": {"stroke_tolerance": 0.03, "panel_size_tolerance": 0.015, "min_font_pt": 8.0, "clipping_tolerance_px": 2.0}
+}

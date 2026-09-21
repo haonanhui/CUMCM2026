@@ -1,0 +1,401 @@
+{
+  "method": "pdf-profile-v1.2",
+  "reference_year": 2025,
+  "half_life_years": 3.0,
+  "documents": 184,
+  "pages": 11981,
+  "duplicates": [],
+  "failures": [],
+  "weighting_coverage": {
+    "eligible": 184,
+    "total": 184,
+    "unknown_year": 0,
+    "unknown_problem": 0,
+    "policy": "Unknown or conflicting metadata excluded from weighting, retained in raw records."
+  },
+  "limits": [
+    "All counts are extraction proxies, not semantic or visual acceptance.",
+    "Awards are not verified by directory names.",
+    "Missing appendix detection does not mean no appendix.",
+    "Front matter and references remain in pre-appendix page count.",
+    "Image objects are not figure counts; vector drawings may use zero images.",
+    "Section markers may include contents entries or mentions; presence does not prove section quality."
+  ],
+  "by_year": {
+    "2018": {
+      "pages": {
+        "n": 39,
+        "min": 10,
+        "median": 44,
+        "max": 83
+      },
+      "pre_appendix_pages_proxy": {
+        "n": 20,
+        "min": 23,
+        "median": 35.5,
+        "max": 73
+      },
+      "dominant_cjk_size_pt": {
+        "n": 39,
+        "min": 11.9,
+        "median": 12.0,
+        "max": 12.0
+      },
+      "equation_labels_pre_appendix_proxy": {
+        "n": 20,
+        "min": 0,
+        "median": 12.0,
+        "max": 43
+      },
+      "captions_pre_appendix_proxy": {
+        "n": 20,
+        "min": 0,
+        "median": 32.0,
+        "max": 70
+      }
+    },
+    "2022": {
+      "pages": {
+        "n": 42,
+        "min": 23,
+        "median": 52.0,
+        "max": 138
+      },
+      "pre_appendix_pages_proxy": {
+        "n": 36,
+        "min": 15,
+        "median": 32.0,
+        "max": 71
+      },
+      "dominant_cjk_size_pt": {
+        "n": 42,
+        "min": 10.5,
+        "median": 12.0,
+        "max": 12.0
+      },
+      "equation_labels_pre_appendix_proxy": {
+        "n": 36,
+        "min": 0,
+        "median": 25.0,
+        "max": 131
+      },
+      "captions_pre_appendix_proxy": {
+        "n": 36,
+        "min": 0,
+        "median": 29.5,
+        "max": 75
+      }
+    },
+    "2023": {
+      "pages": {
+        "n": 58,
+        "min": 39,
+        "median": 65.5,
+        "max": 138
+      },
+      "pre_appendix_pages_proxy": {
+        "n": 51,
+        "min": 20,
+        "median": 45,
+        "max": 118
+      },
+      "dominant_cjk_size_pt": {
+        "n": 58,
+        "min": 12.0,
+        "median": 12.0,
+        "max": 12.0
+      },
+      "equation_labels_pre_appendix_proxy": {
+        "n": 51,
+        "min": 0,
+        "median": 30,
+        "max": 167
+      },
+      "captions_pre_appendix_proxy": {
+        "n": 51,
+        "min": 0,
+        "median": 41,
+        "max": 135
+      }
+    },
+    "2024": {
+      "pages": {
+        "n": 24,
+        "min": 44,
+        "median": 78.5,
+        "max": 114
+      },
+      "pre_appendix_pages_proxy": {
+        "n": 20,
+        "min": 34,
+        "median": 62.0,
+        "max": 84
+      },
+      "dominant_cjk_size_pt": {
+        "n": 24,
+        "min": 12.0,
+        "median": 12.0,
+        "max": 12.0
+      },
+      "equation_labels_pre_appendix_proxy": {
+        "n": 20,
+        "min": 0,
+        "median": 41.0,
+        "max": 137
+      },
+      "captions_pre_appendix_proxy": {
+        "n": 20,
+        "min": 2,
+        "median": 63.0,
+        "max": 94
+      }
+    },
+    "2025": {
+      "pages": {
+        "n": 21,
+        "min": 46,
+        "median": 76,
+        "max": 182
+      },
+      "pre_appendix_pages_proxy": {
+        "n": 18,
+        "min": 37,
+        "median": 56.5,
+        "max": 102
+      },
+      "dominant_cjk_size_pt": {
+        "n": 21,
+        "min": 12.0,
+        "median": 12.0,
+        "max": 12.0
+      },
+      "equation_labels_pre_appendix_proxy": {
+        "n": 18,
+        "min": 0,
+        "median": 66.0,
+        "max": 174
+      },
+      "captions_pre_appendix_proxy": {
+        "n": 18,
+        "min": 0,
+        "median": 48.0,
+        "max": 132
+      }
+    }
+  },
+  "weighted_medians": {
+    "pages": 69,
+    "pre_appendix_pages_proxy": 51,
+    "dominant_cjk_size_pt": 12.0,
+    "equation_labels_pre_appendix_proxy": 37,
+    "captions_pre_appendix_proxy": 43
+  },
+  "strata": [
+    {
+      "year": 2018,
+      "problem": "A",
+      "n": 6
+    },
+    {
+      "year": 2018,
+      "problem": "B",
+      "n": 7
+    },
+    {
+      "year": 2018,
+      "problem": "C",
+      "n": 7
+    },
+    {
+      "year": 2018,
+      "problem": "D",
+      "n": 8
+    },
+    {
+      "year": 2018,
+      "problem": "E",
+      "n": 5
+    },
+    {
+      "year": 2018,
+      "problem": "F",
+      "n": 6
+    },
+    {
+      "year": 2022,
+      "problem": "A",
+      "n": 7
+    },
+    {
+      "year": 2022,
+      "problem": "B",
+      "n": 7
+    },
+    {
+      "year": 2022,
+      "problem": "C",
+      "n": 7
+    },
+    {
+      "year": 2022,
+      "problem": "D",
+      "n": 7
+    },
+    {
+      "year": 2022,
+      "problem": "E",
+      "n": 7
+    },
+    {
+      "year": 2022,
+      "problem": "F",
+      "n": 7
+    },
+    {
+      "year": 2023,
+      "problem": "A",
+      "n": 10
+    },
+    {
+      "year": 2023,
+      "problem": "B",
+      "n": 9
+    },
+    {
+      "year": 2023,
+      "problem": "C",
+      "n": 10
+    },
+    {
+      "year": 2023,
+      "problem": "D",
+      "n": 9
+    },
+    {
+      "year": 2023,
+      "problem": "E",
+      "n": 10
+    },
+    {
+      "year": 2023,
+      "problem": "F",
+      "n": 10
+    },
+    {
+      "year": 2024,
+      "problem": "A",
+      "n": 4
+    },
+    {
+      "year": 2024,
+      "problem": "B",
+      "n": 4
+    },
+    {
+      "year": 2024,
+      "problem": "C",
+      "n": 4
+    },
+    {
+      "year": 2024,
+      "problem": "D",
+      "n": 4
+    },
+    {
+      "year": 2024,
+      "problem": "E",
+      "n": 4
+    },
+    {
+      "year": 2024,
+      "problem": "F",
+      "n": 4
+    },
+    {
+      "year": 2025,
+      "problem": "A",
+      "n": 4
+    },
+    {
+      "year": 2025,
+      "problem": "B",
+      "n": 3
+    },
+    {
+      "year": 2025,
+      "problem": "C",
+      "n": 5
+    },
+    {
+      "year": 2025,
+      "problem": "D",
+      "n": 2
+    },
+    {
+      "year": 2025,
+      "problem": "E",
+      "n": 3
+    },
+    {
+      "year": 2025,
+      "problem": "F",
+      "n": 4
+    }
+  ],
+  "language_candidates": {
+    "total": 6370,
+    "known_boundary": 5883,
+    "unknown_boundary": 487,
+    "by_function": {
+      "problem_to_model": 348,
+      "assumption": 822,
+      "definition": 883,
+      "comparison": 1444,
+      "figure_interpretation": 611,
+      "method_choice": 447,
+      "sensitivity": 128,
+      "constraint": 1291,
+      "derivation": 126,
+      "limitation": 270
+    },
+    "review_status": "UNREVIEWED"
+  },
+  "section_marker_prevalence_proxy": {
+    "abstract": {
+      "documents": 184,
+      "denominator": 184
+    },
+    "problem": {
+      "documents": 175,
+      "denominator": 184
+    },
+    "assumptions": {
+      "documents": 145,
+      "denominator": 184
+    },
+    "notation": {
+      "documents": 167,
+      "denominator": 184
+    },
+    "model": {
+      "documents": 167,
+      "denominator": 184
+    },
+    "solution": {
+      "documents": 133,
+      "denominator": 184
+    },
+    "validation": {
+      "documents": 45,
+      "denominator": 184
+    },
+    "evaluation": {
+      "documents": 119,
+      "denominator": 184
+    },
+    "references": {
+      "documents": 176,
+      "denominator": 184
+    }
+  }
+}

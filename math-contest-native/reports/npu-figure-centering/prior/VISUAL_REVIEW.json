@@ -1,0 +1,12 @@
+{
+  "reviewer": "Codex root",
+  "human_confirmation": "NOT_REQUESTED_NOT_CLAIMED",
+  "pdf_sha256": "1e7044d85702f1d39d79b6c461754f5a9c2c09072f9e966066d9da16564a786c",
+  "figure_directory": "figures/npu2025-fonts-007",
+  "figure_visual_status": "PASS",
+  "checked": ["color", "grayscale", "panel y-axis left/top alignment", "no external right-top explanation", "Chinese and Times glyphs", "legends and node labels", "actual paper figure pages 9 14 19 21 22"],
+  "mathematical_glyphs_in_figures": "NOT_APPLICABLE_no_math_variables",
+  "paper_math_fonts": "Computer Modern and AMS unchanged from baseline",
+  "full_paper_quality": "NEEDS_LANGUAGE_REVISION_NOT_REASSESSED",
+  "notes": "QA JSON files remain immutable export-time records; this document records the subsequent visual review."
+}

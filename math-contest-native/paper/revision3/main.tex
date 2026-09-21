@@ -1,0 +1,58 @@
+% !TEX program = xelatex
+% Historical research reading edition. 12 pt text / 18 pt baseline.
+% This explicit baseline is NOT a claim of official Word single-spacing compliance.
+\documentclass[fontset=windows,12pt,a4paper]{ctexart}
+\usepackage[a4paper,top=30mm,bottom=25mm,left=22.5mm,right=22.5mm]{geometry}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,float,url,titlesec,caption,longtable}
+\usepackage[section]{placeins}
+\usepackage[hidelinks]{hyperref}
+\setmainfont{Times New Roman}
+\setmonofont{Consolas}
+\linespread{1.24533} % 14.454 pt nominal normalsize baseline -> 18 pt.
+\setlength{\parindent}{2em}
+\setlength{\emergencystretch}{2em}
+\setlength{\textfloatsep}{12pt plus 3pt minus 2pt}
+\setlength{\intextsep}{12pt plus 3pt minus 2pt}
+\captionsetup{font=small,labelfont=normalfont,skip=6pt}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\tabcolsep}{9pt}
+\titleformat{\section}{\centering\fontsize{14pt}{18pt}\heiti}{\arabic{section}.}{1em}{}
+\titleformat{\subsection}{\fontsize{12pt}{18pt}\heiti}{\arabic{section}.\arabic{subsection}}{1em}{}
+\titlespacing{\section}{0pt}{1em}{.65em}
+\titlespacing{\subsection}{0pt}{.75em}{.35em}
+\clubpenalty=10000 \widowpenalty=10000
+\pagestyle{plain}
+\begin{document}
+\begin{titlepage}\centering
+\vspace*{1.5cm}
+{\zihao{2}\heiti 2025 年中国研究生数学建模竞赛\par}
+\vspace{.7cm}{\zihao{3}A 题\par}
+\vspace{1.7cm}
+{\zihao{2}\heiti 通用神经网络处理器下的核内调度\par}
+\vspace{1cm}
+{\zihao{3}\heiti 基于驻留段约束的缓存与流水协同优化\par}
+\vspace{1.5cm}{\zihao{4}历史真题研究阅读版\par}
+\vfill
+本稿用于学习研究，不是正式参赛提交版。\par
+正文采用 12 pt 字号与约 18 pt 基线间距，便于阅读与复核。\par
+\end{titlepage}
+\setcounter{page}{1}
+\begin{center}{\zihao{3}\heiti 基于驻留段约束的缓存与流水协同优化}\par
+\vspace{.7em}{\zihao{4}\heiti 摘\quad 要}\end{center}
+\input{abstract}
+\par\noindent\textbf{关键词：}有向无环图；生命周期；连续地址分配；换入换出；流水调度
+\clearpage
+\input{sections/1_restatement}
+\input{sections/2_analysis}
+\input{sections/3_assumptions}
+\input{sections/4_symbols}
+\input{sections/5_problem1}
+\input{sections/6_problem2}
+\input{sections/7_problem3}
+\input{sections/8_sensitivity}
+\input{sections/9_evaluation}
+\input{references}
+\appendix
+\titleformat{\section}{\centering\fontsize{14pt}{18pt}\heiti}{\thesection.}{1em}{}
+\input{sections/A_code}
+\end{document}

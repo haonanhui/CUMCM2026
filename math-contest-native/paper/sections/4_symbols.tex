@@ -1,0 +1,15 @@
+\section{符号说明}
+\begin{table}[H]\centering\caption{主要符号}\begin{tabular}{ll}\toprule
+符号 & 含义\\\midrule
+$G=(V,E)$ & 原始计算图及其依赖边\\
+$N,B$ & 原始节点数、缓冲区集合\\
+$s_b,t_b,C_t$ & 缓冲区大小、所属缓存类型及对应容量\\
+$a_b,f_b$ & 缓冲区原始申请、释放节点\\
+$\pi(v)$ & 节点在调度序列中的位置\\
+$x_{bj}$ & 缓冲区第 $j$ 个驻留段的起始偏移\\
+$H,D,T$ & 最大驻留量、额外搬运量、总执行周期\\
+$c_v,p_v$ & 节点执行周期、所属执行单元\\
+$S_v,F_v$ & 节点实际开始、结束时间\\
+$r_v$ & 从节点出发的下游最长耗时路径长度\\
+$W,\alpha$ & 就绪候选窗口、释放收益或新增量权重\\\bottomrule
+\end{tabular}\end{table}

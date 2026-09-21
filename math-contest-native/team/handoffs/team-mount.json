@@ -1,0 +1,11 @@
+{
+  "task_id": "team-mount",
+  "revision": 1,
+  "status": "awaiting_teammate_device_verification",
+  "source_commit": "1d4fc98ee93d6971cb30d127cab4e9b2c791a359",
+  "source_includes_uncommitted_snapshot": true,
+  "historical_state": "provenance/SOURCE_PROJECT_STATE_20260921.json",
+  "teammate_device": "UNVERIFIED",
+  "next_action": "Read docs/TEAM_MOUNT.md, ask install locations, mount and verify; do not resume the historical paper.",
+  "missing_inputs": ["teammate installation locations", "teammate GitHub access and Harness login"]
+}

@@ -1,0 +1,10 @@
+{
+  "task_id": "npu2025-a",
+  "revision": 2,
+  "owner": "codex-root",
+  "status": "research_first_edition_delivered",
+  "goal": "完成2025研究生数模A题的建模、六图求解、验证与LaTeX研究论文",
+  "write_scope": ["code", "data/raw/npu2025", "data/derived/npu2025", "reports", "results", "figures", "paper", "plan.md", "todo.md", "provenance/npu2025_inputs.json", "scripts/ingest_npu.py", "configs", "team/tasks/npu2025-a.json", "team/handoffs/npu2025-a.json", "PROJECT_STATE.json"],
+  "inputs": ["用户提供的2025年研究生数学建模竞赛A题目录", "用户选择LaTeX"],
+  "constraints": ["原文件只读", "统一通用算法", "不自动push", "无最优性证据不宣称最优"]
+}

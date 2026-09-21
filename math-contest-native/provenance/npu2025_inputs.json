@@ -1,0 +1,116 @@
+[
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题.docx",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题.docx",
+    "bytes": 592649,
+    "sha256": "dc4670c67f3a06721cfa466663fa87925a0aa67cb89e2528920790299ee0b395"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\Conv_Case0_Edges.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case0_Edges.csv",
+    "bytes": 38928,
+    "sha256": "235d4efbe487e4b90e0d8d4d18a26a2bfe67361da34561c2c0245b251c1dfa3d"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\Conv_Case0_Nodes.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case0_Nodes.csv",
+    "bytes": 72035,
+    "sha256": "09b96fa0f4eaab73b8fe61f48a4f31da507e55e58a10374c248055bb9173fdec"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\Conv_Case1_Edges.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case1_Edges.csv",
+    "bytes": 1058713,
+    "sha256": "b28a8c4d7cc82f0b01a090dd5d9e52bc7009d33e62af77c004514bf98522e245"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\Conv_Case1_Nodes.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Conv_Case1_Nodes.csv",
+    "bytes": 1127073,
+    "sha256": "bf7642f4ec46000a528cada344e4829e180f349d4a79caf191343aa5b838d7f8"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\FlashAttention_Case0_Edges.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case0_Edges.csv",
+    "bytes": 25918,
+    "sha256": "b6fe7036e78d9f9e8648334b81d16f8210b939f0ce7eec2250485b7bad848acf"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\FlashAttention_Case0_Nodes.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case0_Nodes.csv",
+    "bytes": 47536,
+    "sha256": "3bf0eec84bad46e8a87e57acefd6554b2937f1aeb3c5301e59139316502d8957"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\FlashAttention_Case1_Edges.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case1_Edges.csv",
+    "bytes": 119004,
+    "sha256": "a98987ee292027a3d05c1c9bfadd809f47430916c84120d5683322a0b4c3f3ee"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\FlashAttention_Case1_Nodes.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/FlashAttention_Case1_Nodes.csv",
+    "bytes": 203070,
+    "sha256": "57726c99e42b3445edc96b7acad00720599df9eea07af864e816621458d215ea"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\Matmul_Case0_Edges.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case0_Edges.csv",
+    "bytes": 73825,
+    "sha256": "f9bc823b19d8e75c8553ec6cbc9b1120129d086e78c2c14a9928f40cbd01a556"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\Matmul_Case0_Nodes.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case0_Nodes.csv",
+    "bytes": 122294,
+    "sha256": "532ad7ce18651f3f45fc92389d349dd7a48828515fee26ae192c949c4b5206a5"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\Matmul_Case1_Edges.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case1_Edges.csv",
+    "bytes": 669379,
+    "sha256": "8cadbed4bac6ec38853eaae91351e7b0b92b92cd977457543f61f5071c21cdc4"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\CSV版本\\Matmul_Case1_Nodes.csv",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/CSV版本/Matmul_Case1_Nodes.csv",
+    "bytes": 977972,
+    "sha256": "1e61783fda0e3e3b03e3baf8fc5a2afe8078bcfe89affe34588c6d5dbe4adfd7"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\Json版本\\Conv_Case0.json",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Conv_Case0.json",
+    "bytes": 318017,
+    "sha256": "5d6452bb9d9484080523fd9c4784aa787cced24983f9576d98532d43af1f8952"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\Json版本\\Conv_Case1.json",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Conv_Case1.json",
+    "bytes": 5249015,
+    "sha256": "7aa9fe00a997ecbf7b8d23395a85c30ad448c0c22138c00eb26fb342e54121ab"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\Json版本\\FlashAttention_Case0.json",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/FlashAttention_Case0.json",
+    "bytes": 211908,
+    "sha256": "8ae6afffbc381599a4f0b14f129c47ab872146b6de4e5d4b573c2be86d5b135a"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\Json版本\\FlashAttention_Case1.json",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/FlashAttention_Case1.json",
+    "bytes": 884160,
+    "sha256": "de2221eec5c6252ec0edea88bf65e5fb558eb7167ea87228ac96a92a2e46c77f"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\Json版本\\Matmul_Case0.json",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Matmul_Case0.json",
+    "bytes": 534909,
+    "sha256": "f978856c7a99fb23aa6eccf9bab32530bce3b4361387fd432f2e76d3ea9d293e"
+  },
+  {
+    "source": "D:\\A_Projects\\10_Research\\cumcm-2026\\竞赛真题(2004-2025)\\2025年中国研究生数学建模竞赛赛题\\中文赛题ABCDEF题\\A题\\通用神经网络处理器下的核内调度问题附件\\Json版本\\Matmul_Case1.json",
+    "local": "data/raw/npu2025/通用神经网络处理器下的核内调度问题附件/Json版本/Matmul_Case1.json",
+    "bytes": 4182237,
+    "sha256": "87f2f6cc1020f9d247f305ab7ea8fbfe7ee6776c83a7e6b0e8207042d8f7bdb9"
+  }
+]

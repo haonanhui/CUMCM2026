@@ -1,0 +1,20 @@
+{
+  "reviewer": "Codex agent",
+  "human_review": "pending",
+  "scope": "Final color and grayscale contact sheets; latest native B full-resolution image; artifact QA renders PDF/SVG independently",
+  "status": "PASS",
+  "panel_rule": "Left of y-axis; top aligned with frame; no exterior upper-right explanation",
+  "source_manifest_matches": {
+    "yaxis-top-native": true,
+    "yaxis-top-jfs": true
+  },
+  "protected_tracked_assets_unchanged": true,
+  "math_font_matching_actual_paper": "UNVERIFIED",
+  "physical_paper_embedding": "UNVERIFIED",
+  "evidence_sha256": {
+    "yaxis-top-native\\contact-gray.png": "4973606f9e9ddf4ac555f5273bca83491b11ebc4fbff5621b89e180d88b5dfc6",
+    "yaxis-top-native\\contact.png": "59ae62a2fa8c57cb7cba96491b2787f3fa7593579bb2a8848fa03bac13f0ed76",
+    "yaxis-top-jfs\\contact-gray.png": "0ce01afdc0b3b08796e07b40acd34fb676ad4f7c5c5e45019633e9a23ad12787",
+    "yaxis-top-jfs\\contact.png": "51901c11d92242a9bf9aa7a5c5a26042972f448bcc246d1260cf9512209f188c"
+  }
+}

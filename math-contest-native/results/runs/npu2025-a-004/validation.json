@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "graphs": 6,
+  "attachment_files": 42,
+  "coverage": [
+    "node-permutation",
+    "all-original-edges",
+    "spill-pairing",
+    "cache-bounds",
+    "no-overlap",
+    "resident-use",
+    "reuse-timing",
+    "pipe-exclusion",
+    "transfer-nonincreasing"
+  ],
+  "official_evaluator": "UNVERIFIED"
+}

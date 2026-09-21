@@ -1,0 +1,52 @@
+[
+  {
+    "file": "D:\\A_Projects\\10_Research\\math-contest-native\\.local\\writing-organization-20260921\\candidate.pdf",
+    "sha256": "b4429e1cfb1893832627336df215c499133b754183f8fdd324aa5b4ec3c0f0f5",
+    "total_pages": 17,
+    "body_start": 3,
+    "body_end": 16,
+    "body_page_span": 14,
+    "cjk_characters": 9456,
+    "measurement": "PDF sorted text; body includes headings/captions/tables; formulas and Latin tokens excluded; reference-boundary manual"
+  },
+  {
+    "file": "D:\\A_Projects\\10_Research\\cumcm-2026\\研究生数学建模竞赛优秀论文选（2004-2025）\\2025年研究生数学建模竞赛优秀论文选\\A题优秀论文\\A题-1-通用神经网络处理器下的核内调度问题.pdf",
+    "sha256": "f7034863abda2444cde9b51a14c31cded6282a8eace906faa90edb4f4a087531",
+    "total_pages": 59,
+    "body_start": 4,
+    "body_end": 42,
+    "body_page_span": 39,
+    "cjk_characters": 21197,
+    "measurement": "PDF sorted text; body includes headings/captions/tables; formulas and Latin tokens excluded; reference-boundary manual"
+  },
+  {
+    "file": "D:\\A_Projects\\10_Research\\cumcm-2026\\研究生数学建模竞赛优秀论文选（2004-2025）\\2025年研究生数学建模竞赛优秀论文选\\A题优秀论文\\A题-2-通用神经网络处理器下的核内调度问题.pdf",
+    "sha256": "c83c14e555122c1a7d7901f9108073c9b97299793cdf1e0e2581153307ff6a37",
+    "total_pages": 98,
+    "body_start": 4,
+    "body_end": 36,
+    "body_page_span": 33,
+    "cjk_characters": 14928,
+    "measurement": "PDF sorted text; body includes headings/captions/tables; formulas and Latin tokens excluded; reference-boundary manual"
+  },
+  {
+    "file": "D:\\A_Projects\\10_Research\\cumcm-2026\\研究生数学建模竞赛优秀论文选（2004-2025）\\2025年研究生数学建模竞赛优秀论文选\\A题优秀论文\\A题-NPU 核内调度算法设计与优化研究.pdf",
+    "sha256": "9cefb2c06f81b95f53132fdf9c41407e2cdff8188a72cc33a21720ea32647bc2",
+    "total_pages": 120,
+    "body_start": 7,
+    "body_end": 90,
+    "body_page_span": 84,
+    "cjk_characters": 41233,
+    "measurement": "PDF sorted text; body includes headings/captions/tables; formulas and Latin tokens excluded; reference-boundary manual"
+  },
+  {
+    "file": "D:\\A_Projects\\10_Research\\cumcm-2026\\研究生数学建模竞赛优秀论文选（2004-2025）\\2025年研究生数学建模竞赛优秀论文选\\A题优秀论文\\A题-面向 Davinci 架构的 NPU 核内调度算法研究.pdf",
+    "sha256": "42c5fb495eadd637e6a90263675157f5a0d75d868f5ace69b06d266d86892130",
+    "total_pages": 77,
+    "body_start": 5,
+    "body_end": 55,
+    "body_page_span": 51,
+    "cjk_characters": 28279,
+    "measurement": "PDF sorted text; body includes headings/captions/tables; formulas and Latin tokens excluded; reference-boundary manual"
+  }
+]

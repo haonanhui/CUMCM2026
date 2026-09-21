@@ -1,0 +1,22 @@
+{
+  "task_id": "npu2025-a",
+  "revision": 1,
+  "owner": "codex-root",
+  "status": "research_first_edition_delivered",
+  "date": "2026-09-21",
+  "branch": "main",
+  "base_commit": "d79ae10639803c0e747a4aafafee163c7d3b9e95",
+  "committed": false,
+  "pushed": false,
+  "uncommitted": "本任务的code/data/configs/scripts/reports/figures/paper/provenance/team与plan/todo/PROJECT_STATE；没有覆盖原题目录",
+  "inputs_read": ["A题DOCX全文文字及六图JSON/CSV", "PROJECT_STATE与bootstrap交接", "WORKSPACE_SPEC/HARNESS/SKILLS/FIGURES_ZH", "1start至6verity阶段技能", "2025官方论文格式与AI规定"],
+  "user_decisions": ["开始完成2025研究生A题", "LaTeX", "在独立原生工作区工作，原题目录只读"],
+  "final_run": "results/runs/npu2025-a-005",
+  "search_run": "results/runs/npu2025-a-003",
+  "deliverables": ["paper/NPU_2025_A.pdf", "paper/main.tex", "results/NPU_2025_A_Attachment.zip", "reports/RESULTS_REPORT.md", "reports/VERIFY_REPORT.md"],
+  "verified": ["6图三问42文件逐项重放", "144初始候选与24流水重排候选", "手算和拒绝错误附件测试", "输入源码哈希", "论文数值表与PDF一致", "ZIP CRC和内容一致", "XeLaTeX两次编译", "最终11页视觉查看"],
+  "failures": ["001受保护缓冲区碎片导致失败，显式换出重装修复", "004换出重排编号歧义，005按OUT出现顺序规范化", "模板Mac字体与Menlo不适用，修正Windows字体", "表格input和LaTeX图片相对路径校验适配", "旧模板封面为第二十一届，研究稿移除旧资产"],
+  "next_action": "如继续优化，保留005基准和独立重放；重点降低问题一五图峰值及Matmul大图搬运量，另核验SPILL驻留段语义。不重新启动app或旧pipeline。",
+  "unresolved": ["没有全局最优性证明", "官方评测未取得", "队员独立复核与AI型号信息未完成", "当前只有ZIP，正式RAR未封装", "正式封面及团队信息未填写"],
+  "submission_ready": false
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "npu-figure-fonts-20260921",
+  "revision": 2,
+  "owner": "codex-root",
+  "status": "completed_figure_font_and_visual_centering_correction",
+  "branch": "codex/paper-quality-native-20260921",
+  "baseline_commit": "1d4fc98ee93d6971cb30d127cab4e9b2c791a359",
+  "committed": false,
+  "pushed": false,
+  "pdf": "paper/NPU_2025_A_figure_revision.pdf",
+  "pdf_sha256": "7a2fc174854f8eed9c091616d32149b4c1b57f81bc1750442e2672a230307eb7",
+  "figures": "figures/npu2025-centered-001",
+  "report": "reports/npu-figure-centering/REVIEW.md",
+  "read_inputs": ["PROJECT_STATE.json revision8", "docs/WORKSPACE_SPEC.md", "team/tasks/npu-paper-policy.json", "team/handoffs/npu-paper-policy.json", "cumcm-scientific-figure skill and API/profile", "docs/FIGURES_ZH.md", "docs/PAPER_FIGURE_STYLE_SPEC_20260921.md", "docs/PAPER_WRITING_GUIDE.md writing-guide-2", "docs/PAPER_QUALITY_STANDARD.md native-quality-4", "docs/paper-quality/SCORING_ANCHORS.md internal-v3.1", "provenance/official2025/format.pdf full text", "revision3 TeX and original plotting scripts"],
+  "verified": ["5/5 figure QA", "original arrays and interval/window processing exact", "source/input hashes unchanged", "all final Chinese spans 16pt SimHei /14pt SimHei /12pt SimSun", "all fonts embedded", "no undefined references, missing glyphs or overfull boxes", "color and grayscale figure review", "final figure pages visually reviewed"],
+  "failed_attempts": ["001 panel clipping", "002-005 legend bbox overlap", "initial TeX control-word/CJK joining", "one wrong working-directory path"],
+  "preserved_preexisting_changes": ["AI_USAGE.md", "docs/FIGURES_ZH.md", "docs/SKILLS.md", "provenance/UPSTREAM.md", "scripts/probe_codex_skills.py", "scripts/probe_dsh_skills.mjs", "scientific figure skill and prior reports/task/handoff"],
+  "next_action": "若继续整稿语言修订，从本版的字体与图件设置出发，保留其原始数值；完成writing-guide-2及全量internal-v3.1同哈希复评。",
+  "unresolved": ["历史正文语言要求仍待修订", "完整科学质量未在本轮重新评分", "参赛队员审查与AI历史信息尚未补齐"]
+}

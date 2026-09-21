@@ -1,0 +1,36 @@
+{
+  "task_id": "bootstrap-native",
+  "revision": 2,
+  "owner": "codex-root",
+  "status": "workspace_delivered_rehearsal_pending",
+  "date": "2026-09-20",
+  "branch": "main",
+  "source_version": "initial workspace snapshot; resolve current git HEAD before continuing",
+  "spec_version": "WORKSPACE_SPEC 1.0",
+  "upstream": "jihe520/MathModelAgent@487f35085271f2f5bac5c0bad0b30c64b7b889f9",
+  "user_decisions": [
+    "独立主工作区，不是 app 备份",
+    "新目录 math-contest-native",
+    "skills 和 agent 规范以 jihe520/MathModelAgent 为主",
+    "图内文字统一中文，公式符号除外；已定制技能和实际示例"
+  ],
+  "delivered": [
+    "9 shared skills plus reference library and resources",
+    "4 upstream-derived role files",
+    "native entrypoints, task/handoff templates and run evidence tool",
+    "independent Python environment and dependency lock",
+    "session-only TeX Live PATH setup and synthetic PDF evidence"
+  ],
+  "verified": ["docs/ACCEPTANCE.md", "docs/evidence/selfcheck.json", "docs/evidence/codex-loader.json", "docs/evidence/dsh-provider.json", "docs/evidence/paper-smoke.json"],
+  "failed_attempts_and_resolution": [
+    "DSH flat README skill warning: moved index to docs/SKILLS.md; retested clean",
+    "skill validator GBK decode error: reran with -X utf8; all 9 passed",
+    "recursive cache-cleanup command rejected by tool policy: inspected files, then removed three exact cache files and empty directories without recursion"
+  ],
+  "not_verified": ["real model cross-harness handoff", "teammate device", "official contest/template", "scientific solution", "Typst/DrawIO export"],
+  "next_action": "Start a small real Codex-to-DSH-to-Codex file handoff rehearsal in this project, then bind the actual contest and official rules. Do not revive app UI stops.",
+  "human_review": "pending",
+  "submission_ready": false,
+  "sync": {"pushed": false, "remote": null},
+  "ai_usage": "Codex inspected local sources and upstream, adapted instructions, wrote local tools/docs, ran loader and synthetic numerical/PDF checks. No real contest model or paper was generated."
+}

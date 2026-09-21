@@ -1,0 +1,12 @@
+{
+  "task_id": "bootstrap-native",
+  "revision": 2,
+  "owner": "codex-root",
+  "status": "workspace_delivered_rehearsal_pending",
+  "spec_version": "WORKSPACE_SPEC 1.0",
+  "spec_refs": ["docs/WORKSPACE_SPEC.md"],
+  "goal": "建立脱离 app、可由 Codex 与 DSH 共用的竞赛工作区并验证本地闭环",
+  "write_scope": ["."],
+  "inputs": ["用户 2026-09-20 新目录授权与上游确认", "jihe520/MathModelAgent@487f35085271", "cumcm-2026 自有协作脚手架约定"],
+  "source_policy": "原仓库只读；不复制运行状态、凭证、训练结果、vendor 或许可不明资产"
+}

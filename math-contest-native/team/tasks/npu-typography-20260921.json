@@ -1,0 +1,20 @@
+{
+  "task_id": "npu-typography-20260921",
+  "revision": 2,
+  "owner": "codex-root",
+  "status": "completed_typography_scope",
+  "goal": "核对2025官方行距条款与同题参考稿，修正正文行距和各级标题",
+  "write_scope": [
+    "paper/typography-revision",
+    "paper/NPU_2025_A_typography_revised.pdf",
+    "reports/npu-typography-20260921",
+    "team/tasks/npu-typography-20260921.json",
+    "team/handoffs/npu-typography-20260921.json",
+    "PROJECT_STATE.json"
+  ],
+  "scientific_changes": false,
+  "full_language_revision": false,
+  "submission_ready": false,
+  "pdf": "paper/NPU_2025_A_typography_revised.pdf",
+  "pdf_sha256": "ebfe4b6f2105ba070e75676e8aa059f880acc97e09394fbd87c89da6bcb7b6cf"
+}

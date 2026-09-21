@@ -1,0 +1,58 @@
+[
+  {
+    "asset": "postgraduate-2022-problems.zip",
+    "source": "2022年中国研究生数学建模竞赛赛题",
+    "files": 830,
+    "bytes": 460756031,
+    "sha256": "41234c73cd4d174a55fe1b291e90541b11478615f368ef76c292a9b6a8b9a0c4"
+  },
+  {
+    "asset": "postgraduate-2023-problems.zip",
+    "source": "2023年中国研究生数学建模竞赛赛题",
+    "files": 21,
+    "bytes": 4823518,
+    "sha256": "4ab81fbae10ae191c2f09fb2fb552d45122ac19bd028234f418a337bd5a1c4c6"
+  },
+  {
+    "asset": "postgraduate-2024-problems.zip",
+    "source": "2024年中国研究生数学建模竞赛赛题",
+    "files": 47,
+    "bytes": 224867038,
+    "sha256": "90105df14065a54c83bdc47031f4f4f25756fe9e0281092ec9c87e8d9e60178a"
+  },
+  {
+    "asset": "postgraduate-2025-problems.zip",
+    "source": "2025年中国研究生数学建模竞赛赛题",
+    "files": 205,
+    "bytes": 138696882,
+    "sha256": "0648bdd0e1819e5b0a0d9458a37d67056df8989826c75faeff52fb42c0f7412e"
+  },
+  {
+    "asset": "postgraduate-2022-papers.zip",
+    "source": "2022年研究生数学建模优秀论文选",
+    "files": 42,
+    "bytes": 164859282,
+    "sha256": "fec60fbf3acd12ef3cbf39ad93a8001e761ebff09047918b93d9cb30bfdec99b"
+  },
+  {
+    "asset": "postgraduate-2023-papers.zip",
+    "source": "2023年研究生数学建模竞赛优秀论文选",
+    "files": 58,
+    "bytes": 311683629,
+    "sha256": "00216451a41093dfc58856295640257d9a76a80e1cd31cf983da5ffc3d61c000"
+  },
+  {
+    "asset": "postgraduate-2024-papers.zip",
+    "source": "2024年研究生数学建模竞赛优秀论文选",
+    "files": 24,
+    "bytes": 192048759,
+    "sha256": "c13aa3316ea961bc6d361d81c855122bea3da2cce27f2d3d1509117994459813"
+  },
+  {
+    "asset": "postgraduate-2025-papers.zip",
+    "source": "2025年研究生数学建模竞赛优秀论文选",
+    "files": 21,
+    "bytes": 190934719,
+    "sha256": "8ecf7afb90f5c82703a573e9f9dac10af18236415df873de9ff1697ff947be71"
+  }
+]

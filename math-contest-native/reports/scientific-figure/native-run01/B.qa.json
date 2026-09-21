@@ -1,0 +1,94 @@
+{
+  "schema": "scientific-figure-qa/v1",
+  "profile": "native_zh_12pt_v1",
+  "profile_sha256": "00dc03bccfbd17e63beaa5518c28d3fd1675a0d2a6369e3e795f147d86256d89",
+  "kind": "time_phase_spectrum",
+  "synthetic": true,
+  "provenance": {
+    "input": "deterministic synthetic functions in regression.py",
+    "seed": null,
+    "generator_sha256": "a8b423855718d85c828a2094cf9163f8f3e20a1e695d2b3eca175a586732362d",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  },
+  "artist": {
+    "status": "PASS",
+    "failures": [],
+    "fonts": {
+      "latin": "Times New Roman",
+      "latin_path": "C:\\Windows\\Fonts\\times.ttf",
+      "cjk": "SimSun",
+      "cjk_path": "C:\\Windows\\Fonts\\simsun.ttc"
+    },
+    "glyphs": {
+      "(": "Times New Roman",
+      "a": "Times New Roman",
+      ")": "Times New Roman",
+      "时": "SimSun",
+      "间": "SimSun",
+      " ": "SimSun",
+      "t": "STIXGeneral",
+      "/": "Times New Roman",
+      "T": "STIXGeneral",
+      "−": "Times New Roman",
+      "5": "Times New Roman",
+      "0": "Times New Roman",
+      "1": "Times New Roman",
+      "位": "SimSun",
+      "移": "SimSun",
+      "y": "STIXGeneral",
+      "D": "STIXGeneral",
+      "2": "Times New Roman",
+      "b": "Times New Roman",
+      "速": "SimSun",
+      "度": "SimSun",
+      "̇": "Times New Roman",
+      "c": "Times New Roman",
+      "频": "SimSun",
+      "率": "SimSun",
+      "f": "STIXGeneral",
+      "4": "Times New Roman",
+      "6": "Times New Roman",
+      "谱": "SimSun",
+      "密": "SimSun",
+      "S": "STIXGeneral",
+      "8": "Times New Roman",
+      "d": "Times New Roman",
+      ".": "Times New Roman",
+      "e": "Times New Roman",
+      "3": "Times New Roman"
+    },
+    "panel_count": 6,
+    "width_mm": 180.0,
+    "limits": [
+      "Mechanism/units/math semantics require source review.",
+      "Legend geometry checks line paths; field/annotation salience also needs visual review."
+    ]
+  },
+  "export": {
+    "status": "PASS",
+    "failures": [],
+    "pdf_fonts": [
+      "BHJLVU+SimSun",
+      "BHPGQY+TimesNewRomanPSMT",
+      "FTXWZA+STIXGeneral-Italic"
+    ],
+    "svg_text": "embedded vector glyph outlines, not editable text",
+    "cross_renderer_metrics": {
+      "pdf_png_mean_absolute_error": 0.023578595992631193,
+      "svg_png_mean_absolute_error": 0.027610866603000026
+    }
+  },
+  "missing_glyph_warnings": [],
+  "human_review": "pending",
+  "visual_review": "pending",
+  "paper_math_font_match": "UNVERIFIED until checked against the target paper PDF",
+  "status": "PASS",
+  "files": {
+    "B.pdf": "7756a041d85e4ffacba8a4d734ed00b155c7bdfb931926c34d139c5d9c360dfe",
+    "B.svg": "111d697b894f93d0f6a2017650afb803701539cf94560fa210ae1c75e149a6b1",
+    "B.png": "1fa55302e3dbbab75279fd7e4eade5f3365051d4859f8971e3a56084ef92a67e",
+    "B.gray.png": "9fda03d21202a3da9b3869ab2f656e0aaed628fdba1cef632b00f391a0d91b57",
+    "B.caption.txt": "fff9227032e2f8809222fe4247e7e988eb2b002060e3d45351251099a32d6ab0"
+  }
+}

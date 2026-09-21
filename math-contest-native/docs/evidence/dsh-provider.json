@@ -1,0 +1,51 @@
+{
+  "providerListedAndRead": [
+    {
+      "name": "1start-mathmodel",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\1start-mathmodel\\SKILL.md",
+      "bodyCharacters": 3648
+    },
+    {
+      "name": "2analysis-modeling",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\2analysis-modeling\\SKILL.md",
+      "bodyCharacters": 1974
+    },
+    {
+      "name": "3coding-visual",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\3coding-visual\\SKILL.md",
+      "bodyCharacters": 1766
+    },
+    {
+      "name": "4drawio",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\4drawio\\SKILL.md",
+      "bodyCharacters": 3561
+    },
+    {
+      "name": "5writing",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\5writing\\SKILL.md",
+      "bodyCharacters": 8822
+    },
+    {
+      "name": "6verity",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\6verity\\SKILL.md",
+      "bodyCharacters": 5620
+    },
+    {
+      "name": "doctor",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\doctor\\SKILL.md",
+      "bodyCharacters": 5983
+    },
+    {
+      "name": "mathmodel-figure-templates",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\mathmodel-figure-templates\\SKILL.md",
+      "bodyCharacters": 2477
+    },
+    {
+      "name": "typst-author",
+      "path": "D:\\A_Projects\\10_Research\\math-contest-native\\.agents\\skills\\typst-author\\SKILL.md",
+      "bodyCharacters": 9113
+    }
+  ],
+  "warnings": [],
+  "modelTurns": 0
+}

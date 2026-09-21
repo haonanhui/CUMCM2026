@@ -1,0 +1,54 @@
+{
+  "task_id": "npu-typography-20260921",
+  "revision": 1,
+  "owner": "codex-root",
+  "status": "completed_typography_scope",
+  "branch": "codex/paper-quality-native-20260921",
+  "baseline_commit": "1d4fc98ee93d6971cb30d127cab4e9b2c791a359",
+  "committed": false,
+  "pushed": false,
+  "pdf": "paper/NPU_2025_A_typography_revised.pdf",
+  "pdf_sha256": "ebfe4b6f2105ba070e75676e8aa059f880acc97e09394fbd87c89da6bcb7b6cf",
+  "source": "paper/typography-revision",
+  "report": "reports/npu-typography-20260921/REVIEW.md",
+  "read_inputs": [
+    "PROJECT_STATE.json revision10",
+    "docs/WORKSPACE_SPEC.md",
+    "prior figure task/handoff",
+    "5writing and pdf skills",
+    "writing-guide-2",
+    "native-quality-4",
+    "internal-v3.1",
+    "figure-style-2",
+    "official2025/format.pdf full text",
+    "four 2025 A reference PDFs sampled body pages"
+  ],
+  "verified": [
+    "two XeLaTeX passes",
+    "32 pages rendered; all contact sheets; full page 2/5/11/18/24/26/27",
+    "body baseline 19.87-19.88bp",
+    "Chinese first-level headings; bold Song second-level headings",
+    "all research TeX and figure artifacts unchanged",
+    "fonts embedded; no out-of-page spans; no undefined reference or overfull"
+  ],
+  "failed_attempts": [
+    "block-only reference baseline probe incomplete; page-level baseline aggregation added",
+    "initial GBK console print failed; UTF-8 corrected"
+  ],
+  "unresolved": [
+    "official Word single-spacing equivalence unverified",
+    "existing full language revision pending",
+    "p10 whitespace before intact two-panel figure",
+    "full scientific quality not rescored",
+    "formal submission not ready"
+  ],
+  "next_action": "Use paper/typography-revision and its bindings for any further language/content revision. Preserve centered figure sources. Read writing-guide-2 and internal-v3.1; do not inherit historical score. See REVIEW.md for current measured typography and its official-equivalence boundary.",
+  "uncommitted_scope": [
+    "paper/typography-revision",
+    "paper/NPU_2025_A_typography_revised.pdf",
+    "reports/npu-typography-20260921",
+    "team/tasks/npu-typography-20260921.json",
+    "team/handoffs/npu-typography-20260921.json",
+    "PROJECT_STATE.json"
+  ]
+}

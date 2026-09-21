@@ -1,0 +1,69 @@
+{
+  "task_id": "npu-paper-revision3",
+  "revision": 1,
+  "owner": "codex-root-01a0c267-3b33-7452-9e63-cdd40a88c24d",
+  "status": "research_revision_delivered_with_limits",
+  "branch": "codex/paper-quality-native-20260921",
+  "commit": null,
+  "base_commit": "d79ae10639803c0e747a4aafafee163c7d3b9e95",
+  "uncommitted": "本轮revision3论文/PDF、3图3表、6个辅助脚本、新分析run、质量/验收报告及任务状态未提交；原有大量未提交文件保持。未stage/commit/push。",
+  "read_inputs": [
+    "PROJECT_STATE及工作区规范",
+    "revision2 task/handoff及全文",
+    "writing-guide-1全文",
+    "初读native-quality-1/internal-v2；验收重读native-quality-3/internal-v3全文",
+    "SCORING_ANCHORS全文",
+    "同题组织语言报告全文",
+    "原题正文与65项OMML",
+    "005原始数据、附件、源码和r2分析",
+    "官方格式及AI文件全文",
+    "本地方法原文及既有来源核验链",
+    "语料及同题样本指定页"
+  ],
+  "deliverable": "paper/NPU_2025_A_revision3.pdf",
+  "source": "paper/revision3/main.tex",
+  "pdf_sha256": "28eb3429c3bfe60d038d8a6383c07d721637044ff0a4a532ebe748d9aa66dbf7",
+  "results_baseline": "results/runs/npu2025-a-005",
+  "derived_analysis": "results/runs/npu-paper-r3-analysis-001/analysis.json",
+  "validation": [
+    "六图12完整方案及6份问一序列重放/核对",
+    "126序列精确小例",
+    "9组表格、9条事件、8条等待逐项回读核对",
+    "手算/错误注入检查",
+    "文本门禁PASS、5个WARN按正文处置",
+    "最终XeLaTeX两遍无越界/缺字/未定义",
+    "29页可读尺寸逐页审查，最终p25局部更新复查，其余28页图像哈希相同",
+    "旧PDF与005/源码指纹未改"
+  ],
+  "evidence": [
+    "reports/PAPER_QUALITY_REVIEW.md",
+    "reports/VERIFY_REPORT.md",
+    "reports/NPU_REVISION3_RESULTS.md",
+    "reports/npu-r3-evidence/verification.json",
+    "reports/npu-r3-evidence/pdf-inspection.json"
+  ],
+  "failed_attempts": [
+    "初始Bash文本检查无输出失败，改用内嵌Python的Windows/LaTeX路径适配成功",
+    "参考提取输出遇GBK编码错误，文件已生成；stdout改UTF8",
+    "首次编译3处浮动页及图例/列距已修，图5最后增加指令边界",
+    "Bélády原文在线重访不可达/403，沿用既有原始核验链，未声称本轮阅读全文",
+    "写评审apply_patch同路径删除+新增被拒，随后用UTF8完整写入成功"
+  ],
+  "quality": {
+    "rubric": "internal-v3",
+    "status": "REVIEWED_MINOR_EDITS",
+    "verified_score_lower": 82.17,
+    "unknown_weight": 2,
+    "coverage_pct": 98,
+    "total_score": null,
+    "review_type": "self_review"
+  },
+  "unresolved": [
+    "历史精确AI型号/版本和队员独立核验未知",
+    "阅读版非官方提交格式，未重组RAR包",
+    "官方评价器对驻留段解释未确认",
+    "无全局H/D紧界、独立泛化集和芯片实测，论文未声称完成"
+  ],
+  "next_action": "本轮内容返修已完成；用户可阅读第三版并做局部措辞/摘要精简。进一步研究另建run；正式用途先补官方格式、真实AI记录和队员核验。不要覆盖005、旧PDF或历史自审。",
+  "cleanup": "自动安全审核拒绝删除paper/revision3/paper空嵌套目录及.local/mpl-npu-r3绘图缓存；未提供更具体原因，已保留，不重试。"
+}

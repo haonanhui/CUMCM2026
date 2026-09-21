@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "independent-pipes-overlap:20",
+    "reused-address-serializes:30",
+    "known-optimal-peak:4",
+    "overlap-topology-bounds-duplicates:rejected",
+    "copy-in-spill-cost-and-release:4/188",
+    "intermediate-spill-cost:8/346"
+  ]
+}

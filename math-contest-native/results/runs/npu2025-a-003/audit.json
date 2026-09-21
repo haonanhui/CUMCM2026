@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Conv_Case0",
+    "nodes": 2580,
+    "edges": 3869,
+    "buffers": 831,
+    "csv_json_equal": true
+  },
+  {
+    "name": "Conv_Case1",
+    "nodes": 36086,
+    "edges": 85653,
+    "buffers": 12013,
+    "csv_json_equal": true
+  },
+  {
+    "name": "FlashAttention_Case0",
+    "nodes": 1716,
+    "edges": 2712,
+    "buffers": 572,
+    "csv_json_equal": true
+  },
+  {
+    "name": "FlashAttention_Case1",
+    "nodes": 6952,
+    "edges": 11184,
+    "buffers": 2328,
+    "csv_json_equal": true
+  },
+  {
+    "name": "Matmul_Case0",
+    "nodes": 4160,
+    "edges": 7104,
+    "buffers": 1216,
+    "csv_json_equal": true
+  },
+  {
+    "name": "Matmul_Case1",
+    "nodes": 30976,
+    "edges": 55040,
+    "buffers": 8960,
+    "csv_json_equal": true
+  }
+]

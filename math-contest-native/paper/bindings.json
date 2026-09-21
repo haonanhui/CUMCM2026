@@ -1,0 +1,456 @@
+{
+  "schema_version": "1.0",
+  "status": "COMPUTED",
+  "run_id": "npu2025-a-005",
+  "numbers_path": "results/runs/npu2025-a-005/summary.json",
+  "numbers_sha256": "2a19d425e9e08712575789bb1b83355904316223401efe06465ea3d7c6d8d3ba",
+  "entries": [
+    {
+      "graph": "Conv_Case0",
+      "problem1": {
+        "graph": "Conv_Case0",
+        "candidate": "dfs-w1-a0-cost",
+        "peak": {
+          "total": 6984,
+          "by_type": {
+            "L1": 6912,
+            "L0B": 96
+          }
+        },
+        "allocation_seconds": 0.2447208999999999,
+        "cycles": 472038,
+        "traffic": 44766,
+        "spills": 56,
+        "reuse_edges": 1149,
+        "lower_bound": 348677,
+        "pipe_work": {
+          "MTE2": 150026,
+          "MTE1": 23098,
+          "CUBE": 348677,
+          "MTE3": 58964
+        },
+        "validation": "PASS"
+      },
+      "problem2": {
+        "graph": "Conv_Case0",
+        "candidate": "dfs-w1-a0-cost",
+        "peak": {
+          "total": 6984,
+          "by_type": {
+            "L1": 6912,
+            "L0B": 96
+          }
+        },
+        "allocation_seconds": 0.2447208999999999,
+        "cycles": 472038,
+        "traffic": 44766,
+        "spills": 56,
+        "reuse_edges": 1149,
+        "lower_bound": 348677,
+        "pipe_work": {
+          "MTE2": 150026,
+          "MTE1": 23098,
+          "CUBE": 348677,
+          "MTE3": 58964
+        },
+        "validation": "PASS"
+      },
+      "problem3": {
+        "graph": "Conv_Case0",
+        "candidate": "fixed-memory-p2-earliest",
+        "seconds": 0.08570149999999999,
+        "cycles": 465892,
+        "traffic": 44766,
+        "spills": 56,
+        "reuse_edges": 1149,
+        "lower_bound": 348677,
+        "pipe_work": {
+          "MTE2": 150026,
+          "MTE1": 23098,
+          "CUBE": 348677,
+          "MTE3": 58964
+        },
+        "validation": "PASS"
+      }
+    },
+    {
+      "graph": "Conv_Case1",
+      "problem1": {
+        "graph": "Conv_Case1",
+        "candidate": "dfs-w1-a0-cost",
+        "peak": {
+          "total": 14048,
+          "by_type": {
+            "L1": 14040,
+            "L0B": 96
+          }
+        },
+        "allocation_seconds": 3.3971473000000003,
+        "cycles": 1387432,
+        "traffic": 81538,
+        "spills": 3349,
+        "reuse_edges": 17551,
+        "lower_bound": 951428,
+        "pipe_work": {
+          "MTE2": 951428,
+          "MTE1": 235026,
+          "CUBE": 409566,
+          "MTE3": 150708
+        },
+        "validation": "PASS"
+      },
+      "problem2": {
+        "graph": "Conv_Case1",
+        "candidate": "dfs-w1-a0-distance",
+        "peak": {
+          "total": 14048,
+          "by_type": {
+            "L1": 14040,
+            "L0B": 96
+          }
+        },
+        "allocation_seconds": 2.9061093000000042,
+        "cycles": 1210619,
+        "traffic": 75546,
+        "spills": 2116,
+        "reuse_edges": 15849,
+        "lower_bound": 761650,
+        "pipe_work": {
+          "MTE2": 761650,
+          "MTE1": 235026,
+          "CUBE": 409566,
+          "MTE3": 97652
+        },
+        "validation": "PASS"
+      },
+      "problem3": {
+        "graph": "Conv_Case1",
+        "candidate": "fixed-memory-p2-earliest",
+        "seconds": 0.6959077,
+        "cycles": 1044075,
+        "traffic": 75546,
+        "spills": 2116,
+        "reuse_edges": 15849,
+        "lower_bound": 761650,
+        "pipe_work": {
+          "MTE2": 761650,
+          "MTE1": 235026,
+          "CUBE": 409566,
+          "MTE3": 97652
+        },
+        "validation": "PASS"
+      }
+    },
+    {
+      "graph": "FlashAttention_Case0",
+      "problem1": {
+        "graph": "FlashAttention_Case0",
+        "candidate": "id-w1-a0-cost",
+        "peak": {
+          "total": 4884,
+          "by_type": {
+            "L1": 3328,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 512,
+            "UB": 1428
+          }
+        },
+        "allocation_seconds": 0.08012159999999824,
+        "cycles": 53060,
+        "traffic": 3692,
+        "spills": 41,
+        "reuse_edges": 700,
+        "lower_bound": 25600,
+        "pipe_work": {
+          "MTE2": 23786,
+          "MTE1": 5440,
+          "CUBE": 8192,
+          "FIXP": 1968,
+          "VECTOR": 25600,
+          "MTE3": 16906
+        },
+        "validation": "PASS"
+      },
+      "problem2": {
+        "graph": "FlashAttention_Case0",
+        "candidate": "id-w1-a0-distance",
+        "peak": {
+          "total": 4884,
+          "by_type": {
+            "L1": 3328,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 512,
+            "UB": 1428
+          }
+        },
+        "allocation_seconds": 0.08265210000000422,
+        "cycles": 47509,
+        "traffic": 3620,
+        "spills": 23,
+        "reuse_edges": 616,
+        "lower_bound": 25600,
+        "pipe_work": {
+          "MTE2": 21014,
+          "MTE1": 5440,
+          "CUBE": 8192,
+          "FIXP": 1968,
+          "VECTOR": 25600,
+          "MTE3": 14134
+        },
+        "validation": "PASS"
+      },
+      "problem3": {
+        "graph": "FlashAttention_Case0",
+        "candidate": "fixed-memory-p2-earliest",
+        "seconds": 0.04225270000000059,
+        "cycles": 37744,
+        "traffic": 3620,
+        "spills": 23,
+        "reuse_edges": 616,
+        "lower_bound": 25600,
+        "pipe_work": {
+          "MTE2": 21014,
+          "MTE1": 5440,
+          "CUBE": 8192,
+          "FIXP": 1968,
+          "VECTOR": 25600,
+          "MTE3": 14134
+        },
+        "validation": "PASS"
+      }
+    },
+    {
+      "graph": "FlashAttention_Case1",
+      "problem1": {
+        "graph": "FlashAttention_Case1",
+        "candidate": "id-w1-a0-cost",
+        "peak": {
+          "total": 7972,
+          "by_type": {
+            "L1": 5376,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 512,
+            "UB": 2468
+          }
+        },
+        "allocation_seconds": 0.2963601000000011,
+        "cycles": 235182,
+        "traffic": 33236,
+        "spills": 245,
+        "reuse_edges": 3175,
+        "lower_bound": 106322,
+        "pipe_work": {
+          "MTE2": 106322,
+          "MTE1": 21760,
+          "CUBE": 32768,
+          "FIXP": 7872,
+          "VECTOR": 104960,
+          "MTE3": 79388
+        },
+        "validation": "PASS"
+      },
+      "problem2": {
+        "graph": "FlashAttention_Case1",
+        "candidate": "id-w1-a0-distance",
+        "peak": {
+          "total": 7972,
+          "by_type": {
+            "L1": 5376,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 512,
+            "UB": 2468
+          }
+        },
+        "allocation_seconds": 0.31896489999999744,
+        "cycles": 225902,
+        "traffic": 32852,
+        "spills": 212,
+        "reuse_edges": 2736,
+        "lower_bound": 104960,
+        "pipe_work": {
+          "MTE2": 100988,
+          "MTE1": 21760,
+          "CUBE": 32768,
+          "FIXP": 7872,
+          "VECTOR": 104960,
+          "MTE3": 74054
+        },
+        "validation": "PASS"
+      },
+      "problem3": {
+        "graph": "FlashAttention_Case1",
+        "candidate": "fixed-memory-p2-earliest",
+        "seconds": 0.1667594999999995,
+        "cycles": 150499,
+        "traffic": 32852,
+        "spills": 212,
+        "reuse_edges": 2736,
+        "lower_bound": 104960,
+        "pipe_work": {
+          "MTE2": 100988,
+          "MTE1": 21760,
+          "CUBE": 32768,
+          "FIXP": 7872,
+          "VECTOR": 104960,
+          "MTE3": 74054
+        },
+        "validation": "PASS"
+      }
+    },
+    {
+      "graph": "Matmul_Case0",
+      "problem1": {
+        "graph": "Matmul_Case0",
+        "candidate": "dfs-w1-a0-cost",
+        "peak": {
+          "total": 9728,
+          "by_type": {
+            "L1": 9216,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 256
+          }
+        },
+        "allocation_seconds": 0.27032669999999825,
+        "cycles": 198183,
+        "traffic": 34944,
+        "spills": 273,
+        "reuse_edges": 1454,
+        "lower_bound": 152438,
+        "pipe_work": {
+          "MTE2": 152438,
+          "MTE1": 31744,
+          "CUBE": 65536,
+          "FIXP": 16832,
+          "MTE3": 0
+        },
+        "validation": "PASS"
+      },
+      "problem2": {
+        "graph": "Matmul_Case0",
+        "candidate": "id-w1-a0-distance",
+        "peak": {
+          "total": 9728,
+          "by_type": {
+            "L1": 9216,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 256
+          }
+        },
+        "allocation_seconds": 0.25492319999999324,
+        "cycles": 194331,
+        "traffic": 34944,
+        "spills": 273,
+        "reuse_edges": 1454,
+        "lower_bound": 152438,
+        "pipe_work": {
+          "MTE2": 152438,
+          "MTE1": 31744,
+          "CUBE": 65536,
+          "FIXP": 16832,
+          "MTE3": 0
+        },
+        "validation": "PASS"
+      },
+      "problem3": {
+        "graph": "Matmul_Case0",
+        "candidate": "fixed-memory-p3-earliest",
+        "seconds": 0.1222669999999999,
+        "cycles": 173274,
+        "traffic": 34944,
+        "spills": 273,
+        "reuse_edges": 1451,
+        "lower_bound": 152438,
+        "pipe_work": {
+          "MTE2": 152438,
+          "MTE1": 31744,
+          "CUBE": 65536,
+          "FIXP": 16832,
+          "MTE3": 0
+        },
+        "validation": "PASS"
+      }
+    },
+    {
+      "graph": "Matmul_Case1",
+      "problem1": {
+        "graph": "Matmul_Case1",
+        "candidate": "dfs-w1-a0-cost",
+        "peak": {
+          "total": 35328,
+          "by_type": {
+            "L1": 34816,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 256
+          }
+        },
+        "allocation_seconds": 2.408193600000004,
+        "cycles": 1805422,
+        "traffic": 460800,
+        "spills": 3600,
+        "reuse_edges": 12525,
+        "lower_bound": 1628000,
+        "pipe_work": {
+          "MTE2": 1628000,
+          "MTE1": 253952,
+          "CUBE": 524288,
+          "FIXP": 67328,
+          "MTE3": 0
+        },
+        "validation": "PASS"
+      },
+      "problem2": {
+        "graph": "Matmul_Case1",
+        "candidate": "id-w1-a0-distance",
+        "peak": {
+          "total": 35328,
+          "by_type": {
+            "L1": 34816,
+            "L0A": 128,
+            "L0B": 128,
+            "L0C": 256
+          }
+        },
+        "allocation_seconds": 2.3882461000000035,
+        "cycles": 1800001,
+        "traffic": 460800,
+        "spills": 3600,
+        "reuse_edges": 12525,
+        "lower_bound": 1628000,
+        "pipe_work": {
+          "MTE2": 1628000,
+          "MTE1": 253952,
+          "CUBE": 524288,
+          "FIXP": 67328,
+          "MTE3": 0
+        },
+        "validation": "PASS"
+      },
+      "problem3": {
+        "graph": "Matmul_Case1",
+        "candidate": "fixed-memory-p3-earliest",
+        "seconds": 1.0572938999999995,
+        "cycles": 1749773,
+        "traffic": 460800,
+        "spills": 3600,
+        "reuse_edges": 12522,
+        "lower_bound": 1628000,
+        "pipe_work": {
+          "MTE2": 1628000,
+          "MTE1": 253952,
+          "CUBE": 524288,
+          "MTE3": 0,
+          "FIXP": 67328
+        },
+        "validation": "PASS"
+      }
+    }
+  ],
+  "human_review": "pending"
+}
